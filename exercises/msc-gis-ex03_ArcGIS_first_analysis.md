@@ -46,7 +46,7 @@ will store new layers. Details on how to create the geopackage later in the exer
 previous knowledge about the fundamentals of GIS, and spatial analysis workflows,
 which should help to identify and use the tools of ArcGIS in an autonomous way.
 
-> You should also be able to use ArcGIS Pro documentation to, search, learn and solve questions 
+> You should also be able to use ArcGIS Pro documentation, search, learn and solve questions 
 on how to use the tools. The documentation is available, either from the **Help** 
 of the software, or [online](https://pro.arcgis.com/en/pro-app/2.9/help/main/welcome-to-the-arcgis-pro-app-help.htm). 
 
@@ -84,6 +84,9 @@ the **COS2007l2** polygon layer (only 62 lines):
     
     - use the Clip spatial operation (in tab *Analysis → Tools → Clip*) and 
     create a new gds named `WlinCOS`, in file geodatabase **ex02_project.gdb**.
+
+    **IMPORTANT NOTE: Clipping is not a commutative operation. The order on which
+    you define the layers as input or clip features is important.**
 
     - update the attribute field **LENGTH** with correct values:
         - open the Attribute table of the newly created layer
@@ -221,6 +224,8 @@ This is what you leaned during the first three exercise:
     - Vector menu / Analysis Tools
         - Buffer
         - Clip
+        - Dissolve
+        - Intersect        
 - Map legends (categorical and numerical)
 - Map labels
 - Non-spatial operations
@@ -229,6 +234,7 @@ This is what you leaned during the first three exercise:
 - Spatial operations
     - Clip
     - Buffer
-
+    - Dissolve
+    - Intersect
 
 
