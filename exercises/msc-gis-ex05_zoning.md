@@ -4,15 +4,7 @@
 
 ## Introduction
 
-TODO: Implementar com base no exercício de 2021-2022: 
-- QGIS: [https://fenix.isa.ulisboa.pt/downloadFile/844497944592189/02Zoning.pdf](https://fenix.isa.ulisboa.pt/downloadFile/844497944592189/02Zoning.pdf)
-- ArcGIS: [https://fenix.isa.ulisboa.pt/downloadFile/844497944592271/02Zoning_ArcGIS_ver_01-2022.pdf](https://fenix.isa.ulisboa.pt/downloadFile/844497944592271/02Zoning_ArcGIS_ver_01-2022.pdf)
-- Dados:
-    - [Ex2Zoning.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944586498/Ex2Zoning.zip)
-    - [Ex2_slope_corrected.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944592396/Ex2_slope_corrected.zip)
-
-
-**Zoning** is a method to divide a geographic area into zones, each of which has a set of regulations for new development, that differs from other zones. This is a powerfullinstrument for land use planning and management.
+**Zoning** is a method to divide a geographic area into zones, each of which has a set of regulations for new development, that differs from other zones. This is a powerfull instrument for land use planning and management.
 
 The **Zoning** process involves the application of a set of rules or criteria to divide the land into areas that best fit a specific use. These criteria can be based in a multitude of factors, like type of land cover, type of soil, orography, slope, solar exposition,proximity to natural or artificial features (water streams, roads, coast line, etc.). The use of GIS enables the identification and appplication of rules to identify the  areas of the territory that fullfil the required conditions.
 
@@ -34,6 +26,8 @@ Download from Fenix the file [Ex05_Zoning.zip](https://fenix.isa.ulisboa.pt/down
 **Non-spatial tables**
 - RoadProtection.csv - table with protection distances to roads, by type of road
 - SoilProductivity.csv - classification of soil productivity, by type of soil
+
+**Display of spatial layers**
 
 ![datasets](./images/ex05_img01.jpg)
 ## Definition of the problem
