@@ -1,6 +1,6 @@
 # Geographic Information Systems 2022-2023
 
-# Exercise 6 - Coordinate Reference System - ArcGIS
+# Exercise 6 - Coordinate Reference System - QGIS
 
 ## Introduction
 
@@ -19,24 +19,29 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 ## 1. Identify and define the CRS of a map. 
 
-1. Create a new ArcGIS Pro project
+1. Create a new QGIS project
     
-    1.1 . Add the folder with the extracted files to the newly created project with a folder connection. This can be done on the Catalog pane, or with tool “Add Folder” in the Insert tab. 
-    
+    1.1. Create a new project folder
+
+    1.2. Add the DataIn folder of the extracted files to this newly created project folder. 
+
+    1.3. Create a new QGIS project and save is inside the project folder
+
 2. Identify the current CRS of your map
     
-    2.1. On the Contents pane, right-click on Map and select Properties. The entry “Coordinate Systems” shows your current CRS. Take note of the CRS, which is default for newly created maps.
+    2.1. Select Project menu --> Properties --> CRS. Take note of the CRS, which is default for newly created maps.
     
-    2.2. Still on Map properties, verify that you can create a list of favorite CRS.
+    2.2. The current CRS of the project can also be verified in the status bar 
+    of your QGIS interface, in the right-bottom corner. You can click on it to get more 
+    details.
     
-    2.3. Add a new map to your project. Verify that the default CRS is WGS 1984 (EPSG: 3857)
-
 3. Add the `CntrCaptETRS89` gds to map
     
-    3.1. On the Catalog pane, use the context menu of the gds to add it.
+    3.1. On the Browser panel, drag it to the Layers panel to add it.
     
     3.2. What is the CRS of the added gds?
-    - use the context menu of the layer to see its metainforation   
+    - use the context menu of the layer to see its properties. The information about 
+    the CRS is in the source tab. 
     
     3.3. Check again the map’s CRS. Did it change? Take note of its name. 
 
@@ -47,18 +52,19 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
     5.1. Take note of the CRS of this layer
 
     5.2. Check the CRS of the map. Did it change?
-
-    5.3. **Remark**: ArcGIS Pro executed an “On the Fly” transformation (“on the fly” coordinate transformations – OFT) to the project CRS; therefore, presently, visualization is done using EPSG 4258. However, the layers’ CRS didn´t change
+    
+    5.3. **Remark**: QGIS executed an “On the Fly” transformation (“on the fly” coordinate transformations – OFT) to the project CRS; therefore, presently, visualization is done using EPSG 4258. However, the layers’ CRS didn´t change
 
 6. Save your project.
 
 
-## 2. Understand how ArcGIS Pro manages different CRS in the same map
+## 2. Understand how QGIS manages different CRS in the same map
 
-1. Change the map’s CRS
+1. Change the project's CRS
 
-    1.1. Use the context menu of the map to change the map’s CRS to WGS84 (EPSG: 4326) 
-
+    1.1. Use the Project menu --> Properties to change the project's CRS to WGS84 (EPSG: 4326) 
+    ![project](./images/ex06_qgis_img01.jpg)
+    
     1.2. **Remark**: The ETRS89 and WGS84 are both geographic CRS (both use not projected coordinate systems – lat/long in degrees).
 
     1.3. Would it be appropriate to change this map’s CRS to a projected CRS?
@@ -70,11 +76,12 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 1. Perform a gds coordinates transformation
     
     1.1. Export the layer `CntrCaptETRS89` as a new gds named `CntrCaptWGS84` (in a new geopackage dataOut file format under a DataOut folder) referenced to the WGS84 CRS (EPSG: 4326)
-    - Use the Tab Environments in the export panel to select the CRS 
+
+    ![project](./images/ex06_qgis_img02.jpg)
 
     1.2. **Remark**: WGS84 and ETRS89 presently are datums coincident to within 1 meter.
 
-2. Repeat the operation to create a new layer `CntrCaptWGS84_v2` (in the same geopackage location), but using the tool Project (Data Management Tools)
+2. Repeat the operation to create a new layer `CntrCaptWGS84_v2` (in the same geopackage location), but using the tool **Reproject Layer**
 
 3. It is not important to save the project now. Why?
 
@@ -96,15 +103,15 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 7. Save the project
 
-8. By default ArcGIS assigns the default project CRS to gds without CRS
+8. By default QGIS assigns the default project CRS to gds without CRS
 
     8.1. Check the current CRS of the layer `etrs89lcc`
 
-9. Actually the etrs89lcc gds coordinates are referenced to the ETRS89 + Lambert Conic Conformal projection CRS – ETRS89 / LCC Europe (EPSG: 3034)
+9. Actually, the etrs89lcc gds coordinates are referenced to the ETRS89 + Lambert Conic Conformal projection CRS – ETRS89 / LCC Europe (EPSG: 3034)
 
 10. To fix this problem, define the projection of the layer `etrs89lcc`
 
-    10.1. Open the tool **Define Projection** (Data Management Tools)
+    10.1. Use the layer context menu --> Properties --> Source
 
     10.2. Select the layer and define the CRS (note: check the correct CRS through its EPSG ID)
 
@@ -122,9 +129,13 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     1.3. It is possible to convert the `GlobalAdmCountriesWGS84` gds to the EPSG 3035 but the result is not satisfactory – try it later on …
 
-2. Use the Add Geometry Attributes on the Attribute table of the layer to calculate new attributes named “latitude” and “longitude”, and containing point-y and point-x values for  the 4 capitals mentioned above referenced to the EPSG 3035
+2. Use the Vector menu --> Geometry tools --> Add Geometry Attributes... to create a new temporary layer to calculate new attributes containing the latitude and longitude for the 4 capitals mentioned above, referenced to the EPSG 3035
 
     2.1. Analyze the result, comparing to the LAT and LONG original values
+    
+    2.2. Temporary layers are lost after closing the QGIS project
+    
+    2.3. To permanently save a temporary layer and enter the file format, folder and name for the new gds
 
 3. Save the project
 
@@ -134,21 +145,23 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 2. Zoom to this layer extent
 
-3. In order to calculate the distances between the 4 capitals, use the tool **Generate Origin Destination Links**
+3. In order to calculate the distances between the 4 capitals, use the Vector menu --> Analysis Tools --> Distance Matrix …
 
-    3.1. As origin layer choose `Europe4CaptETRS89LAEA`.
+    3.1. As input point layer choose `Europe4CaptETRS89LAEA`.
 
-    3.2. As destination layer select the same laye
+    3.2. As Input unique ID field choose NAME_ASCI.
 
-    3.3. Give the name CaptDistMatr to the output class
+    3.3. As Target point layer and Target unique ID field repeat the choices.
 
-    3.4. Do not select group fields
+    3.4. As Output matrix type choose Linear distance matrix.
 
-4. Open the attribute table of the newly created output class and take note of the distances between capitals
+    3.5. Save the output as DistMatrix (file type .csv) in your working folder.
+    
+    3.6. Calculate the Euclidean distance between Lisbon and Madrid (for instance, using Excel) based on the ETRS89/LAEA Europe coordinates (latitude and longitude) determined previously.
 
-5. Analyze the result
+4. Analyze the result
 
-6. Save the project
+5. Save the project
 
 7. From the original, `CntrCaptETRS89`, export a new layer named `EuropeanCaptETRS89`, with only Lisbon, Madrid, Berlin and Amsterdam selected. 
 
