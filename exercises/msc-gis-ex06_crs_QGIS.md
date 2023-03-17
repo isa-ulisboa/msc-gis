@@ -12,7 +12,9 @@
 > - Define a new CRS for a gds and solve projection issues 
 
 ## Source data
-Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944595188/Ex06_CRS.zip), which contains the following datasets:
+Download from Fenix the file 
+[Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944595188/Ex06_CRS.zip), 
+which contains the following datasets:
 - `CntrCaptETRS89.shp` - point dataset with World Country Capital cities
 - `etrs89lcc.shp` - polygon dataset with World countries boundaries
 - `GlobalAdmCountriesWGS84.shp` - polygon dataset with World countries boundaries
@@ -29,7 +31,8 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 2. Identify the current CRS of your map
     
-    2.1. Select Project menu --> Properties --> CRS. Take note of the CRS, which is default for newly created maps.
+    2.1. Select Project menu --> Properties --> CRS. Take note of the CRS, which 
+    is default for newly created maps.
     
     2.2. The current CRS of the project can also be verified in the status bar 
     of your QGIS interface, in the right-bottom corner. You can click on it to get more 
@@ -53,7 +56,9 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     5.2. Check the CRS of the map. Did it change?
     
-    5.3. **Remark**: QGIS executed an “On the Fly” transformation (“on the fly” coordinate transformations – OFT) to the project CRS; therefore, presently, visualization is done using EPSG 4258. However, the layers’ CRS didn´t change
+    5.3. **Remark**: QGIS executed an “On the Fly” transformation (“on the fly” 
+    coordinate transformations – OFT) to the project CRS; therefore, presently, 
+    visualization is done using EPSG 4258. However, the layers’ CRS didn´t change
 
 6. Save your project.
 
@@ -62,10 +67,11 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 1. Change the project's CRS
 
-    1.1. Use the Project menu --> Properties to change the project's CRS to WGS84 (EPSG: 4326) 
-    ![project](./images/ex06_qgis_img01.jpg)
+    1.1. Use the Project menu --> Properties to change the project's CRS to WGS84 
+    (EPSG: 4326) ![project](./images/ex06_qgis_img01.jpg)
     
-    1.2. **Remark**: The ETRS89 and WGS84 are both geographic CRS (both use not projected coordinate systems – lat/long in degrees).
+    1.2. **Remark**: The ETRS89 and WGS84 are both geographic CRS (both use not 
+    projected coordinate systems – lat/long in degrees).
 
     1.3. Would it be appropriate to change this map’s CRS to a projected CRS?
 
@@ -75,21 +81,26 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 1. Perform a gds coordinates transformation
     
-    1.1. Export the layer `CntrCaptETRS89` as a new gds named `CntrCaptWGS84` (in a new geopackage dataOut file format under a DataOut folder) referenced to the WGS84 CRS (EPSG: 4326)
+    1.1. Export the layer `CntrCaptETRS89` as a new gds named `CntrCaptWGS84` 
+    (in a new geopackage dataOut file format under a DataOut folder) referenced 
+    to the WGS84 CRS (EPSG: 4326)
 
     ![project](./images/ex06_qgis_img02.jpg)
 
     1.2. **Remark**: WGS84 and ETRS89 presently are datums coincident to within 1 meter.
 
-2. Repeat the operation to create a new layer `CntrCaptWGS84_v2` (in the same geopackage location), but using the tool **Reproject Layer**
+2. Repeat the operation to create a new layer `CntrCaptWGS84_v2` (in the same 
+geopackage location), but using the tool **Reproject Layer**
 
 3. It is not important to save the project now. Why?
 
 ## 4. Define a new CRS for a gds and solve projection issues
 
-1. Add labels to the `CntrCaptWGS84` layer to visualize the NAME_ASCI attribute values (use the green color).
+1. Add labels to the `CntrCaptWGS84` layer to visualize the NAME_ASCI attribute 
+values (use the green color).
 
-2. Add labels to the `GlobalAdmCountriesWGS84` layer to visualize the FIRST_NAME attribute values (use the black color).
+2. Add labels to the `GlobalAdmCountriesWGS84` layer to visualize the FIRST_NAME 
+attribute values (use the black color).
 
 3. Zoom in to your country region. Is the capital wrongly located?
 
@@ -107,13 +118,15 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     8.1. Check the current CRS of the layer `etrs89lcc`
 
-9. Actually, the etrs89lcc gds coordinates are referenced to the ETRS89 + Lambert Conic Conformal projection CRS – ETRS89 / LCC Europe (EPSG: 3034)
+9. Actually, the `etrs89lcc` gds coordinates are referenced to the ETRS89 + Lambert 
+Conic Conformal projection CRS – ETRS89 / LCC Europe (EPSG: 3034)
 
 10. To fix this problem, define the projection of the layer `etrs89lcc`
 
     10.1. Use the layer context menu --> Properties --> Source
 
-    10.2. Select the layer and define the CRS (note: check the correct CRS through its EPSG ID)
+    10.2. Select the layer and define the CRS (note: check the correct CRS through 
+    its EPSG ID)
 
 11. Refresh and check is the layer is correctly projected
 
@@ -121,7 +134,9 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 ## 5. Calculate point feature coordinates in different CRS
 
-1. Create a new gds from the `CntrCaptWGS84`, containing only the following capitals: Lisbon, Madrid, Berlin and Amsterdam; this new gds must be referenced to the ETRS89 / LAEA Europe CRS (EPSG: 3035); name this new gds `Europe4CaptETR89LAEA`
+1. Create a new gds from the `CntrCaptWGS84`, containing only the following 
+capitals: Lisbon, Madrid, Berlin and Amsterdam; this new gds must be referenced 
+to the ETRS89 / LAEA Europe CRS (EPSG: 3035); name this new gds `Europe4CaptETR89LAEA`
 
     1.1. LEAE = Lambert Azimuthal Equal Area projection.
 
@@ -133,7 +148,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     2.1. Analyze the result, comparing to the LAT and LONG original values
     
-    2.2. Temporary layers are lost after closing the QGIS project
+    2.2. **Remark!** Temporary layers are lost after closing the QGIS project
     
     2.3. To permanently save a temporary layer and enter the file format, folder and name for the new gds
 
@@ -141,7 +156,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 ## 6. Calculate distances
 
-1. Turn off all project layers but the `Europe4CaptETRS89LAEA` layer
+1. Turn off all project layers except the `Europe4CaptETRS89LAEA` layer
 
 2. Zoom to this layer extent
 
@@ -165,7 +180,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 7. From the original, `CntrCaptETRS89`, export a new layer named `EuropeanCaptETRS89`, with only Lisbon, Madrid, Berlin and Amsterdam selected. 
 
-8. Use the tool **Generate Origin Destination Links** to calculate distances in this layer, over the ellipsoid GRS 1980 (the ETRS89 ellipsoid):
+8. Calculate distances in this layer, over the ellipsoid GRS 1980 (the ETRS89 ellipsoid):
 
     8.1. Lisbon-Madrid: 504,327.702m
 
@@ -187,13 +202,13 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 12. Save the project
 
-## 7. Ad-hoc measurements using ArcGIS
+## 7. Ad-hoc measurements using QGIS
 
 1. Set the CRS project to WGS 84 (not projected)
 
     1.1. …the reason being that the gds in this project are global
 
-2. Open the Measure tool available from the Map tab
+2. In the Toolbar, open the Measure Line tool (the button is a ruler)
 
     2.1. On the layer EuropeanCaptETRS89, measure distance between capitals 
 
@@ -207,7 +222,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
 5. Explore the Measure tool. Click on the starting and ending points of the segment to be measured
 
-    5.1. Double-click to end a measurement
+    5.1. Right-click to end a measurement
 
     5.2. Do composed measurements based on several 
     segments, for example, over a main road of the background image
@@ -216,16 +231,12 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     6.1. It is suitable only to obtain ad-hoc measurements
 
-7. Insert a new map (in tab Insert)
+7. Zoom in to a small region close to the parallel 55º and use the Vector menu --> Research Tools --> Create Grid … to add a temporary layer to the project – choose the canvas extent and spacing 1º.
 
-8. Copy the layer `EuropeanCaptETRS89` to this new map and zoom to the layer
+8. Change the project CRS to ETRS89 / LAEA Europe (EPSG: 3035) and analyze the result.
 
-9. Confirm that the map CRS is ETRS 1989 (EPSG: 4258)
+9. Repeat with CRS ETRS89 / LCC Europe (EPSG: 3034) and analyze the result.
 
-10. Insert a new map, add `EuropeanCaptETRS89`, zoom to the layer extent and change the project CRS to ETRS89 / LAEA Europe (EPSG: 3035) and analyze the result.
+10. Repeat with CRS WGS 84 (EPSG: 4326) and save the project!
 
-11. Repeat with CRS ETRS89 / LCC Europe (EPSG: 3034) and analyze the result.
-
-12. Repeat with CRS WGS 84 (EPSG: 4326) and save the project!
-
-13. Save the project
+11. Save the project
