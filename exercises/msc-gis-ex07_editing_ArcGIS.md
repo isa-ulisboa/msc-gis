@@ -4,15 +4,6 @@
 
 ## Introduction
 
-TODO: Implementar com base no exercício de 2021-2022: 
-- QGIS: [https://fenix.isa.ulisboa.pt/downloadFile/844497944592970/04LearningByExample.pdf](https://fenix.isa.ulisboa.pt/downloadFile/844497944592970/04LearningByExample.pdf)
-- ArcGIS: [https://fenix.isa.ulisboa.pt/downloadFile/281547991167935/04LearningByExample_Editing_ArcGIS.pdf](https://fenix.isa.ulisboa.pt/downloadFile/281547991167935/04LearningByExample_Editing_ArcGIS.pdf)
-- Dados:
-    - [Ex4Editing.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944587499/Ex4Editing.zip)
-    - [Topology intro](https://fenix.isa.ulisboa.pt/downloadFile/281547991168194/04Topology_intro.pdf)
-
-Nota: renomear ficheiro de dados
-
 > **GOALS OF THE EXERCISE**
 >
 > - Learn how to create or modify new vector geographic data set (gds)
@@ -24,21 +15,25 @@ Nota: renomear ficheiro de dados
 
 We will use the area of Tapada da Ajuda for the exercise. 
 
-- The files for this exercise are in the course web page (FENIX). Download to your working area the file `Ex07_Editing.zip`
+- The files for this exercise are in the course web page (FENIX). [Download](https://fenix.isa.ulisboa.pt/downloadFile/844497944595574/Ex07_Editing.zip) to your working area the file `Ex07_Editing.zip`
 
 - ArcGIS tool Basemap - Imagery (alternatively, use the provided tiff image)
 
 ## Practical goals
-The aim of this exercise is to 
-1. modify the shape of an existing feature, 
-2. create a line layer with roads using a template, and
-3. create a polygon layer with land parcels classified by its land use
 
-## 1. Start by setting up your exercise environment:
+The aims of this exercise are: 
 
-1. Create a new ArcGIS project file;
+1. to modify the shape of an existing feature, 
+2. to create a line layer with roads using a template, and
+3. to create a polygon layer with land parcels classified by its land use
 
-2. Add the gds Boundary (GeoPackage format, CRS: ETRS89 / Portugal TM06, EPSG: 3763) to the map. In this case, it is not important to convert to file geodatabase format.
+## 1. Set up your working environment:
+
+Start by setting up your exercise environment:
+
+1. Create a new ArcGIS project file and folder;
+
+2. Add the provided gds Boundary (GeoPackage format, CRS: ETRS89 / Portugal TM06, EPSG: 3763) to the map. In this case, it is not important to convert to file geodatabase format.
 
 3. Add Basemap → Imagery as the background. If there is no internet access, add the ISA.tif file provided
 
@@ -88,7 +83,9 @@ The shape of the polygon in the layer Boundary needs to be adjusted in its limit
 
 We will create a new feature class of type line to create a layer with the roads of Tapada da Ajuda. These will be classified by the condition of the surface, as *Good*, *Fair* or *Bad*. This information will be stored in an attribute called `Status`.
 
-The roads will be represented by lines. Every line is defined by an ordered set of vertexes (also called nodes). A straight line only requires a starting and an ending vertex (two vertexes). Vertexes between the starting and ending vertexes are required for shaping a line that is not a straight line. Although in ArcGIS you can create lines as arcs, these are composed by a series of vertices and straight line segments. Actually a GIS only stores vertex coordinates and their order within the set of vertexes shaping the line. This may cause a simplification of the geographic object representation concerning its location, the so-called feature generalization. The allowed level of feature generalization should be fixed for every gds, stated before its creation and evaluated for conformance before the gds is delivered – should be included in the gds metadata as well.
+Roads will be represented by lines. Every line is defined by an ordered set of vertexes (also called nodes). A straight line only requires a starting and an ending vertex (two vertexes). Vertexes between the starting and ending vertexes are required for shaping a line that is not a straight line. The line segments defined by two sequential vertexes (considering the ordered set of vertexes) are assumed to be straight line segments. 
+
+Actually, a GIS only stores vertex coordinates and their order within the set of vertexes shaping the line. This may imply a simplification of the geographic object representation concerning its location, the so-called *feature generalization*. The allowed level of feature generalization should be fixed for every gds, stated before its creation and evaluated for conformance before the gds is delivered. It should be included in the gds metadata as well.
 
 
 **QUESTION**. Could they be represented by points? Or by polygons? If yes, for any of the cases, in which situations? 
