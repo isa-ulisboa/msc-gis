@@ -67,7 +67,7 @@ The following steps were follow to achieve the solution:
 
 1. Add all csv tables to GIS project.
 2. Table `arvoredo_norm` is added as a text file with point geometry, where `x` are longitudes and `y` latitides.
-3. Create joins between `arvoredo_norm` and each of the tables, setting the primay key and foreign key of each table as defined in question 01 
+3. Create table joins between `arvoredo_norm` and each of the tables, setting the primay key and foreign key of each table as defined in question 01 
 4. Add `CAOP` layer
 5. Make a spatial join operation between `arvoredo_norm` and `CAOP`, to add the name of freguesia to the attribute table of the first table. This is necessary to avoid possible errors in naming of the freguesia in the original table.
 6. Make a selection by attribute on the table `arvoredo_norm`, based on the name of freguesia, with the value `ALCÂNTARA`. Determine the number of selected features.
