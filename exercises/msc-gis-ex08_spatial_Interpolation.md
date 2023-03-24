@@ -49,7 +49,7 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
 - Use the appropriate symbology to represent the unique categories
 
-- After the creation of unique categories, it is possible to join to a non-spatial table using a numeric field
+- In ArcGIS, after the creation of unique categories, it is possible to create a join to a non-spatial table, using a numeric field. In this case, you can join to the table `Freguesias`, to have their names represented in the legend.
 
 ## 3. Problem 2: conversion (vector to raster), boolean reclassification and overlay operations
 
