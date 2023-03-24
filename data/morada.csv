@@ -1,0 +1,2407 @@
+morada_ID,MORADA,FREG_2012
+1,Rua Cidade de Benguela,Olivais
+2,Rua Cidade da Praia,Olivais
+3,Rua Cidade de Bissau,Olivais
+4,Rua Almada Negreiros,Olivais
+5,Não identificada,Campolide
+6,Rua Rodrigues Sampaio,Santo António
+7,Rua Camilo Castelo Branco,Santo António
+8,Acesso IP7,Campolide
+9,Não identificada,Alvalade
+10,Praça Nuno Gonçalves,Avenidas Novas
+11,Rua Sousa Lopes,Avenidas Novas
+12,Largo José Luis Champalimaud,Avenidas Novas
+13,Largo do Leão,Arroios
+14,Campo Grande,Alvalade
+15,Avenida Praia da Vitória,Arroios
+16,Alameda da Universidade,Alvalade
+17,Avenida Almirante Gago Coutinho,Alvalade
+18,Rua Maestro Jaime Silva (Filho),
+19,Rua Mestro Jaime Silva (Filho),
+20,Rua Castilho,Santo António
+21,Praça das Amoreiras,Santo António
+22,Avenida Almirante Reis,Arroios
+23,Avenida Miguel Torga,Campolide
+24,Rua de Campolide,Campolide
+25,Rua Francisco Franco,Alvalade
+26,Rua 32,Penha de França
+27,Rua 62A,Penha de França
+28,Rua 30,Penha de França
+29,Rua 1,Penha de França
+30,Rua 46A,Penha de França
+31,Não identificada,Penha de França
+32,Rua 12,Penha de França
+33,Rua 61,Penha de França
+34,Rua 64,Penha de França
+35,Rua 60,Penha de França
+36,Rua 16,Penha de França
+37,Rua 57,Penha de França
+38,Rua 5A,Penha de França
+39,Rua 7,Penha de França
+40,Pátio do Garrido,Campo de Ourique
+41,Rua 13,Penha de França
+42,Rua 34,Penha de França
+43,Cruzes da Sé,Santa Maria Maior
+44,Rua do Arco do Carvalhão,Campo de Ourique
+45,Beco do Carneiro,Santa Maria Maior
+46,Rua 31,Penha de França
+47,Rua 6,Penha de França
+48,Avenida General Roçadas,Penha de França
+49,Avenida Cidade de Luanda,Olivais
+50,Alameda de Santo António dos Capuchos,Arroios
+51,Rua Rodrigo da Fonseca,Santo António
+52,Avenida das Forças Armadas,Avenidas Novas
+53,Avenida Frei Miguel Contreiras,Alvalade
+54,Avenida dos Combatentes,Alvalade
+55,Avenida das Forças Armadas,Alvalade
+56,Avenida Álvaro Pais,Avenidas Novas
+57,Não identificada,Avenidas Novas
+58,Avenida Calouste Gulbenkian,Campolide
+59,Praça da Armada,Estrela
+60,Avenida de Brasília,Estrela
+61,Rua 19,Penha de França
+62,Rua 62,Penha de França
+63,Rua 4,Penha de França
+64,Rua 11,Penha de França
+65,Rua 3,Penha de França
+66,Rua 46,Penha de França
+67,Rua Artur de Paiva,Penha de França
+68,Avenida de Ceuta,Campo de Ourique
+69,Não identificada,Campo de Ourique
+70,Avenida Cidade de Praga,
+71,,
+72,Rua Interior Particular,
+73,Rua Braamcamp,Santo António
+74,Pátio do Gaspar 2,Campolide
+75,Rua Conde de Ficalho,Alvalade
+76,Rua Professor Veiga Beirão,Alvalade
+77,Azinhaga dos Barros,Alvalade
+78,Rua 58,Penha de França
+79,Rua 47A,Penha de França
+80,Rua Professor Celestino da Costa,Penha de França
+81,Rua 19,Estrela
+82,Rua 35,Penha de França
+83,Rua Adolfo Coelho,Penha de França
+84,Rua 36,Penha de França
+85,Rua 55,Penha de França
+86,Rua 15,Penha de França
+87,Rua 49,Penha de França
+88,Rua 3,Lumiar
+89,Rua 23,Lumiar
+90,Rua 2,Lumiar
+91,Rua da República do Paraguai,Lumiar
+92,Rua 4,Lumiar
+93,Rua 5,Benfica
+94,Rua Cidade de Novo Redondo,Olivais
+95,Avenida Marechal Gomes da Costa,Marvila
+96,Avenida Marechal Gomes da Costa,Olivais
+97,Rua Cidade de Malange,Olivais
+98,Praça Cidade de Dili,Olivais
+99,Rua de Vila Alferes Chamusca,Olivais
+100,Rua Dom Aleixo Corte-Real,Olivais
+101,Rua Joaquim António de Aguiar,Santo António
+102,Avenida Conselheiro Fernando de Sousa,Campolide
+103,Rua Joaquim António de Aguiar,Avenidas Novas
+104,Rua Sarmento de Beires,Areeiro
+105,Avenida Cinco de Outubro,Avenidas Novas
+106,Rua 22,Penha de França
+107,Rua Bispo de Cochim,Penha de França
+108,Largo de Santos o Novo,Penha de França
+109,Rua Cascais,Estrela
+110,Rua 32A,Penha de França
+111,Parada do Alto de São João,Penha de França
+112,Rua 10,Penha de França
+113,Rua 33,Penha de França
+114,Rua 13B,Benfica
+115,Rua 35,Benfica
+116,Rua 24,Benfica
+117,Rua 7,Benfica
+118,Avenida Marechal Teixeira Rebelo,Benfica
+119,Rua 4,Benfica
+120,Rua das Magnólias,Benfica
+121,Não identificada,Benfica
+122,Rua Rainha Dona Brites,Benfica
+123,Rua 2,Benfica
+124,Rua 3,Benfica
+125,Rua 33,Benfica
+126,Rua 10,Benfica
+127,Não identificada,Carnide
+128,Rua Sidónio Serpa,Carnide
+129,Rua Professor Santos Lucas,Benfica
+130,Rua Dr. Almeida Amaral,Arroios
+131,Travessa da Fábrica dos Pentes,Santo António
+132,Alameda da Estação,Avenidas Novas
+133,Largo de Dona Estefânia,Arroios
+134,Avenida Vinte e Quatro de Julho,Estrela
+135,Rua Lopes,Penha de França
+136,Rua da Madre de Deus,Penha de França
+137,Rua 17,Penha de França
+138,Rua 6A,Penha de França
+139,Calçada das Lajes,Penha de França
+140,Rua 56,Penha de França
+141,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica
+142,Rua 36,Benfica
+143,Rua 30,Benfica
+144,Rua 14,Benfica
+145,Rua 17,Benfica
+146,Rua 19,Benfica
+147,Praça Professor Santos Andrea,Benfica
+148,Rua Carvalhão Duarte,Lumiar
+149,Rua Cidade de Carmona,Olivais
+150,Rua Cidade de Bolama,Olivais
+151,Rua do Dondo,Olivais
+152,Rua do Ibo,Olivais
+153,Rua Cidade de Lobito,Olivais
+154,Rua Mamadu Sissé,Olivais
+155,Avenida Duque de Loulé,Santo António
+156,Rua Dom Carlos de Mascarenhas,Campolide
+157,Rua José Estêvão,Arroios
+158,Rua Dom Francisco Manuel de Melo,Avenidas Novas
+159,Rua Padre José Gallea,Campolide
+160,Rua Castilho,Avenidas Novas
+161,Rua Visconde de Santarém,Arroios
+162,Avenida de António José de Almeida,Avenidas Novas
+163,Rua Cidade de Cádiz,
+164,Rua Cidade dce Cadiz,
+165,Avenida Cidade de Cadiz,
+166,Rua 47,Penha de França
+167,Largo da Oliveirinha,Misericórdia
+168,Não identificada,Estrela
+169,Rua 8,Penha de França
+170,Praça João de Azevedo Coutinho,Penha de França
+171,Rua 4C,Penha de França
+172,Rua 48,Penha de França
+173,Rua Dr. Rafael Duque,Benfica
+174,Calçadinha dos Olivais,Olivais
+175,Praça de Goa,Belém
+176,Calçada da Tapada,Alcântara
+177,Vila Maria,Campolide
+178,Rua Rodrigo da Fonseca,Avenidas Novas
+179,Rua de Dona Estefânia,Arroios
+180,Avenida Santos Dumont,Avenidas Novas
+181,Rua Caetano Alberto,Areeiro
+182,Avenida dos Combatentes,Avenidas Novas
+183,Avenida Óscar Monteiro Torres,Areeiro
+184,Rua Francisco de Holanda,Avenidas Novas
+185,Avenida Afonso Costa,Areeiro
+186,Avenida Marechal Francisco da Costa Gomes,Areeiro
+187,Rua Infante Dom Pedro,Alvalade
+188,Avenida Infante Santo,Estrela
+189,Rua Paio Peres Correia,Penha de França
+190,Rua Prof. Almeida Lima,Carnide
+191,Rua Almirante Campos Rodrigues,Benfica
+192,Rua André de Gouveia,Lumiar
+193,Rua Alfredo Ferraz,Carnide
+194,Rua Herculano Pimentel,Carnide
+195,Rua do Rio Corgo,Carnide
+196,Não identificada,Lumiar
+197,Rua General Silva Freire,Olivais
+198,Rua da Penha de França,Arroios
+199,Rua Gomes Freire,Arroios
+200,Rua Jacinta Marto,Arroios
+201,Rua Gonçalves Crespo,Arroios
+202,Não identificada,Areeiro
+203,Rua Interior,Alvalade
+204,Rua João de Deus Ramos,Alvalade
+205,Rua Francisco Lyon de Castro,Avenidas Novas
+206,Rua Aprígio Mafra,Alvalade
+207,Vila Amaral,Penha de França
+208,Viaduto de Alcântara,Estrela
+209,Rua da Lapa,Estrela
+210,Rua 10,Estrela
+211,Rua Correia Teles,Campo de Ourique
+212,Rua Actor Nascimento Fernandes,Benfica
+213,Rua Augusto Pina,São Domingos de Benfica
+214,Rua Engº Paulo de Barros,Benfica
+215,Rua Sousa Loureiro,São Domingos de Benfica
+216,Azinhaga das Carmelitas,Carnide
+217,Largo da Luz,Carnide
+218,Rua das Azáleas,Benfica
+219,Rua da Fonte,Carnide
+220,Avenida Casal Ribeiro,Arroios
+221,Rua Quirino da Fonseca,Arroios
+222,Rua Dr. Júlio Dantas,Campolide
+223,Avenida Dom Rodrigo da Cunha,Alvalade
+224,Avenida Coronel Eduardo Galhardo,Penha de França
+225,Largo da Graça,São Vicente
+226,Rua Alcina Bastos,São Domingos de Benfica
+227,Estrada da Circunvalação,Benfica
+228,Rua Costa Mota,São Domingos de Benfica
+229,Rua Ana de Castro Osório,Carnide
+230,Estrada dos Arneiros,Benfica
+231,Rua da Quinta do Charquinho,Benfica
+232,Largo Calouste Gulbenkian,São Domingos de Benfica
+233,Rua 8,Benfica
+234,Rua Dr. Joaquim Manso,Benfica
+235,Rua Hermano Neves,Lumiar
+236,Rua Prof. Dias Amado,Lumiar
+237,Rua do Seminário,Carnide
+238,Rua  Maestro Jaime Silva (Filho),
+239,Rua Duque de Palmela,Santo António
+240,Rampa das Necessidades,Estrela
+241,Avenida Vinte e Quatro de Julho,Misericórdia
+242,Não identificada,São Vicente
+243,Avenida dos Condes de Carnide,Benfica
+244,Rua 12,Benfica
+245,Rua 32,Benfica
+246,Rua Prof. Aires de Sousa,Lumiar
+247,Travessa de São Domingos de Benfica,São Domingos de Benfica
+248,Estrada Militar,Benfica
+249,Avenida Marechal Gomes da Costa,Parque das Nações
+250,Rua Cidade de Vila Cabral,Olivais
+251,Rua Conde de Arnoso,Alvalade
+252,Avenida General Norton de Matos,Alvalade
+253,Rua das Escolas Gerais,Santa Maria Maior
+254,Beco dos Clérigos,Santa Maria Maior
+255,Rua 37,Penha de França
+256,Rua 6,Benfica
+257,Travessa de Palma,São Domingos de Benfica
+258,Rua 23,Benfica
+259,Rua Santa Matilde,São Domingos de Benfica
+260,Rua Guiomar Torresão,Carnide
+261,Rua Prof. Hernâni Cidade,Lumiar
+262,Avenida das Nações Unidas,Lumiar
+263,Rua Prof. Bento de Jesus Caraça,Lumiar
+264,Estrada da Luz,Carnide
+265,Não identificada,Santo António
+266,Rua de São Pedro de Alcântara,Santo António
+267,Avenida Professor Gama Pinto,Alvalade
+268,Rua Costa Pimenta,Campo de Ourique
+269,Rua da Senhora do Monte,São Vicente
+270,Largo da Sé,Santa Maria Maior
+271,Alameda António Sérgio,Santa Clara
+272,Rua Prof. Arsénio Nunes,Carnide
+273,Rua do Rio Lima,Carnide
+274,Rua do Rio Douro,Carnide
+275,Rua 14,Lumiar
+276,Rua 15,Benfica
+277,Rua Elvira Velez,Benfica
+278,Rua 14A,Lumiar
+279,Eixo Norte-Sul,Lumiar
+280,Rua do Rio Sabor,Carnide
+281,Rua 5,Lumiar
+282,Rua 6,Lumiar
+283,Rua Prof. Fernando de Mello Moser,Lumiar
+284,Jardim Bento Martins,Carnide
+285,Rua Virgílio Correia,São Domingos de Benfica
+286,Rua João de Freitas Branco,São Domingos de Benfica
+287,Rua 31,Benfica
+288,Rua João Ortigão Ramos,Benfica
+289,Rua 4A,Benfica
+290,Rua 33A,Benfica
+291,Rua Engº Ferreira Dias,Marvila
+292,Calçada da Estação,Campolide
+293,Rua da Escola de Medicina Veterinária,Arroios
+294,Rua Capitão Henrique Galvão,Areeiro
+295,Doca de Alcântara,Estrela
+296,Rua de Santos-o-Velho,Estrela
+297,Rua Sampaio Bruno,Campo de Ourique
+298,Rua 38A,Penha de França
+299,Rua Abel Manta,Benfica
+300,Rua Prof. Manuel Cavaleiro Ferreira,Lumiar
+301,Rua Prof. João de Castro Mendes,Lumiar
+302,Azinhaga das Lajes,Lumiar
+303,Rua Maria Margarida,Lumiar
+304,Não identificada,Santa Clara
+305,,Carnide
+306,Rua José Escada,Lumiar
+307,Praça José Fontana,Arroios
+308,Rua Cristóvão de Figueiredo,Avenidas Novas
+309,Rua Marquês de Sá da Bandeira,Avenidas Novas
+310,Rua Vitor Hugo,Areeiro
+311,Rua do Passadiço,Santo António
+312,Rua Vítor Santos,Carnide
+313,Rua do Parque,Benfica
+314,Rua Doutor Gregório Rodrigues Fernandes,São Domingos de Benfica
+315,Largo República da Turquia,Lumiar
+316,Rua 24,Lumiar
+317,Rua 30,Lumiar
+318,Rua Dr. Henrique Martins Gomes,Lumiar
+319,Rua do Rio Tejo,Carnide
+320,Rua Daniel Santa Rita,Lumiar
+321,Rua 21,Lumiar
+322,Rua 16,Lumiar
+323,Rua 17,Lumiar
+324,Rua Prof. José Pinto Correia,Lumiar
+325,Rua João Amaral,Santa Clara
+326,Avenida Nuno Krus Abecassis,Santa Clara
+327,Rua Cordeiro Ferreira,Lumiar
+328,Rua Luís de Freitas Branco,Lumiar
+329,Rua Vila de Catió,Olivais
+330,Rua de Manica,Olivais
+331,Rua de Manhiça,Olivais
+332,Avenida Marechal Craveiro Lopes,Alvalade
+333,Eixo Norte-Sul,Campolide
+334,Rua do Garcia à Cascalheira,Campolide
+335,Rua Palmira,Arroios
+336,Avenida da Liberdade,Santo António
+337,Calçada Ribeiro Santos,Estrela
+338,Rua da Quinta do Loureiro,Campo de Ourique
+339,Campo de Santa Clara,São Vicente
+340,Largo Dr. Bernardino António Gomes (Pai),São Vicente
+341,Rua Freitas Gazul,Campo de Ourique
+342,Caracol da Graça,São Vicente
+343,Rua Francisco Santos,São Domingos de Benfica
+344,Largo Mário Neves,São Domingos de Benfica
+345,Rua Rainha D. Maria I,Benfica
+346,Rua Professor Lima Basto,São Domingos de Benfica
+347,Rua 20,Lumiar
+348,Estrada da Torre,Lumiar
+349,Rua 10 - PUAL,Lumiar
+350,Rua E - PUAL,Lumiar
+351,Rua Marques da Silva,Arroios
+352,Avenida José Malhoa,Campolide
+353,Rua Cardeal Saraiva,Campolide
+354,Rua Egas Moniz,Areeiro
+355,Avenida Barbosa du Bocage,Avenidas Novas
+356,Rua Capitão Afonso Pala,Estrela
+357,Calçadinha do Tijolo,São Vicente
+358,Praça de Dom Luís I,Misericórdia
+359,Vila Amorim,Campo de Ourique
+360,Calçada da Cruz da Pedra,Penha de França
+361,Rua Fernando Lopes Graça,Lumiar
+362,Rua Prof. Pais da Silva,Carnide
+363,Rua Francisco da Conceição Silva,Lumiar
+364,Rua 11,Lumiar
+365,Rua A,Benfica
+366,Rua dos Sete Céus,Santa Clara
+367,Rua Professor Sedas Nunes,Carnide
+368,Rua Prof. Vieira de Almeida,Lumiar
+369,Rua Cipriano Dourado,Lumiar
+370,Avenida Padre Cruz,Lumiar
+371,Rua 15,Lumiar
+372,Rua 18,Lumiar
+373,Rua José Galhardo,Lumiar
+374,Rua Francisco de Assis Rodrigues,Campolide
+375,Avenida Duque de Loulé,Arroios
+376,Rua Coronel Bento Roma,Alvalade
+377,Acesso Ponte 25 de Abril,Campolide
+378,Rua José da Felicidade Alves,Campolide
+379,Auto-Estrada 5,Campo de Ourique
+380,Rua da Cintura do Porto de Lisboa,Penha de França
+381,Acesso Ponte 25 de Abril,Campo de Ourique
+382,Auto-Estrada 5,Campolide
+383,Avenida Infante Dom Henrique,São Vicente
+384,Avenida dos Combatentes,São Domingos de Benfica
+385,Rua Conde de Almoster,São Domingos de Benfica
+386,Rua Comandante Enrique Maya,Benfica
+387,Rua Dom Luís da Cunha,Alvalade
+388,Beco Contrabandistas,Estrela
+389,Rua da Cintura do Porto de Lisboa,Estrela
+390,Rua das Palmeiras,São Domingos de Benfica
+391,Rua Manuel Ferreira de Andrade,São Domingos de Benfica
+392,Rua Xavier de Araújo,São Domingos de Benfica
+393,Travessa do Pregoeiro,Carnide
+394,Estrada da Pontinha,Carnide
+395,Rua Prof. Miller Guerra,Carnide
+396,Rua 13,Lumiar
+397,Rua Agostinho Neto,Lumiar
+398,Azinhaga da Torre do Fato,Lumiar
+399,Rua Professor Xavier Morato,Lumiar
+400,Rua Prof. Lindley Cintra,Carnide
+401,Rua 25,Lumiar
+402,Avenida de Berlim,Olivais
+403,Rua Jorge Barradas,Benfica
+404,Praça de Espanha,Avenidas Novas
+405,Rua de Fernando Pedroso,Areeiro
+406,Rua de Dom Luís de Noronha,Avenidas Novas
+407,Avenida de Berna,Avenidas Novas
+408,Largo da Achada,Santa Maria Maior
+409,Praça Doutor Teixeira de Aragão,Benfica
+410,Rua Actor Robles Monteiro,Benfica
+411,Rua da Casquilha,Benfica
+412,Estrada do Paço do Lumiar,Carnide
+413,Rua 16,Benfica
+414,Largo Francisco Smith,Carnide
+415,Azinhaga de Entremuros,Lumiar
+416,Rua Helena Vaz da Silva,Lumiar
+417,Rua Pedro Bandeira,Lumiar
+418,Rua A - PUAL,Lumiar
+419,Rua Pedro de Queirós Pereira,Lumiar
+420,Rua Fernando Piteira Santos,Carnide
+421,Avenida Ventura Terra,Lumiar
+422,Rua  A - PUAL,Lumiar
+423,Rua Américo de Jesus Fernandes,Olivais
+424,,Penha de França
+425,Rua João Cunha Serra,Olivais
+426,Rua Acúrsio Pereira,Olivais
+427,Avenida Cidade de Lourenço Marques,Olivais
+428,Rua Alferes Malheiro,Alvalade
+429,Rua 11,Estrela
+430,Avenida Tenente Martins,Benfica
+431,Estrada de A-da-Maia,Benfica
+432,Rua 20,Benfica
+433,Rua Cidade de Cabinda,Olivais
+434,Avenida Marechal Craveiro Lopes,Lumiar
+435,"Pátio do Brasileiro (Estrada das Laranjeiras, 130)",Avenidas Novas
+436,Rua Guilherme Anjos,Campo de Ourique
+437,Travessa do Almargem,Santa Maria Maior
+438,Rua Maria Carlota,Lumiar
+439,Avenida Santos e Castro,Lumiar
+440,Avenida Grão Vasco,Benfica
+441,Rua Mestre Lima de Freitas,Benfica
+442,Rua do Rio Dão,Carnide
+443,Rua Martin Luther King,Santa Clara
+444,Azinhaga da Cidade,Santa Clara
+445,Avenida de Ceuta,Alcântara
+446,Avenida da Ponte 25 de Abril,Alcântara
+447,Rua 50,Penha de França
+448,Travessa de José António Pereira,Estrela
+449,Rotunda das Olaias,Penha de França
+450,Avenida Mouzinho de Albuquerque,Penha de França
+451,Rua General José Celestino da Silva,São Domingos de Benfica
+452,Avenida General Correia Barreto,Benfica
+453,Rua 34,Benfica
+454,Rua 22,Benfica
+455,Rua 11,Benfica
+456,Rua Actriz Adelina Abranches,Benfica
+457,Rua Paz dos Reis,Benfica
+458,Avenida Lusíada,Benfica
+459,Avenida Cidade de Praga,Carnide
+460,Impasse à Rua Sousa Loureiro,São Domingos de Benfica
+461,Rua do Alto do Duque,Belém
+462,Avenida da Índia,Alcântara
+463,Rua João de Lemos,Alcântara
+464,,Benfica
+465,Largo Hintze Ribeiro,Santo António
+466,Vila Henriques,Campolide
+467,Rua Tomás Ribeiro,Arroios
+468,Rua Ferreira Borges,Campo de Ourique
+469,Rua 12,Lumiar
+470,Praça Artur Portela,Benfica
+471,Rua Públia Hortênsia de Castro,Carnide
+472,Avenida Dr. José Salvado Sampaio,Santa Clara
+473,Largo das Galinheiras,Santa Clara
+474,Rua António Janeiro,Belém
+475,Rua da Centieira,Parque das Nações
+476,Rua Conde das Antas,Campolide
+477,Rua Heliodoro Salgado,Arroios
+478,Praça de Espanha,Campolide
+479,Avenida Engenheiro Duarte Pacheco,Campolide
+480,Rua Filipe Duarte,Lumiar
+481,Avenida General Norton de Matos,Carnide
+482,Rua Prof. Tiago de Oliveira,Carnide
+483,Travessa do Paraíso,São Vicente
+484,São Domingos de Benfica,Benfica
+485,Rua Doutor António Cândido,Avenidas Novas
+486,Avenida General Norton de Matos,Lumiar
+487,Rua Professor Pinto Peixoto,Lumiar
+488,Estrada da Serafina,Benfica
+489,Rua G 1,Santa Clara
+490,Rua Cidade de Nova Lisboa,Olivais
+491,Rua José Maria Nicolau,Carnide
+492,Rua Interior Particular,Avenidas Novas
+493,Calçada do Duque,Misericórdia
+494,Rua do Rio Távora,Carnide
+495,Rua do Rio Zêzere,Carnide
+496,Rua José da Purificação Chaves,Benfica
+497,Rua Mariano Pina,São Domingos de Benfica
+498,Rua Fernando Curado Ribeiro,Lumiar
+499,Não identificada,Alcântara
+500,Circular Norte do Bairro da Encarnação,Olivais
+501,Avenida João Crisóstomo,Avenidas Novas
+502,Rua Inácio Pardelhas Sanchez,Campolide
+503,Azinhaga das Murtas,Alvalade
+504,Calçada de São Vicente,Santa Maria Maior
+505,Rua Possidónio da Silva,Estrela
+506,Rua Cândido de Figueiredo,São Domingos de Benfica
+507,Avenida General Norton de Matos,Benfica
+508,Avenida Mouzinho de Albuquerque,São Vicente
+509,Não identificada,São Domingos de Benfica
+510,Rua 22,Lumiar
+511,RUA B - PUAL,Lumiar
+512,Escadinhas do Alto do Restelo,Belém
+513,Acesso Ponte 25 de Abril,Alcântara
+514,Rua Luis Cristino da Silva,
+515,Rua Luís Cristino da Silva,
+516,Rua Alberto de Oliveira,Alvalade
+517,Avenida de Sidónio Pais,Avenidas Novas
+518,Rua R,Estrela
+519,Estrada do Calhariz de Benfica,Benfica
+520,Rua Prof. Luís Reis Santos,Lumiar
+521,Rua Manuela Porto,Carnide
+522,Rua 10,Lumiar
+523,Rua Prof. Arsénio Cordeiro,Lumiar
+524,Rua Padre Américo,Carnide
+525,Não identificada,Ajuda
+526,Rua de Pedrouços,Belém
+527,Rossio dos Olivais,Parque das Nações
+528,Avenida de Pádua,Olivais
+529,Avenida de Pádua,Parque das Nações
+530,Rua Prof. Moisés Amzalak,Lumiar
+531,Rua da Ilha dos Amores,Parque das Nações
+532,Rua Comandante Cousteau,Parque das Nações
+533,Rua Alexandre Herculano,Santo António
+534,Rua António Albino Machado,São Domingos de Benfica
+535,Largo da Anunciada,Santo António
+536,Avenida Duque d'Ávila,Avenidas Novas
+537,Avenida Luís Bivar,Avenidas Novas
+538,Rua Filipe Folque,Avenidas Novas
+539,Praça da Ilha do Faial,Arroios
+540,Avenida Duque D´Ávila,Areeiro
+541,Avenida Duque d'Ávila,Areeiro
+542,Avenida António Augusto de Aguiar,Avenidas Novas
+543,Rua Engenheiro Canto Resende,Avenidas Novas
+544,Avenida dos Defensores de Chaves,Arroios
+545,Rua Marquês de Fronteira,Avenidas Novas
+546,Rua Pinheiro Chagas,Avenidas Novas
+547,Travessa Aboím Ascensão,Alvalade
+548,Avenida de Ceuta,Estrela
+549,Largo do Rilvas,Estrela
+550,Estrada do Loureiro,Estrela
+551,Praça D. Pedro IV,Santa Maria Maior
+552,Largo de São Martinho,Santa Maria Maior
+553,Rua do Vigário,Santa Maria Maior
+554,Largo do Museu de Artilharia,Santa Maria Maior
+555,Rua de Santa Catarina,Misericórdia
+556,Largo dos Lóios,Santa Maria Maior
+557,Rua de Santa Cruz do Castelo,Santa Maria Maior
+558,Rua Maria Pia,Estrela
+559,Alameda Dom Afonso Henriques,Penha de França
+560,Rua do Chão da Feira,Santa Maria Maior
+561,Rua do Jardim do Tabaco,Santa Maria Maior
+562,Rua Cidade de Cádiz,São Domingos de Benfica
+563,Rua dos Arneiros,Benfica
+564,Rua Prof. Jorge da Silva Horta,Benfica
+565,Rua António Pinho,Benfica
+566,Avenida Gomes Pereira,Benfica
+567,Rua Ten. Coronel Ribeiro dos Reis,São Domingos de Benfica
+568,Rua André de Resende,Benfica
+569,Estrada de Benfica,Benfica
+570,Estrada de Telheiras,Lumiar
+571,Rua da República Peruana,Benfica
+572,Rua Actor Epifânio,Lumiar
+573,Rua Coronel Santos Pedroso,Benfica
+574,Avenida Sérgio Vieira de Mello,Santa Clara
+575,Rua Vitorino Nemésio,Santa Clara
+576,Rua Tomás del Negro,Lumiar
+577,Rua Daciano Costa,Lumiar
+578,Rua Raul Carapinha,São Domingos de Benfica
+579,Rua Jau,Alcântara
+580,Rua Alberto Villaverde Cabral,Belém
+581,Avenida da Ilha da Madeira,Belém
+582,Rua Luís de Camões,Alcântara
+583,Rua João de Barros,Alcântara
+584,Rua 15,Ajuda
+585,Rua Fonseca Benevides,Ajuda
+586,Alameda dos Pinheiros,Ajuda
+587,Rua Pedro de Sintra,Belém
+588,Rua Luís Castanho de Almeida,Belém
+589,Rua Aquilino Ribeiro,Marvila
+590,Rua de São Filipe Néri,Santo António
+591,Rua Dom Luís I,Misericórdia
+592,Rua do Borja,Estrela
+593,Rua 51,Penha de França
+594,Rua António Saúde,São Domingos de Benfica
+595,Rua 18,Benfica
+596,Rua Aristides de Sousa Mendes,Carnide
+597,Rua 18A,Lumiar
+598,Azinhaga da Torre do Fato,Carnide
+599,Alameda da Quinta de Santo António,Lumiar
+600,Avenida Maria Helena Vieira da Silva,Lumiar
+601,Rua Armando de Lucena,Ajuda
+602,Campo Grande,Lumiar
+603,Avenida de Roma,Alvalade
+604,Pátio do Daniel,São Vicente
+605,Praça Aniceto do Rosário,Penha de França
+606,Rua 14,Penha de França
+607,Rua da República da Bolívia,Benfica
+608,Rua Luís Pastor de Macedo,Lumiar
+609,Avenida  Cidade de Praga,Carnide
+610,Avenida de Brasília,Alcântara
+611,Calçada da Ajuda,Belém
+612,Não identificada,Beato
+613,Vila Dias,Beato
+614,Rua José da Bateira,Beato
+615,Rua Faustino José Rodrigues,Beato
+616,Rua Marquês de Olhão,Beato
+617,Rua Dr. Manuel Espírito Santo,Beato
+618,Rua D. Tomás de Melo Breyner,Beato
+619,Avenida de Brasília,Belém
+620,Largo da Escola Municipal,Arroios
+621,Rua Padre Luís Aparício,Santo António
+622,Avenida dos Defensores de Chaves,Avenidas Novas
+623,Rua António Enes,Avenidas Novas
+624,Calçada do Livramento,Estrela
+625,Rua das Francesinhas,Estrela
+626,Rua do Terreiro do Trigo,Santa Maria Maior
+627,Rua Actriz Maria Matos,Benfica
+628,Calçada do Tojal,Benfica
+629,Rua Dr. João Couto,Benfica
+630,Rua de Nossa Senhora do Amparo,Benfica
+631,Alameda das Linhas de Torres,Lumiar
+632,Rua Abranches Ferrão,São Domingos de Benfica
+633,Rua Dr. João de Barros,Benfica
+634,Rua Ginestal Machado,São Domingos de Benfica
+635,Rua Maria Lalande,Benfica
+636,Estrada das Garridas,Benfica
+637,Rua Pedro Calmon,Alcântara
+638,Calçada do Galvão,Belém
+639,Largo do Paço,Lumiar
+640,Largo de São João da Mata,Lumiar
+641,Rua Filinto Elísio,Alcântara
+642,Praça Dr. Alfredo da Cunha,Belém
+643,Rua da Junqueira,Alcântara
+644,Rua das Fontaínhas,Alcântara
+645,Rua 18,Ajuda
+646,Avenida de Ceuta,
+647,Avenida Infante Dom Henrique,Marvila
+648,Rua Nova do Desterro,Arroios
+649,Travessa da Conceição da Glória,Santo António
+650,Rua Virgílio Correia,
+651,Rua Tomás da Fonseca,
+652,Alameda Edgar Cardoso,Avenidas Novas
+653,Praça do Marquês de Pombal,Avenidas Novas
+654,Praça Cosme Damião,Carnide
+655,Parque Eduardo VII de Inglaterra,Avenidas Novas
+656,Calçada do Monte,São Vicente
+657,Rua Galileu Galilei,Carnide
+658,Praça da Alegria,Santo António
+659,Rua Conselheiro Arantes Pedroso,Arroios
+660,Calçada do Garcia,Arroios
+661,Rua de Barros Queirós,Arroios
+662,Travessa do Salitre,Santo António
+663,Rua de Dona Filipa de Vilhena,Avenidas Novas
+664,Rua António Ferreira,Alvalade
+665,Rua de Santiago,Santa Maria Maior
+666,Largo do Picadeiro,Santa Maria Maior
+667,Rua da Saudade,Santa Maria Maior
+668,Travessa do Convento de Jesus,Misericórdia
+669,Largo de Santo António da Sé,Santa Maria Maior
+670,Escadinhas da Achada,Santa Maria Maior
+671,Rua Comandante Fontoura da Costa,Lumiar
+672,Estrada Militar,Carnide
+673,Rua Prof. João Barreira,Lumiar
+674,Rua D. António Caetano de Sousa,Benfica
+675,Rua Projectada,São Domingos de Benfica
+676,Praceta do Chinquilho,Alcântara
+677,Calçada de Santo Amaro,Alcântara
+678,Rua de Diogo Cão,Alcântara
+679,Rua Interior à Est. da Correia,Carnide
+680,Largo da Paz,Ajuda
+681,Não identificada,Marvila
+682,Rua Alfredo Duarte (Marceneiro),Marvila
+683,Largo das Olarias,Santa Maria Maior
+684,Rua de Artilharia Um,Campolide
+685,Rua Passos Manuel,Arroios
+686,Rua de Artilharia Um,Avenidas Novas
+687,Rua de Pascoal de Melo,Arroios
+688,Rua Prof. Sousa da Câmara,Campolide
+689,Rua da Escola do Exército,Arroios
+690,Rua Cervantes,Areeiro
+691,Praça Afrânio Peixoto,Areeiro
+692,Rua Gomes da Silva,Areeiro
+693,Rua Eduardo Fernandes (Esculápio),Areeiro
+694,Avenida Elias Garcia,Avenidas Novas
+695,Rua Cardoso de Oliveira,Areeiro
+696,Rua Julieta Ferrão,Avenidas Novas
+697,Avenida do México,Areeiro
+698,Rua Stuart Carvalhais,Areeiro
+699,Rua da Oliveirinha,São Vicente
+700,Rua da Estrela,Estrela
+701,Rua Domingos Sequeira,Estrela
+702,Rua de Infantaria 16,Campo de Ourique
+703,Praça do Príncipe Real,Misericórdia
+704,Rua Tomás de Anunciação,Campo de Ourique
+705,Rua do Quatro de Infantaria,Campo de Ourique
+706,Rua do Alviela,São Vicente
+707,Rua Saraiva de Carvalho,Campo de Ourique
+708,Rua dos Sapadores,São Vicente
+709,Rua Eduardo Costa,Penha de França
+710,Rua Mateus Vicente,São Domingos de Benfica
+711,Estrada Estrangeira de Cima,Alcântara
+712,Bairro do Alvito,Alcântara
+713,Rua Joaquim Fiadeiro,Ajuda
+714,Não identificada,Belém
+715,Rua do Gabarete,Belém
+716,Largo Frei Heitor Pinto,Alvalade
+717,Não identificada,Arroios
+718,Rua Carolina de Michaelis de Vasconcelos,Benfica
+719,Estrada da Buraca,Benfica
+720,Praça Marechal Humberto Delgado,São Domingos de Benfica
+721,Impasse 1 à Estrada da Luz,
+722,Jardim Amália Rodrigues,Avenidas Novas
+723,Rua Adelaide Félix,Carnide
+724,Estrada do Outeiro,Benfica
+725,Rua da Quinta de Santa Maria,Olivais
+726,Largo de Santa Bárbara,Arroios
+727,Praça do Norte,Olivais
+728,Parque Florestal de Monsanto,Benfica
+729,Rua da Cruz a Caselas,Belém
+730,Rua Interior Particular,Ajuda
+731,Calçada da Memória,Ajuda
+732,Não identificada,Olivais
+733,Avenida Dr. Francisco Luis Gomes,Olivais
+734,Estrada das Oliveiras de Baixo,Benfica
+735,Rua Dom Jerónimo Osório,Belém
+736,Avenida de Ceuta,Carnide
+737,Impasse  (Rua Dinah Silveira de Queiroz),Marvila
+738,Rua de Marracuene,Olivais
+739,Rua Manuel Teixeira Gomes,Marvila
+740,Rua Tomás Alcaide,Marvila
+741,Rua Quinta da Graça,Alvalade
+742,Rua do Arco do Cego,Avenidas Novas
+743,Rua da Fábrica da Pólvora,Alcântara
+744,Avenida Engenheiro Duarte Pacheco,Alcântara
+745,Rua dos Lojistas,Olivais
+746,Avenida Doutor Alfredo Bensaúde,Olivais
+747,Rua Alferes Barrilaro Ruas,Olivais
+748,Rua 6 do Cemitério dos Olivais,Olivais
+749,Azinhaga das Galhardas,Lumiar
+750,Rua Vila de Farim,Olivais
+751,Rua Dr. Costa Sacadura,Olivais
+752,Rua de Montepuez,Olivais
+753,Rua André Vidal de Negreiros,Marvila
+754,Rua do Vale Formoso de Cima,Marvila
+755,Rua Pedro de Azevedo,Marvila
+756,Rua Luís Cristino da Silva,Marvila
+757,Rua Inocêncio Francisco da Silva,São Domingos de Benfica
+758,Rua Barroso Lopes,Benfica
+759,Avenida Santos e Castro,Santa Clara
+760,Rua dos Jerónimos,Belém
+761,Rua do Sítio ao Casalinho da Ajuda,Ajuda
+762,Viaduto de Alcântara,Alcântara
+763,Rua 1A do Cemitério dos Olivais,Olivais
+764,Rua 2 do Cemitério dos Olivais,Olivais
+765,Rua Sargento Armando Monteiro Ferreira,Olivais
+766,Rua Alferes Mota da Costa,Olivais
+767,Rua Furriel Galrão Nogueira,Olivais
+768,Rua 23A,Olivais
+769,Rua Capitão Tenente Oliveira e Carmo,Olivais
+770,Rua Alferes Santos Sasso,Olivais
+771,Rua João de Castro Osório,Olivais
+772,Rua Interior Particular,Alvalade
+773,Largo de Santo Estêvão,Santa Maria Maior
+774,Avenida Infante Dom Henrique,Santa Maria Maior
+775,Rua Rainha Dona Catarina,Benfica
+776,Avenida do Colégio Militar,Carnide
+777,Rua Maria Alice,Lumiar
+778,Rua Fernão Mendes Pinto,Belém
+779,Rua da Quinta do Jacinto,Alcântara
+780,Não identificada,Parque das Nações
+781,Alameda Padre Álvaro Proença,Benfica
+782,Rua Prof. Manuel Viegas Guerreiro,Lumiar
+783,Rua Frederico George,Lumiar
+784,Rua Sem Nome,Santa Clara
+785,Rua Varela Silva,Santa Clara
+786,Estrada do Desvio,Lumiar
+787,Rua Carlos Aboim Inglez,Santa Clara
+788,Rua Manuel Lopes,Santa Clara
+789,Rua 8,Santa Clara
+790,Avenida Dom Vasco da Gama,Belém
+791,Rua D. Jorge da Costa,Belém
+792,Rua Luiz Pacheco,Marvila
+793,Rua Fernando Maurício,Marvila
+794,Avenida João Paulo II,Marvila
+795,Avenida Doutor Arlindo Vicente,Marvila
+796,Rua de São Lázaro,Arroios
+797,Alameda Dom Afonso Henriques,Areeiro
+798,Avenida Marquês de Tomar,Avenidas Novas
+799,Alameda Dom Afonso Henriques,Arroios
+800,Avenida do Rio de Janeiro,Alvalade
+801,Praça São João Bosco,Campo de Ourique
+802,Rua da Costa,Estrela
+803,Rua Professor Gomes Teixeira,Campo de Ourique
+804,Largo do Menino Deus,Santa Maria Maior
+805,Calçada da Glória,Misericórdia
+806,Largo de São Vicente,São Vicente
+807,Praça da Figueira,Santa Maria Maior
+808,Rossio de Palma,São Domingos de Benfica
+809,Rua da Venezuela,Benfica
+810,Rua Albert Einstein,Carnide
+811,Rua Francisco Baía,São Domingos de Benfica
+812,Rua Cláudio Nunes,Benfica
+813,Rua Professor Francisco Gentil,Lumiar
+814,Largo José João Farinha Júnior,Carnide
+815,Rua Prista Monteiro,Carnide
+816,Estrada do Poço do Chão,Benfica
+817,Rua Formosinho Sanchez,Lumiar
+818,Avenida da República,Avenidas Novas
+819,Avenida Visconde de Valmor,Avenidas Novas
+820,Rua Prof. Queiroz Veloso,Lumiar
+821,Rua do Bairro da Cáritas,Santa Clara
+822,Rua José da Costa Pedreira,Lumiar
+823,Rua do Rio Tua,Carnide
+824,Rua de Guilherme Braga,Santa Maria Maior
+825,Rua Abílio Lopes do Rêgo,Estrela
+826,Rua Padre Carlos dos Santos,São Domingos de Benfica
+827,Estrada da Correia,Carnide
+828,Largo dos Defensores da República,Santa Clara
+829,Impasse à Rua B e Rua D do PUAL,Lumiar
+830,Jardim Fernanda de Castro,Belém
+831,Rua João de Oliveira Miguéis,Alcântara
+832,Rua 9,Benfica
+833,Rua Duarte Lobo,Alvalade
+834,Calçada da Quintinha,Campolide
+835,Rua Um,Campolide
+836,Rua 2,Campolide
+837,Auto-Estrada 5,Benfica
+838,Rua I do Bairro São João de Brito,Alvalade
+839,Travessa do Tesouro,Estrela
+840,Avenida Marechal Craveiro Lopes,Olivais
+841,Rua Manuel Múrias,Benfica
+842,Rua Prof. Damião Peres,Lumiar
+843,Rua Professor Salazar de Sousa,Lumiar
+844,Largo do Malvar,Carnide
+845,Rua Fernando Namora,Lumiar
+846,Rua Cidade de Cacheu,Benfica
+847,Rua Maria Albertina,Lumiar
+848,Rua Maria do Carmo Torres,Lumiar
+849,Rua José Cardoso Pires,Lumiar
+850,Avenida Carlos Paredes,Lumiar
+851,Rua 1,Benfica
+852,Rua Adelaide Cabete,Carnide
+853,Avenida do Colégio Militar,Benfica
+854,Rua Padre Adriano Botelho,Alcântara
+855,Rua Vicente Ribeiro,Beato
+856,Rua Rocha Santos,Beato
+857,Vila Bela Vista,Beato
+858,Rua Manuel José da Silva,Beato
+859,Rua Jorge de Sena,Santa Clara
+860,Rua 16,Ajuda
+861,Avenida Magalhães Lima,Areeiro
+862,Rua da Academia das Ciências,Misericórdia
+863,Rua Natália Correia,São Vicente
+864,Rua Almeida e Sousa,Campo de Ourique
+865,Largo do Monte,São Vicente
+866,Travessa do Funil,Santa Maria Maior
+867,Largo Maurício de Oliveira,São Domingos de Benfica
+868,Rua Cupertino Miranda,Carnide
+869,Rua Vasco da Gama Fernandes,Santa Clara
+870,Rua Octávio Pato,Santa Clara
+871,Impasse á Rua António Vilar,Santa Clara
+872,Rua Konrad Adenauer,Lumiar
+873,Rua Bernardo Marques,Santa Clara
+874,Impasse à Rua António Vilar,Santa Clara
+875,Impasse Rua António Vilar,Santa Clara
+876,Rua Gil Vicente,Alcântara
+877,Largo dos Arautos,Parque das Nações
+878,Rua do Congo,Parque das Nações
+879,Rua Mindelo,Arroios
+880,Rua Febo Moniz,Arroios
+881,Rua Presidente Wilson,Areeiro
+882,Avenida de Madrid,Areeiro
+883,Praça do Duque da Terceira,Misericórdia
+884,Rua José Sobral Cid,Penha de França
+885,Largo Agostinho da Silva,Misericórdia
+886,Calçada dos Barbadinhos,São Vicente
+887,Rua Morais Soares,Penha de França
+888,Rua da Vila de São Martinho,Benfica
+889,Rua Engº Nobre Guedes,Benfica
+890,Rua Prof. João Cândido de Oliveira,Lumiar
+891,Rua Prof. Manuel Valadares,Lumiar
+892,Rua Maria de Lourdes Pintasilgo,Santa Clara
+893,Rua dos Marcos,Ajuda
+894,Praça do Império,Belém
+895,Praça Afonso de Albuquerque,Belém
+896,Rua da Junqueira,Belém
+897,Alameda dos Oceanos,Parque das Nações
+898,Avenida Fernando Pessoa ao Parque das Nações,Parque das Nações
+899,Rua da Verónica,São Vicente
+900,Praça Bilene,Olivais
+901,Avenida de Roma,Areeiro
+902,Rua Maria Pia,Campo de Ourique
+903,Rua de Entrecampos,Alvalade
+904,Rua Ruben A. Leitão,Misericórdia
+905,Rua Silva Carvalho,Campo de Ourique
+906,Rua do Rio Guadiana,Carnide
+907,Largo José Veiga Simão,Carnide
+908,Rua Engº Quartin Graça,Santa Clara
+909,Rua do Rio Caia,Carnide
+910,Rua Profª Virgínia Rau,Lumiar
+911,Rua Prof. Mark Athias,Lumiar
+912,Avenida Glicínia Quartin,Santa Clara
+913,Rua Prof. Francisco Lucas Pires,Lumiar
+914,Rua Luís Braille,Belém
+915,Largo da Princesa,Belém
+916,Rua Alberto MacBride,Olivais
+917,Estrada da Luz,
+918,Rua da Penha de frança,Penha de França
+919,Rua de Angra do Heroísmo,Arroios
+920,Travessa de Dona Estefânia,Arroios
+921,Avenida de António José de Almeida,Areeiro
+922,Rua Ladislau Piçarra,Areeiro
+923,Rua Prior do Crato,Estrela
+924,Travessa de Santa Luzia,Santa Maria Maior
+925,Rua dos Bacalhoeiros,Santa Maria Maior
+926,Largo José Saramago,Santa Maria Maior
+927,Rua Quinta das Lavadeiras,Santa Clara
+928,Rua da Quinta das Lavadeiras,Santa Clara
+929,Rua José dos Santos Pereira,Benfica
+930,Largo da Palma,São Domingos de Benfica
+931,Rua Prof. Henrique Vilhena,Lumiar
+932,Largo dos Jerónimos,Belém
+933,Largo Maria Isabel Aboim Inglês,Belém
+934,Rua Embaixador,Belém
+935,Rua Actriz Palmira Bastos,Marvila
+936,Rua do Zambeze,Parque das Nações
+937,Paço da Rainha,Arroios
+938,Travessa da Légua da Póvoa,Santo António
+939,Largo do Contador-Mor,Santa Maria Maior
+940,Calçada do Correio Velho,Santa Maria Maior
+941,Rua de Augusto Rosa,Santa Maria Maior
+942,Jardim Elisa Baptista de Sousa Pedroso,Estrela
+943,Rua do Azevinho,Benfica
+944,Rua Leitão de Barros,São Domingos de Benfica
+945,Rua Pro.r Manuel Valadares,Lumiar
+946,Alameda da Música,Lumiar
+947,Arruamento Pedonal Confinante com a Malha 6 do PUAL,Lumiar
+948,Rua Cascais,Alcântara
+949,Passeio Júlio Verne,Parque das Nações
+950,Passeio dos Heróis do Mar,Parque das Nações
+951,Rua Jorge Ferreira de Vasconcelos,Alvalade
+952,Avenida Fontes Pereira de Melo,Arroios
+953,Rua Paul Harris,Alvalade
+954,Rua da Palma,Santa Maria Maior
+955,Rua Maria Pimentel Montenegro,Benfica
+956,Calçada da Ajuda,Ajuda
+957,Rua João Palma Ferreira,Marvila
+958,Avenida de Ulisses,Parque das Nações
+959,Rua das Bússolas,Parque das Nações
+960,Rua de Moscavide ao Parque das Nações,Parque das Nações
+961,Avenida François Mitterrand,Marvila
+962,Rua de São Joaquim,Campo de Ourique
+963,Rua General Justiniano Padrel,São Vicente
+964,Rua Alexandre Ferreira,Lumiar
+965,Rua do Rio Vouga,Carnide
+966,Rua Seis,Belém
+967,Estrada de Caselas,Belém
+968,Passeio dos Fenícios,Parque das Nações
+969,Rua Ilha dos Amores,Parque das Nações
+970,Rua de Macia,Olivais
+971,Rua Oliveira Martins,Areeiro
+972,Rua Pascoal de Melo,Arroios
+973,Largo Samwell Diniz,São Domingos de Benfica
+974,Rua Raul Rego,Santa Clara
+975,Rua António Vilar,Santa Clara
+976,Rua da Academia Recreativa de Santo Amaro,Alcântara
+977,Calçada do Galvão,Ajuda
+978,Largo da Ramada Curto,Parque das Nações
+979,Largo da Ajuda,Ajuda
+980,Azinhaga da Torrinha ao Rego,Avenidas Novas
+981,Impasse  (Rua C do Bairro da Liberdade),Campolide
+982,Rua da Esperança,Estrela
+983,Rua de São Tomé,Santa Maria Maior
+984,Largo do Conde Barão,Misericórdia
+985,Rua Francisco Gentil Martins,São Domingos de Benfica
+986,Rua Cecília Meireles,São Domingos de Benfica
+987,Rua Prof. Pulido Valente,Lumiar
+988,Rua Ten. Coronel Ribeiro dos Reis,Benfica
+989,Rua António Albino Machado,Alvalade
+990,Praça de Bilene,Olivais
+991,Rua Cidade de Moçâmedes,Olivais
+992,Travessa Fábrica das Sedas,Santo António
+993,,Campolide
+994,Praça Paiva Couceiro,Penha de França
+995,Avenida Afonso III,Penha de França
+996,Rua Melvin Jones,São Domingos de Benfica
+997,Rua Abel Salazar,Lumiar
+998,Rua Jaime Lopes Dias,Lumiar
+999,Estrada da Luz,São Domingos de Benfica
+1000,Rua Gregório Lopes,Belém
+1001,Rua Paulo Dias de Novais,Marvila
+1002,Avenida Marechal Francisco da Costa Gomes,Penha de França
+1003,Rua Campos Júnior,Campolide
+1004,Rua Academia das Ciências,Misericórdia
+1005,Rua Perez Fernandez,Benfica
+1006,Rua das Pedralvas,Benfica
+1007,Campo dos Mártires da Pátria,Arroios
+1008,Avenida São João de Deus,Areeiro
+1009,Rua das Begónias,Benfica
+1010,Rua Nova de Palma,São Domingos de Benfica
+1011,Avenida da Boa Esperança,Parque das Nações
+1012,Largo Bartolomeu Dias,Parque das Nações
+1013,Castelo de São Jorge,Santa Maria Maior
+1014,Rua João Pinto Ribeiro,Parque das Nações
+1015,Avenida Columbano Bordalo Pinheiro,Campolide
+1016,Rua das Furnas,São Domingos de Benfica
+1017,Castelo de São Jorge,São Vicente
+1018,Rua Irisalva Moita,Lumiar
+1019,Rua António de Abreu,Belém
+1020,Travessa das Galeotas,Belém
+1021,Rua Mécia Mouzinho de Albuquerque,Alcântara
+1022,Rua Cidade de Quelimane,Olivais
+1023,Rua da Boavista,Misericórdia
+1024,Rua dos Duques de Bragança,Santa Maria Maior
+1025,Largo de Santa Cruz do Castelo,Santa Maria Maior
+1026,Praceta Prof. António José Saraiva,Lumiar
+1027,Praça do Tejo,Parque das Nações
+1028,Estrada da Circunvalação,Olivais
+1029,Rua do Loureiro,Santa Maria Maior
+1030,Rua do Bom Pastor,Benfica
+1031,Rua Professor Mark Athias,Lumiar
+1032,Rua João Baptista Ribeiro,Benfica
+1033,Largo do Casal do Gil,Ajuda
+1034,Rua Gonçalo Velho Cabral,Belém
+1035,Av. Nuno Krus Abecassis,Santa Clara
+1036,Alameda Roentgen,Carnide
+1037,Rua Dr. Cunha Seixas,Benfica
+1038,Largo Primeiro Tenente João Rodrigues,Olivais
+1039,Rua Cidade de Inhambane,Olivais
+1040,Rua Alfredo Soares,Belém
+1041,Rua Botelho de Vasconcelos,Marvila
+1042,Rua do Rio Mondego,Carnide
+1043,Rua José Calheiros,Belém
+1044,Acesso da Pimenteira,Alcântara
+1045,Estrada do Penedo,Alcântara
+1046,Avenida Infante Dom Henrique,Olivais
+1047,Rua 1 do Cemitério dos Olivais,Olivais
+1048,Alameda das Comunidades Portuguesas,Olivais
+1049,Rua 7 do Cemitério dos Olivais,Olivais
+1050,Rua Rui de Sousa,Marvila
+1051,Rua Cidade do Negage,Olivais
+1052,Rua Major Figueiredo Rodrigues,Olivais
+1053,Rua Gonçalo Mendes da Maia,Parque das Nações
+1054,Rua Eduardo Viana,Carnide
+1055,Avenida de Ceuta,Campolide
+1056,Campo das Cebolas,Santa Maria Maior
+1057,Campo das Cebolas,
+1058,Largo de Santos,Estrela
+1059,Estrada do Outeiro,Ajuda
+1060,Estrada de Montes Claros,Ajuda
+1061,Rua Projectada,Benfica
+1062,Largo Coronel Vasconcelos Dias,Beato
+1063,Rua Prof. Lopo de Carvalho,Marvila
+1064,Rua Aura Abranches,Benfica
+1065,Rua Prof. Vieira Natividade,Alcântara
+1066,Rua 11A,Olivais
+1067,Rua Cidade de Tete,Olivais
+1068,Rua 1A,Olivais
+1069,Rua Dr. José Saraiva,Olivais
+1070,Azinhaga da Casquilha,Olivais
+1071,Praça Cottinelli Telmo,Olivais
+1072,Avenida Fontes Pereira de Melo,Avenidas Novas
+1073,Rua Francisco Mantero,Olivais
+1074,Avenida Miguel Bombarda,Avenidas Novas
+1075,Rua Ferreira da Silva,Arroios
+1076,Avenida Cinco de Outubro,Alvalade
+1077,Largo das Necessidades,Estrela
+1078,Cais do Sodré,Misericórdia
+1079,Avenida Dom Carlos I,Misericórdia
+1080,Rua das Taipas,Misericórdia
+1081,Avenida Dom Carlos I,Estrela
+1082,Rua Prof. Carlos Teixeira,Lumiar
+1083,Rua Fernando Namora,Carnide
+1084,Rua Prof. Barbosa Sueiro,Lumiar
+1085,Avenida da Torre de Belém,Belém
+1086,Rua 18,Belém
+1087,Avenida do Restelo,Belém
+1088,Avenida de Sinódio Pais,Avenidas Novas
+1089,Rua Andrade Corvo,Arroios
+1090,Rua Martens Ferrão,Avenidas Novas
+1091,Rua Sousa Martins,Arroios
+1092,Rua Almirante Barroso,Arroios
+1093,Campo Pequeno,Avenidas Novas
+1094,Rua das Necessidades,Estrela
+1095,Rua Joshua Benoliel,Campo de Ourique
+1096,Rua João Anastácio Rosa,Estrela
+1097,Travessa do Carmo,Santa Maria Maior
+1098,Largo Vitorino Damásio,Estrela
+1099,Rua Maria Veleda,Carnide
+1100,Avenida das Descobertas,Belém
+1101,Rua Luís Pedroso de Barros,Belém
+1102,Rua Bartolomeu Dias,Belém
+1103,Praceta das Torres do Restelo,Belém
+1104,Rua do Pólo Sul,Parque das Nações
+1105,Praça Dom Luis I,Misericórdia
+1106,Rua Sam Levy,Belém
+1107,Rua Eugénio dos Santos,Avenidas Novas
+1108,Rua Brito Aranha,Areeiro
+1109,Rua da Cintura do Porto de Lisboa,Misericórdia
+1110,Rua Zacarias de Aça,Ajuda
+1111,Calçada dos Mestres,Campolide
+1112,Rua Sete,Campolide
+1113,Avenida Rovisco Pais,Areeiro
+1114,Avenida dos Estados Unidos da América,Alvalade
+1115,Rua do Quelhas,Estrela
+1116,Rua Comandante Augusto Cardoso,Benfica
+1117,Rua Nova dos Mercadores,Parque das Nações
+1118,Avenida Dom João II,Parque das Nações
+1119,Rua Eduardo Malta,Campolide
+1120,Rua Sanchez Coelho,Avenidas Novas
+1121,Rua Sanches Coelho,Avenidas Novas
+1122,Avenida São João de Deus,Alvalade
+1123,Rua Augusto Abelaira,Avenidas Novas
+1124,Avenida Álvares Cabral,Campo de Ourique
+1125,Rua Brunilde Júdice,Santa Clara
+1126,Rua Carlos Calisto,Belém
+1127,Avenida João XXI,Areeiro
+1128,Largo do Cantinho,Ajuda
+1129,Rua Cristóvão Falcão,Penha de França
+1130,Largo da Revista Militar,Carnide
+1131,Largo da Revista Militar,Benfica
+1132,Avenida Lusíada,Carnide
+1133,Jardim Ferreira de Mira,Carnide
+1134,Rua Fialho de Almeida,Avenidas Novas
+1135,Rua da Quinta do Almargem,Belém
+1136,Rua General Pimenta de Castro,Alvalade
+1137,Largo da Boa-Hora,Santa Maria Maior
+1138,Rua Nova do Almada,Santa Maria Maior
+1139,Rua Actor Estevão Amarante,Benfica
+1140,Rua Actor Vasco Santana,Benfica
+1141,Rua Doutor José Alberto de Faria,Benfica
+1142,Rua Félix Correia,São Domingos de Benfica
+1143,Rua Prof. Prado Coelho,Lumiar
+1144,Rua de Finisterra,Parque das Nações
+1145,Rua das Musas,Parque das Nações
+1146,Passeio de Ulisses,Parque das Nações
+1147,Rua Marquês de Subserra,Avenidas Novas
+1148,Rua Padre António Vieira,Avenidas Novas
+1149,Rua Tomás Ribeiro,Avenidas Novas
+1150,Rua Soeiro Pereira Gomes,Avenidas Novas
+1151,Rua Nuno Ferrari,Alvalade
+1152,Rua Álvares Fagundes,São Vicente
+1153,Praça General Vicente de Freitas,São Domingos de Benfica
+1154,Rua Tomás de Figueiredo,Benfica
+1155,Rua Hein Semke,Santa Clara
+1156,Rua Cidade de Bafatá,Olivais
+1157,Rua 23,Olivais
+1158,Rua Capitão Santiago de Carvalho,Olivais
+1159,Rua General Themudo Barata,Penha de França
+1160,Rua Lucília Simões,Benfica
+1161,Rua Professora Maria Leonor Buescu,Carnide
+1162,Rua Fernando Gusmão,Santa Clara
+1163,Rua Artur Ramos,Santa Clara
+1164,Praça do Caramão,Ajuda
+1165,Rua dos Aventureiros,Parque das Nações
+1166,Rua José Viana,Santa Clara
+1167,Rua Prof. Armindo Monteiro,Lumiar
+1168,Rua Prof. Alfredo de Sousa,Lumiar
+1169,Rua Fernão Lopes,Arroios
+1170,Rua Dr. José Baptista de Sousa,Benfica
+1171,Rua dos Soeiros,São Domingos de Benfica
+1172,Rua 6/7 ao Vale de Chelas,Beato
+1173,Pátio do Costa,Arroios
+1174,Rua Actor Taborda,Arroios
+1175,Rua Violante do Céu,Alvalade
+1176,Rua do Conde de Redondo,Santo António
+1177,Avenida Sacadura Cabral,Areeiro
+1178,Rua Portugal Durão,Avenidas Novas
+1179,Praça das Águas Livres,Campo de Ourique
+1180,Rua de São Jorge,Estrela
+1181,Rua Maestro Frederico de Freitas,São Domingos de Benfica
+1182,Rua Rainha Dona Luísa de Gusmão,Lumiar
+1183,Rua Francisco Grandela,São Domingos de Benfica
+1184,Travessa do Sargento Abílio,Benfica
+1185,Rua Mário Cesariny,Avenidas Novas
+1186,Rua Bulhão Pato,Alvalade
+1187,Praça das Flores,Misericórdia
+1188,Rua Cidade de Rabat,São Domingos de Benfica
+1189,Largo Monsenhor Dalgado,São Domingos de Benfica
+1190,Rua Luciano Cordeiro,Santo António
+1191,Avenida António Serpa,Avenidas Novas
+1192,Avenida Almirante Reis,Areeiro
+1193,Rua da Cruz Vermelha,Avenidas Novas
+1194,Largo Luzia Maria Martins,São Domingos de Benfica
+1195,Estrada de Pedro Teixeira,Ajuda
+1196,Rua dos Sinais de Fogo,Parque das Nações
+1197,Vila Alegre,Arroios
+1198,Avenida Júlio Dinis,Avenidas Novas
+1199,Rua Mário Castelhano,Avenidas Novas
+1200,Largo do Carmo,Santa Maria Maior
+1201,Largo do Chiado,Santa Maria Maior
+1202,Avenida da Índia,Estrela
+1203,Praça São João Bosco,Estrela
+1204,Avenida General Roçadas,São Vicente
+1205,Avenida Madame Curie,São Domingos de Benfica
+1206,Largo do Mitelo,Arroios
+1207,Rua Pedro Nunes,Avenidas Novas
+1208,Rua da Senhora da Glória,São Vicente
+1209,Rua Julião Quintinha,Benfica
+1210,Adro da Igreja,Benfica
+1211,Cabeço das Rolas,Parque das Nações
+1212,Alameda de Santo António dos Capuchos,Santo António
+1213,Travessa Águas Livres,Santo António
+1214,Rua Sampaio e Pina,Avenidas Novas
+1215,Avenida da Igreja,Alvalade
+1216,Rua Carlos Alberto da Mota Pinto,Campo de Ourique
+1217,Rua Cidade João Belo,Olivais
+1218,Praça Carlos Fabião,Avenidas Novas
+1219,Rua Afonso Lopes Vieira,Alvalade
+1220,Rua Cidade de Manchester,Arroios
+1221,Rua 1,São Domingos de Benfica
+1222,Rua Vasco Botelho do Amaral,Benfica
+1223,Rua Cidade de Porto Alexandre,Olivais
+1224,Rua Carlos George,Olivais
+1225,Rua 6,Estrela
+1226,Largo do Doutor José de Figueiredo,Estrela
+1227,Rua Brazão Farinha,Benfica
+1228,Rua 7,Ajuda
+1229,Rua 15,Estrela
+1230,Rua Tierno Galvan,Campo de Ourique
+1231,Rua Amélia Rey Colaço,Benfica
+1232,Estrada do Desvio,
+1233,Rua Cidade de Liverpool,Arroios
+1234,Rua Carlos Botelho,Beato
+1235,Praça da Estrela,Estrela
+1236,Rua Aurélio Quintanilha,Carnide
+1237,Rua do Montepio Geral,São Domingos de Benfica
+1238,Rua Antonino e Sá,São Domingos de Benfica
+1239,Rua Alfredo Guisado,São Domingos de Benfica
+1240,Avenida da Índia,Belém
+1241,Rua Duarte Pacheco Pereira,Belém
+1242,Rua Engenheiro Vieira da Silva,Arroios
+1243,Rua do Conde de Redondo,Arroios
+1244,Rua Joaquim Paço d´Arcos,Benfica
+1245,Azinhaga das Galhardas,Alvalade
+1246,Rua Augusto Costa (Costinha),Benfica
+1247,Avenida Infante D Henrique,Marvila
+1248,Rua Tenente Valadim,Estrela
+1249,Avenida da Ribeira das Naus,Santa Maria Maior
+1250,Rua Raquel Roque Gameiro,São Domingos de Benfica
+1251,Rua de São Domingos de Benfica,São Domingos de Benfica
+1252,Rua 13,Ajuda
+1253,Rua Latino Coelho,Avenidas Novas
+1254,Rua Padre Francisco Álvares,São Domingos de Benfica
+1255,Rua Gonçalves Zarco,Belém
+1256,Praça das Indústrias,Alcântara
+1257,Avenida Infante D. Henrique,Marvila
+1258,Rua João Frederico Ludovice,Benfica
+1259,Rua João Linhares Barbosa,Ajuda
+1260,Rua Major Neutel de Abreu,São Domingos de Benfica
+1261,Travessa Carlo Paggi,São Domingos de Benfica
+1262,Rua Albino Sousa Cruz,Benfica
+1263,Travessa de São Tomé,São Vicente
+1264,Rua Paulo Renato,Benfica
+1265,Alameda Manuel Ricardo Espírito Santo,Benfica
+1266,Alameda Manuel Ricardo Espírito Santo,São Domingos de Benfica
+1267,Rua dos Argonautas,Parque das Nações
+1268,Avenida Conde de Valbom,Avenidas Novas
+1269,Calçada do Carmo,Santa Maria Maior
+1270,Avenida Conselheiro Barjona de Freitas,São Domingos de Benfica
+1271,Rua José Augusto Seabra,Benfica
+1272,Estrada do Poço do Chão,Carnide
+1273,Avenida Almirante Gago Coutinho,Areeiro
+1274,Largo Miguel José Mendes,Carnide
+1275,Rua da Castiça,Lumiar
+1276,Passeio do Báltico,Parque das Nações
+1277,Praça do Duque de Saldanha,Avenidas Novas
+1278,Praça do Duque de Saldanha,Arroios
+1279,Rua Rosa Araújo,Santo António
+1280,Não identificada,Santa Maria Maior
+1281,Rua Embaixador Teixeira de Sampaio,Estrela
+1282,Rua Engenheiro Ferreira Dias,Marvila
+1283,Acesso Avenida Eng Duarte Pacheco,Campolide
+1284,Rua Agostinho Lourenço,Areeiro
+1285,Rua Alexandre Cabral,Lumiar
+1286,Rua Armindo Rodrigues,Lumiar
+1287,Rua José Pinto Bastos,Ajuda
+1288,Rua Edison,Areeiro
+1289,Largo de São Carlos,Santa Maria Maior
+1290,Alameda Padre Álvaro Proe,Benfica
+1291,Rua Pedro e Inês,Parque das Nações
+1292,Rua 21,Penha de França
+1293,Rua 10B,Penha de França
+1294,Rua de Santa Apolónia,São Vicente
+1295,Azinhaga do Poço de Baixo,Lumiar
+1296,Impasse C2 (R. Prof. Fernando de Mello Moser),Lumiar
+1297,Rua 29,Lumiar
+1298,Rua Enrico Berlinguer,Lumiar
+1299,Estrada do Alvito,Alcântara
+1300,Rua da Quinta da Fonte,Olivais
+1301,Rua Vinte e Dois,Olivais
+1302,Rua Vinte,Olivais
+1303,Praça Cidade do Luso,Olivais
+1304,Praça das Casas Novas,Olivais
+1305,Rua Antão Gonçalves,Belém
+1306,Avenida 25 de Abril (Pontinha),Carnide
+1307,Rua Leite de Vasconcelos,São Vicente
+1308,Rua de O Século,Misericórdia
+1309,Rua Vila de Teixeira Pinto,Olivais
+1310,Rua Alberto de Sousa,Avenidas Novas
+1311,Rua António Duarte,Santa Clara
+1312,Avenida Dr. Augusto de Castro,Marvila
+1313,Rua 9,Estrela
+1314,Rua 7A,Estrela
+1315,Rua 12,Estrela
+1316,Rua S,Estrela
+1317,Rua 5,Estrela
+1318,Rua 2,Estrela
+1319,Rua 48,Estrela
+1320,Estrada dos Prazeres,Estrela
+1321,Rua São Tomás de Aquino,São Domingos de Benfica
+1322,Rua Brás Pacheco,Areeiro
+1323,Rua das Janelas Verdes,Estrela
+1324,Rua 4A,Estrela
+1325,Rua 2A,Estrela
+1326,Rua de São Lázaro,Santa Maria Maior
+1327,Rua 25,Estrela
+1328,Rua 7,Estrela
+1329,Rua 23,Estrela
+1330,Rua L do Cemitério dos Prazeres,Estrela
+1331,Travessa do Zagalo,São Vicente
+1332,Rua 17,Estrela
+1333,Rua M do Cemitério dos Prazeres,Estrela
+1334,Largo da Igreja ao Bairro da Boavista,Benfica
+1335,Rua 21,Estrela
+1336,Rua 5A,Estrela
+1337,Rua 1A,Estrela
+1338,Rua 15A,Estrela
+1339,Rua Francisco Lacerda,Estrela
+1340,Rua 1,Estrela
+1341,Alameda Cardeal Cerejeira,Avenidas Novas
+1342,Passeio de Neptuno,Parque das Nações
+1343,Cais dos Argonautas,Parque das Nações
+1344,Jardim Torre de Belém,Belém
+1345,Rua Ramalho Ortigão,Avenidas Novas
+1346,Rua do Alecrim,Misericórdia
+1347,Rua das Flores,Misericórdia
+1348,Passeio das Tágides,Parque das Nações
+1349,Rua de São Pedro de Alcântara,Misericórdia
+1350,Cais Português,Parque das Nações
+1351,Rua Gualdim Pais nº89,Penha de França
+1352,Rua Vila de Bubaque,Olivais
+1353,Eixo Norte-Sul,Santa Clara
+1354,Rua Maluda (Maria de Lurdes Ribeiro),Santa Clara
+1355,Pátio das Comendadeiras de Santos,Penha de França
+1356,Rua Viriato,Avenidas Novas
+1357,Rua das Garridas,Benfica
+1358,Largo à Rua Gregório Lopes,Belém
+1359,Cais das Naus,Parque das Nações
+1360,Largo dos Caminhos de Ferro,Santa Maria Maior
+1361,Rua Professor Reinaldo dos Santos,São Domingos de Benfica
+1362,Rua Dr. José Espírito Santo,Marvila
+1363,Rua Dr. Eduardo Neves,Avenidas Novas
+1364,Rua Júlio de Andrade,Santo António
+1365,Praça Francisco Sá Carneiro,Areeiro
+1366,Avenida do Brasil,Alvalade
+1367,Rua Joaquim Paço d'Arcos,Benfica
+1368,Rua Prof. Fernando da Fonseca,Lumiar
+1369,Rua do Bojador,Parque das Nações
+1370,Rua Menina do Mar,Parque das Nações
+1371,Avenida do Uruguai,Benfica
+1372,Rua Baldaque da Silva,Benfica
+1373,Largo do Terreiro,Santa Clara
+1374,Rua Olivério Serpa,Benfica
+1375,Largo do Mastro,Arroios
+1376,Rua Francisco Pedro Curado,Penha de França
+1377,Rua Castelo Branco Saraiva,Penha de França
+1378,Rua Eduardo Schwalbach,Benfica
+1379,Rua Prof. Luís da Cunha Gonçalves,Lumiar
+1380,Rua Luís de Sttau Monteiro,Marvila
+1381,Rua Francisco Pedro Curado,
+1382,"Pátio do Guilherme (R. Saraiva de Carvalho, 191)",Campo de Ourique
+1383,Rua Ramalho Ortigão,Campolide
+1384,Rua Andrade Corvo,Avenidas Novas
+1385,Avenida Padre Manuel da Nóbrega,Areeiro
+1386,Rua Fernando Assis Pacheco,Campo de Ourique
+1387,Escadinhas de Santo Estevão,Santa Maria Maior
+1388,Rua Hermínia Silva,Ajuda
+1389,Travessa da Galé,Alcântara
+1390,Rua Damião de Gois,Belém
+1391,Rua Cordeiro de Sousa,Avenidas Novas
+1392,Travessa dos Prazeres,Campo de Ourique
+1393,Rua Canto da Maya,Campolide
+1394,Praça António Baião,Benfica
+1395,Rua Jorge Vieira,Carnide
+1396,Rua Prof. Adelino da Palma Carlos,Santa Clara
+1397,Rua João Dias,Belém
+1398,Rua Barata Salgueiro,Santo António
+1399,Rua Eduardo Brasão,Arroios
+1400,Praça Martim Moniz,Santa Maria Maior
+1401,Rua da Graça,São Vicente
+1402,Praça Laranjo Coelho,Benfica
+1403,Esplanada D. Carlos I ao Parque das Nações,Parque das Nações
+1404,Largo do Cabeço de Bola,Arroios
+1405,Rua Álvaro Coutinho,Arroios
+1406,Largo de São Sebastião da Pedreira,Avenidas Novas
+1407,Largo do Calvário,Alcântara
+1408,Rua Cassiano Branco,Marvila
+1409,Passeio dos Jacarandás,Parque das Nações
+1410,Largo do Nautilius,Parque das Nações
+1411,Rua de Vila Sena,Olivais
+1412,Rua Poeta Bocage,Carnide
+1413,Rua Mem Rodrigues,Belém
+1414,Rua João Villaret,Areeiro
+1415,Avenida Poeta Mistral,Avenidas Novas
+1416,Rua João Villaret,Alvalade
+1417,Travessa do Jardim à Estrela,Estrela
+1418,Calçada do Cascão,São Vicente
+1419,Rua de Santo António à Estrela,Estrela
+1420,Rua do Arsenal,Santa Maria Maior
+1421,Largo Ocidental,Ajuda
+1422,Rua Mouzinho da Silveira,Santo António
+1423,Rua da Cruz da Carreira,Arroios
+1424,Rua Cardeal Mercier,Avenidas Novas
+1425,Rua Tomás da Fonseca,São Domingos de Benfica
+1426,Rua das Pedreiras,Belém
+1427,Rua B,Campolide
+1428,Rua Eduardo Coelho,Misericórdia
+1429,Eixo Norte-Sul,São Domingos de Benfica
+1430,Praça Olegário Mariano,Arroios
+1431,Largo Maria de Lurdes Pais Gomes,São Domingos de Benfica
+1432,Rua Melo Antunes,Santa Clara
+1433,Estrada de Moscavide,Parque das Nações
+1434,Rua Prof. Mário Chicó,Lumiar
+1435,Rua das Buganvílias,Benfica
+1436,Rua da Praia do Bom Sucesso,Belém
+1437,Rua Joaquim Casimiro,Estrela
+1438,Praça do Marquês de Pombal,Santo António
+1439,Rua Vice Almirante Augusto de Castro Guedes,Olivais
+1440,Rua Cidade de Gabela,Olivais
+1441,Rua do Mar Vermelho,Parque das Nações
+1442,,Avenidas Novas
+1443,Rua António Quadros,Lumiar
+1444,Rua António Livramento,Lumiar
+1445,Avenida da Universidade Técnica,Ajuda
+1446,Rua César Nogueira,Ajuda
+1447,Rua 3 do Cemitério dos Olivais,Olivais
+1448,Circular Sul do Bairro da Encarnação,Olivais
+1449,Rua Primeiro de Maio,Parque das Nações
+1450,Rua 17,Olivais
+1451,Rua 5,Olivais
+1452,Rua Vila de Bissorã,Olivais
+1453,Rua de Matola,Olivais
+1454,Rua de São Bernardo,Campo de Ourique
+1455,Largo Carlos Selvagem,São Domingos de Benfica
+1456,Rua Profª Margarida Vieira Mendes,Areeiro
+1457,Avenida Lusíada,São Domingos de Benfica
+1458,Estrada de Benfica,São Domingos de Benfica
+1459,Rua das Amoreiras,Santo António
+1460,Avenida Engenheiro Duarte Pacheco,Santo António
+1461,Largo São Domingos de Benfica,São Domingos de Benfica
+1462,Rua Fernando Palha,Marvila
+1463,Rua das Amoreiras,Campo de Ourique
+1464,Rua Prof. José Sebastião e Silva,Benfica
+1465,Travessa das Florindas,Ajuda
+1466,Largo Trindade Coelho,Misericórdia
+1467,Rua  André de Gouveia,Lumiar
+1468,Praça de Londres,Areeiro
+1469,Azinhaga da Torrinha,Santa Clara
+1470,Rua 2,Ajuda
+1471,Avenida Manuel da Maia,Arroios
+1472,Avenida Manuel da Maia,Areeiro
+1473,Rua José Luís Garcia Rodrigues,Ajuda
+1474,Rua Barata Feyo,Santa Clara
+1475,Rua Hermínio da Palma Inácio,Santa Clara
+1476,Rua Carlos Rocha,Santa Clara
+1477,Largo do Jogo da Bola,Carnide
+1478,Rua Capitão-Mor Pedro Teixeira,Belém
+1479,Avenida de Paris,Areeiro
+1480,Praça Dr. Nuno Pinheiro Torres,Benfica
+1481,Largo de Santo Antoninho,Misericórdia
+1482,Impasse 1 a 1 E ( Rua Vila de São Martinho),Benfica
+1483,Rua Martens Ferrão,Arroios
+1484,Avenida Marconi,Areeiro
+1485,Rua Duarte José Fava,Belém
+1486,Rua 11,Ajuda
+1487,Praça das Novas Nações,Arroios
+1488,Travessa de Santa Catarina,Misericórdia
+1489,Rua 9,Ajuda
+1490,Rua 3,Ajuda
+1491,Rua 6,Ajuda
+1492,Rua Francisco Pereira de Sousa,São Domingos de Benfica
+1493,Rua Manuel Correia Gomes,Benfica
+1494,Rua 8,Ajuda
+1495,Avenida Ressano Garcia,Avenidas Novas
+1496,Rossio do Levante,Parque das Nações
+1497,Rua Horta e Silva,Ajuda
+1498,Calçada de Santo António,Santo António
+1499,Calçada de Santo António,Arroios
+1500,Rua 5/6 do Vale de Chelas,Penha de França
+1501,Rua 5/6 ao Vale de Chelas,Penha de França
+1502,Estrada Militar,Santa Clara
+1503,Estrada da Póvoa,Santa Clara
+1504,Travessa do Moinho Velho,Ajuda
+1505,Largo de Andaluz,Arroios
+1506,Rua de Manjacaze,Olivais
+1507,Largo Pedro Correia Marques,São Domingos de Benfica
+1508,Rua Bernardo Lima,Santo António
+1509,Rua Eduardo Bairrada,Ajuda
+1510,Largo da Memória,Ajuda
+1511,Rua da Sociedade Farmacêutica,Santo António
+1512,Praça João do Rio,Areeiro
+1513,Largo Cemitério,Ajuda
+1514,Rua de São Jorge,Campo de Ourique
+1515,Praça do Chile,Arroios
+1516,Rua Diogo de Macedo,Avenidas Novas
+1517,Avenida Dr. Francisco Luís Gomes,Olivais
+1518,Rua Quinta da Assunção,Santa Clara
+1519,Largo Mário Cura Mariano,Benfica
+1520,Rua Moreira de Almeida,Benfica
+1521,Rua António Raposo Tavares,Belém
+1522,Alameda do Beato,Beato
+1523,Passeio do Cantábrico,Parque das Nações
+1524,Rua João José Cochofel,Marvila
+1525,Cais do Gás,Misericórdia
+1526,Largo da Academia Nacional de Belas Artes,Santa Maria Maior
+1527,Impasse A (Rua Soeiro Pereira Gomes),Avenidas Novas
+1528,Praça Príncipe Perfeito,Parque das Nações
+1529,Praça Dom João da Câmara,Santa Maria Maior
+1530,Travessa da Praça,Belém
+1531,Rua da Fábrica Carp,Belém
+1532,Rua do Mar da China,Parque das Nações
+1533,Rua de Santa Marta,Santo António
+1534,Rua 3,Estrela
+1535,Rua 42,Estrela
+1536,Rua Jorge Alves,Estrela
+1537,Rua 4,Estrela
+1538,Rua 33,Estrela
+1539,Rua K do Cemitério dos Prazeres,Estrela
+1540,Rua 52,Estrela
+1541,Rua F,Estrela
+1542,Rua 24,Estrela
+1543,Rua 8,Estrela
+1544,Rua das Chaminés D'El-Rei,Ajuda
+1545,Rua Prof. Delfim Santos,Lumiar
+1546,Caminho dos Pinheiros,Parque das Nações
+1547,Rua Dom Jerónimo de Osório,Misericórdia
+1548,Rua Cidade da Beira,Olivais
+1549,2ª circular,Lumiar
+1550,,São Domingos de Benfica
+1551,,Lumiar
+1552,Rua Alfredo Mesquita,Alvalade
+1553,Rua da Mestra,Carnide
+1554,Avenida Rovisco Pais,Arroios
+1555,Interface do Campo Grande,Lumiar
+1556,Rua Prof. Moniz Pereira,Lumiar
+1557,Praça General Domingos de Oliveira,Alcântara
+1558,Campo das Amoreiras,Santa Clara
+1559,Rua do Alto do Chapeleiro,Santa Clara
+1560,Rua Carlos Pereira,São Domingos de Benfica
+1561,Largo do Olival,Beato
+1562,Rua Alves Redol,Areeiro
+1563,Largo Rafael Bordalo Pinheiro,Santa Maria Maior
+1564,Rua José Rodrigues Miguéis,Benfica
+1565,Praça Faria da Costa,Olivais
+1566,Rua Diogo Afonso,Belém
+1567,Rua Humberto Madeira,Olivais
+1568,Largo de São João Nepomuceno,Misericórdia
+1569,Rua da Fábrica de Material de Guerra,Marvila
+1570,Rua da Beneficência,Avenidas Novas
+1571,Calçada do Sacramento,Santa Maria Maior
+1572,Rua 4,Ajuda
+1573,Largo Mendonça e Costa,Penha de França
+1574,Largo das Palmeiras,Arroios
+1575,Rua General Firmino Miguel,São Domingos de Benfica
+1576,Rua Eugénio de Castro,Alvalade
+1577,Rua Dr. Júlio Dantas,Avenidas Novas
+1578,Rua General Vasco Gonçalves,Lumiar
+1579,Avenida Eugénio de Andrade,Lumiar
+1580,Rua 10,Ajuda
+1581,Rua 5,Ajuda
+1582,Rua 1,Ajuda
+1583,Travessa de Santa Marinha,São Vicente
+1584,Rua Alda Nogueira,Belém
+1585,Avenida Guerra Junqueiro,Areeiro
+1586,Avenida Mouzinho de Albuquerque,Penha de Franca
+1587,Praça dos Restauradores,Santa Maria Maior
+1588,Rua de Manzacaze,Olivais
+1589,Rua de Manzacazé,Olivais
+1590,Travessa do Conde da Ponte,Alcântara
+1591,Avenida David Mourão-Ferreira,Lumiar
+1592,Largo do Intendente Pina Manique,Arroios
+1593,Rua Capitão-Mor Lopes de Sequeira,Marvila
+1594,Rua Ferreira de Castro,Marvila
+1595,Rua Adelino Nunes,Marvila
+1596,Avenida Marechal António de Spínola,Marvila
+1597,Rua Sousa Bastos,Marvila
+1598,Parque Municipal do Vale do Silêncio,Olivais
+1599,Azinhaga da Quinta das Courelas,Olivais
+1600,Largo da Ponte Nova,Alcântara
+1601,Largo do Corpo Santo,Misericórdia
+1602,Rua da Quintinha,Misericórdia
+1603,Avenida Almirante Gago Coutinho,Marvila
+1604,Rua de São João da Praça,Santa Maria Maior
+1605,Avenida General Norton de Matos,São Domingos de Benfica
+1606,Rua do Oder,Parque das Nações
+1607,Alameda da Encarnação,Olivais
+1608,Rua Alfredo Duarte (Marce,Marvila
+1609,Rua Poço dos Negros,Misericórdia
+1610,Rua Pery de Linde,Benfica
+1611,Rua Adriano Correia de Oliveira,Avenidas Novas
+1612,Rua Afonso Praça,Belém
+1613,Rua do Arco do Carvalhão,Campolide
+1614,Escadinhas do Bairro América,São Vicente
+1615,Rua Cidade Vila Cabral,Olivais
+1616,Praça de Luís de Camões,Misericórdia
+1617,Rua Barão de Sabrosa,Penha de França
+1618,Rua Principado de Andorra,Benfica
+1619,Travessa do Jasmim,Misericórdia
+1620,Rua da Trindade,Santa Maria Maior
+1621,Largo das Portas do Sol,Santa Maria Maior
+1622,Calçada do Conde de Penafiel,Santa Maria Maior
+1623,Rua António Dacosta,Santa Clara
+1624,Calçada de Carriche,Lumiar
+1625,Travessa do Pardal,Ajuda
+1626,Rua Antónia Pusich,Alvalade
+1627,Rua dos Remédios à Lapa,Estrela
+1628,Travessa das Inglesinhas,Estrela
+1629,Rua Armando Vieira Santos,Benfica
+1630,Azinhaga de Santa Susana,Santa Clara
+1631,Rua Padre Joaquim Alves Correia,Parque das Nações
+1632,Travessa do Pregoeiro,
+1633,Rua 4 do Bairro da Boavista,Benfica
+1634,Rua Marquês de Fronteira,Campolide
+1635,,Olivais
+1636,Avenida Infante Dom Henrique,Beato
+1637,Rua do Arco da Torre,Belém
+1638,Avenida Infante Dom Henrique,Penha de França
+1639,Travessa da Luz,Carnide
+1640,Rua Nova do Desterro,Santa Maria Maior
+1641,Escadinhas da Saúde,Santa Maria Maior
+1642,Rua Alfredo Duarte(Marceneiro),Marvila
+1643,Rua César de Oliveira,Lumiar
+1644,Rua Prof. Moniz Pereira,Lumioar
+1645,Beco dos Apóstolos,Misericórdia
+1646,Praça Dr. Ernesto Roma,Penha de França
+1647,Travessa do Calado,Penha de França
+1648,Largo de Santa Marinha,São Vicente
+1649,Rua da Hera,Misericórdia
+1650,Cais da Pedra,Santa Maria Maior
+1651,Rua de Ovar,Marvila
+1652,Avenida Álvares Cabral,Estrela
+1653,Avenida Óscar Monteiro Torres,Avenidas Novas
+1654,Rua Engenheiro Manuel Rocha,Alvalade
+1655,Rua General Morais Sarmento,Benfica
+1656,Rua Nova do Grilo,Beato
+1657,Rua Gorgel do Amaral,Campo de Ourique
+1658,Rua Nau Catrineta,Parque das Nações
+1659,Rua do Sol a Santana,Arroios
+1660,Rua Diogo de Silves,Belém
+1661,Rua Jorge Amado,Marvila
+1662,Rua Rogério de Moura,Santa Clara
+1663,Rua Aurélio Qunitanilha,Carnide
+1664,Rua 6A,Estrela
+1665,Rua 3A,Estrela
+1666,Rua da Regueira,Santa Maria Maior
+1667,Rua 35,Estrela
+1668,Rua 37,Estrela
+1669,Rua Bento Mântua,Marvila
+1670,,Alvalade
+1671,Rua Padre Francisco,Campo de Ourique
+1672,Rua Clube Atlético e Recreativo do Caramão,Ajuda
+1673,Envolvente das Piscinas da Ameixoeira,Santa Clara
+1674,Rua do Cais das Naus,Parque das Nações
+1675,Rua Actor Vale,Penha de França
+1676,Rua 14,Olivais
+1677,Rua 8,Olivais
+1678,Rua Costa Malheiro,Olivais
+1679,Rua 21,Olivais
+1680,Rua 1,Olivais
+1681,Rua 10,Olivais
+1682,Rua 23B,Olivais
+1683,Rua Lino Ferreira,Marvila
+1684,Rua Carlos de Oliveira,São Domingos de Benfica
+1685,Rua Vera Lagoa,São Domingos de Benfica
+1686,Calçada do Poço,Santa Clara
+1687,Passeio de Neptuno,Marvila
+1688,Rua Azevedo Neves,São Domingos de Benfica
+1689,Largo do Barão de Quintela,Misericórdia
+1690,Rua 8A,Estrela
+1691,Rua 26,Estrela
+1692,Rua G,Estrela
+1693,Praça Pasteur,Areeiro
+1694,Avenida Paulo VI,Marvila
+1695,Rua do Mirador,Ajuda
+1696,Rua Presidente Arriaga,Estrela
+1697,Avenida do Pacífico,Parque das Nações
+1698,Rua Jorge Dias,Belém
+1699,Praça de São Francisco Xavier,Belém
+1700,Rotunda das Olaias,Areeiro
+1701,Rua Frei Joaquim de Santa Rosa de Viterbo,Alvalade
+1702,Rua Eugénio de Castro Rodrigues,Alvalade
+1703,Rua Padre Joaquim Alves Correia,
+1704,Rua  Tomás da Fonseca,
+1705,Aeroporto da Portela,Olivais
+1706,Rua Bernardino Costa,Misericórdia
+1707,Rua Professor Orlando Ribeiro,Lumiar
+1708,Praça Cidade de Salazar,Olivais
+1709,Rua da Alfândega,Santa Maria Maior
+1710,Rua Coelho da Rocha,Campo de Ourique
+1711,Calçada da Boa-Hora,Ajuda
+1712,Rua Cândido Guerreiro,Areeiro
+1713,Rua Sabino de Sousa,Penha de França
+1714,Cais da Pedra,São Vicente
+1715,Rua Capitâo Cook,Parque das Nações
+1716,Rua Capitão Cook,Parque das Nações
+1717,Rua 11,Belém
+1718,Rua da Fábrica de Estamparia,Beato
+1719,Rua do Pólo Norte,Parque das Nações
+1720,Rua 21,Benfica
+1721,Rua José Saramago,Carnide
+1722,Rua do Açúcar,Marvila
+1723,Rua Artur Duarte,Marvila
+1724,Rua João César Monteiro,Marvila
+1725,Rua Pardal Monteiro,Marvila
+1726,Rua Alves Paiva Fragoso,Beato
+1727,Rua 15A,Olivais
+1728,Rua Vinte e Seis,Olivais
+1729,Rua da Portela,Olivais
+1730,Rua Dr. Rui Gomes de Oliveira,Parque das Nações
+1731,Rua C - PUAL,Lumiar
+1732,Rua Gonçalo Nunes,Belém
+1733,Beco do Peneireiro,Santa Maria Maior
+1734,Avenida da República,Arroios
+1735,Avenida Lourenço Marques,Olivais
+1736,Rua Marquês do Soveral,Alvalade
+1737,Travessa do Alecrim à Misericórdia,Misericórdia
+1738,Rua da Nau Catrineta,Parque das Nações
+1739,Alto dos Moinhos,São Domingos de Benfica
+1740,Rua Lúcio de Azevedo,São Domingos de Benfica
+1741,Rua António Gedeão,Marvila
+1742,Rotunda 8 e 23 do Cemitério dos Prazeres,Estrela
+1743,"Travessa Sinbad, o Marinheiro",Parque das Nações
+1744,Rua das Caravelas,Parque das Nações
+1745,Travessa dos Barbadinhos,Estrela
+1746,Rua Teixeira Lopes,Santa Maria Maior
+1747,Rua Prof. Barbosa Soeiro,Lumiar
+1748,Rua Manuel Rodrigues da Silva,Carnide
+1749,Rua Actor Epifânio,
+1750,Praça José Queirós,Olivais
+1751,Rua Professor Georges Zbyszewski,Lumiar
+1752,Rua 9B,Estrela
+1753,Rua do Alto do Chapeleiro (Parq. Inf.),Santa Clara
+1754,Rua Dom João V,Campo de Ourique
+1755,Rua Luís Pinto Moitinho,Arroios
+1756,Rua Jorge  Barradas,Benfica
+1757,Avenida João Crisóstomo,Areeiro
+1758,Calçada Salvador Correia de Sá,Misericórdia
+1759,Avenida do Índico,Parque das Nações
+1760,Encosta das Chagas,Misericórdia
+1761,Travessa do Cabral,Misericórdia
+1762,Estrada das Laranjeiras,Avenidas Novas
+1763,Não identificada,Misericórdia
+1764,Rua A,Olivais
+1765,Praça Mota Veiga,Olivais
+1766,,Estrela
+1767,Estrada do Desvio,Santa Clara
+1768,Taavessa da Horta Navia,Estrela
+1769,Travessa da Horta Navia,Estrela
+1770,Rua 13,Estrela
+1771,Largo dos Marcos,Ajuda
+1772,Rua D do Cemitério dos Prazeres,Estrela
+1773,Rua V,Estrela
+1774,Largo do Conde de Bonfim,São Domingos de Benfica
+1775,Rua Jaime Brasil,Benfica
+1776,Rua Anjos Teixeira,São Domingos de Benfica
+1777,Rua Afonso Álvares,São Domingos de Benfica
+1778,Rua Simões de Almeida,São Domingos de Benfica
+1779,Rua Pedro Monjardino,São Domingos de Benfica
+1780,Alto da Cova da Moura,Estrela
+1781,Impasse entre Lotes 2 e 3 da Malha 6 do PUAL,Lumiar
+1782,Rua Duarte Galvão,São Domingos de Benfica
+1783,Rua Conselheiro José Silvestre Ribeiro,Carnide
+1784,Autoparque Roma,Areeiro
+1785,Rua António Botto,Santa Clara
+1786,Praça Dom Manuel I,Belém
+1787,Rua 1º Cabo José Martins Silvestre,Olivais
+1788,Rua de Entrecampos,Areeiro
+1789,,Ajuda
+1790,Rua José Duro,Alvalade
+1791,Rua Luís Augusto Palmeiri,Alvalade
+1792,Rua Marquesa de Alorna,Alvalade
+1793,Rua Padre Abel Varzim,Parque das Nações
+1794,Rua do Barão de Monte Pedral,São Vicente
+1795,Rua Prof. Eduardo Cortesão,Lumiar
+1796,Travessa de Sandokan,Parque das Nações
+1797,Travessa do Gil,Parque das Nações
+1798,Rua Joaquim Rocha Cabral,Alvalade
+1799,Travessa Robinson Crusoé,Parque das Nações
+1800,Travessa do Gulliver,Parque das Nações
+1801,Travessa de Gulliver,Parque das Nações
+1802,Praceta Professor José Conde,Lumiar
+1803,Avenida José Régio,Alvalade
+1804,Largo Maria Judite de Carvalho,Parque das Nações
+1805,Quinta da Pimenteira,Alcântara
+1806,Avenida Cidade do Porto,Olivais
+1807,Praça de Dio,Belém
+1808,Praça de Diu,Belém
+1809,Rua dos Cruzados,Parque das Nações
+1810,Jardim Luis Ferreira,Penha de França
+1811,Passeio das Musas,Parque das Nações
+1812,Largo Conde de Ottolini,São Domingos de Benfica
+1813,,Areeiro
+1814,Rua Hermínio Monteiro,Lumiar
+1815,Rua D. António Caetano da Costa,Benfica
+1816,Rua José Afonso,São Domingos de Benfica
+1817,Rua Pablo Neruda,Santa Clara
+1818,Rua Cândido de Oliveira,Olivais
+1819,Beco da Lapa,Santa Maria Maior
+1820,Calçadinha do Tijolo,Santa Maria Maior
+1821,Rua Pires Jorge,Carnide
+1822,Impasse  à Rua Sousa Loureiro,São Domingos de Benfica
+1823,Estrada de Monsanto,Benfica
+1824,Praça Francisco de Morais,Alvalade
+1825,Rua Mário Beirão,São Domingos de Benfica
+1826,Rua do Grafanil,Santa Clara
+1827,Rua Alfredo Trindade,Lumiar
+1828,Avenida Doutor Augusto de  Castro,Marvila
+1829,Av. Marechal Craveiro Lop,Olivais
+1830,Estrada da Cruz,Ajuda
+1831,Avª Marechal Craveiro Lop,Olivais
+1832,Estrada Bela Vista,Benfica
+1833,Rua Tomás da Fonseca,Alvalade
+1834,Rua Professor Eduardo Araújo Coelho,Lumiar
+1835,Rua Reis Pinto,Santa Clara
+1836,Rua Luís Sá,Santa Clara
+1837,Rua Maria José da Guia,Lumiar
+1838,Rua Jorge Álvares,Belém
+1839,Rua Frederico de Brito ,Santa Clara
+1840,Rua Frederico de Brito,Santa Clara
+1841,Rua Henrique Barrilaro Ruas,Penha de França
+1842,Largo José Mariano Gago,Parque das Nações
+1843,Passeio das Gáveas ao Parque das Nações,Parque das Nações
+1844,Praceta da Quinta do Guarda-Mor,Lumiar
+1845,Rua Rainha D. Brites,Benfica
+1846,Rua das Barracas,Arroios
+1847,Impasse 1 (Rua Actriz Adelina Abranches),Benfica
+1848,Rua Ferrer Trindade,Lumiar
+1849,Rua Contra-Almirante Armando Ferraz,Olivais
+1850,Praça do Aeroporto,Alvalade
+1851,Praça do Aeroporto,Olivais
+1852,Terreiro das Ondas,Parque das Nações
+1853,Rua da Mesquita,Campolide
+1854,Estrada do Penedo,Ajuda
+1855,Rua da Arriaga,Estrela
+1856,Jardim Alice Cruz,São Domingos de Benfica
+1857,Praça de São Paulo,Misericórdia
+1858,Rua Luís Piçarra,Lumiar
+1859,Travessa dos Inglesinhos,Misericórdia
+1860,Largo do Ministro,Santa Clara
+1861,TESTE,Belém
+1862,Rua josé Rodrigues Miguéi,Benfica
+1863,José Rodrigues Miguéis,Benfica
+1864,Rua Fernanda Botelho,Benfica
+1865,Complexo Desportivo do Alto do Lumiar,Lumiar
+1866,Rua João José Cochorel,Marvila
+1867,Jardim Fernando Pessa,Areeiro
+1868,Travessa de Francisco Rezende,Benfica
+1869,Rua Furriel João Nunes Redondo,Olivais
+1870,Alameda Keil do Amaral,Ajuda
+1871,Rua de São Tomé,São Vicente
+1872,Beco dos Fróis,Santa Maria Maior
+1873,Rua da Fábrica da Estampa,Beato
+1874,Estrada da Circunvalação,Santa Clara
+1875,Azinhaga das Galinheiras,Santa Clara
+1876,Rua Alvisse Cadamosto,Belém
+1877,Rua Cidade de João Belo,Olivais
+1878,Rua Sargento José Paulo dos Santos,Olivais
+1879,Largo Doutor António Viana,Campo de Ourique
+1880,Rua Luís Oliveira Guimarães,Santa Clara
+1881,Praça Manuel Cerveira Pereira,Beato
+1882,Rua Ribeiro Sanches,Estrela
+1883,Rua General Farinha Beirão,Arroios
+1884,Travessa Ferragial,Santa Maria Maior
+1885,Estrada da Ameixoeira,Santa Clara
+1886,Escadinhas da Praia,Estrela
+1887,Rua António Feijó,São Domingos de Benfica
+1888,Caminho do Arboreto,Parque das Nações
+1889,Passeio do Tejo,Parque das Nações
+1890,Praça David Leandro da Silva,Marvila
+1891,Rua Cidade de Quelimene,Olivais
+1892,Rua Direita de Palma,São Domingos de Benfica
+1893,Palácio Pimenta,Alvalade
+1894,Rua Carlos Gentil,Marvila
+1895,Rua Roy Campbell,Ajuda
+1896,Rua Vieira Portuense,Belém
+1897,Rua Ferreira de Castro,
+1898,Praça Gonçalo Trancoso,Alvalade
+1899,Rua Armando Cortez,Campolide
+1900,Rua Alfredo Cortês,Alvalade
+1901,Avenida Fontes Pereira de Melo,
+1902,Rua Alferes Carvalho Pereira,Olivais
+1903,Rua Sete,Alcântara
+1904,Rua António Variações,Parque das Nações
+1905,Avenida dos Bombeiros,Belém
+1906,Jardim Alfredo Keil,Santo António
+1907,Rua Ciríaco de Cardoso,Ajuda
+1908,Jardim Quinta de Santa Clara,Santa Clara
+1909,Praça de Damão,Belém
+1910,Rua dos Archeiros,Ajuda
+1911,Rua da Igreja ao Bairro do Caramão da Ajuda,Ajuda
+1912,Av. Doutor Francisco Luis,Olivais
+1913,Avenida Doutor Francisco ,Olivais
+1914,Praça António Sardinha,Penha de França
+1915,Passeio dos Argonautas,Parque das Nações
+1916,Rua Interior Particular,São Domingos de Benfica
+1917,Rua do Adeus Português,Parque das Nações
+1918,Estrada de Caselas,Ajuda
+1919,Jardim dos Jacarandás,Parque das Nações
+1920,Praça Sócrates da Costa,Beato
+1921,Rua Diogo Bernardes,Alvalade
+1922,Rua dos Vaga Lumes,Ajuda
+1923,Rua Pedro Correia Marques,São Domingos de Benfica
+1924,Jardins de Água,Parque das Nações
+1925,Azinhaga do Vale Fundão,Marvila
+1926,Rua do Rio Cávado,Carnide
+1927,Rua Bernardo de Passos,Areeiro
+1928,Rua Desidério Beça,Areeiro
+1929,Rua Pedro Azevedo,Marvila
+1930,Praça Dr. Fernando Amado,Marvila
+1931,Avenida General Correia Barreto,Campolide
+1932,Auto-Estrada 5,Ajuda
+1933,Rua Onze,Olivais
+1934,Rua de Chibuto,Olivais
+1935,Rua Eurico da Fonseca,Olivais
+1936,Passeio do Levante,Parque das Nações
+1937,Praça de São Bento,Estrela
+1938,Rua do O Século,Misericórdia
+1939,Vila Guiné,Benfica
+1940,Rua Reinaldo Manuel dos Santos,Campolide
+1941,Praça do Venturoso,Parque das Nações
+1942,,Marvila
+1943,Rua do Conselheiro Lopo Vaz,Parque das Nações
+1944,Azinhaga do Planeta,Beato
+1945,Rua Dr. Francisco Luis Gomes,Olivais
+1946,Rua Marques da Silva,Penha de França
+1947,Rua Henrique Medina,Parque das Nações
+1948,Travessa da Palma,Arroios
+1949,Travessa de Gaspar Trigo,Arroios
+1950,Travessa do Colégio,Arroios
+1951,Rua António Patrício,Alvalade
+1952,Rua Alfredo Portela Santos,Parque das Nações
+1953,Rua Bojador,Parque das Nações
+1954,Avenida de Berlim,Parque das Nações
+1955,Via Recíproca,Parque das Nações
+1956,Rua Joly Braga Santos,São Domingos de Benfica
+1957,Rua Manuel Martins da Hora,Santa Clara
+1958,Rua Armando Ferreira,Santa Clara
+1959,Rua Fernando Cabral,Santa Clara
+1960,Rua Dra. Sara Benoliel,Parque das Nações
+1961,Rua Câmara Reis,Parque das Nações
+1962,Rua José Alves ao Grilo,Beato
+1963,Rua do Arco a São Mamede,Santo António
+1964,Largo de São Mamede,Santo António
+1965,Rua Maestro Pedro de Freitas Branco,Santo António
+1966,Rua Nova de São Mamede,Santo António
+1967,Avenida Engenheiro Duarte Pacheco,Campo de Ourique
+1968,Rua do Guarda-Jóias,Ajuda
+1969,Rua Eng. Ferreira Dias,Marvila
+1970,Rua de Ponta Delgada,Arroios
+1971,Rua Eng. Paulo de Barros,Benfica
+1972,Rua Júlio de Andrade,Arroios
+1973,Rua Rainha  Dona Catarina,Benfica
+1974,Avenida Fontes Pereira de Melo,Santo António
+1975,Largo do Jerónimos,Belém
+1976,JI/EB 1 Santo Condestável,Campo de Ourique
+1977,Rua Pereira e Sousa,Campo de Ourique
+1978,Rua João da Mota e Silva,Campolide
+1979,Rua Manuel de Azevedo Fortes,Campolide
+1980,Rua Dom Pedro de Cristo,Alvalade
+1981,Rua Padre Domingos Maurício dos Santos,Campolide
+1982,Rua António Guedes Pereira,Campolide
+1983,Escadinhas Monte Prado,Campo de Ourique
+1984,Estrada Bela Vista,Campolide
+1985,Rua Vinte e Oito,Olivais
+1986,Avenida do Mediterrâneo,Parque das Nações
+1987,Travessa Corto Maltese,Parque das Nações
+1988,Largo das Seis Marias,Lumiar
+1989,Rua Vila Catió,Olivais
+1990,Rua Vinte e Cinco,Olivais
+1991,Rua Maria Lamas,Benfica
+1992,Quinta de São João (Estrada de Monsanto),Benfica
+1993,Rua da Ilha do Príncipe,Arroios
+1994,Rua de Moçambique,Arroios
+1995,Rua do Baixo Limpopo,Olivais
+1996,Via Projetada A ao Casal Vistoso,Areeiro
+1997,Rua do Instituto Bacteriológico,Arroios
+1998,Azinhga das Galinheiras,Santa Clara
+1999,Rua Vasco da Gama Rodrigues,Parque das Nações
+2000,Rua  Padre Joaquim Alves Correia,Parque das Nações
+2001,Avenida Avelino Teixeira ,Marvila
+2002,Rua Maria Ribeiro,Lumiar
+2003,Rua das Flores de Santa Cruz,Santa Maria Maior
+2004,Travessa do Noronha,Santo António
+2005,Rua Jacinto Nunes,Penha de França
+2006,Rua  Interior Particular,
+2007,Rua 1,Avenidas Novas
+2008,Largo Professor Arnaldo Sampaio,Campolide
+2009,Rua General Leman,Avenidas Novas
+2010,Largo das Pimenteiras,Carnide
+2011,Rua 8,Campolide
+2012,Rua Maria Brown,Carnide
+2013,Rua dos Remédios,Santa Maria Maior
+2014,Rua Cristóvão Rodrigues Acenheiro,Ajuda
+2015,Rua Carlos Ferrão,Ajuda
+2016,Rua Carlos Gil,Marvila
+2017,Rua Manuel Martins da Hor,Santa Clara
+2018,Avenida Glicinia Quartin,Santa Clara
+2019,Avenida Gicinia Quartin,Santa Clara
+2020,Rua Robalo Gouveia,Areeiro
+2021,Escadinhas de Santo Amaro,Alcântara
+2022,Rua General Gomes Araújo,Estrela
+2023,Rotunda Expo 98,Parque das Nações
+2024,Rua do Mar do Norte,Parque das Nações
+2025,Rua do Jardim à Estrela,Estrela
+2026,Jardim Amélia Carvalheira,Avenidas Novas
+2027,Rua Sá Nogueira,Ajuda
+2028,Avenida do Santo Condestável,Marvila
+2029,Rua dos Fanqueiros,Santa Maria Maior
+2030,Rua de Santa Justa,Santa Maria Maior
+2031,Travessa do Guarda-Jóias,Ajuda
+2032,Travessa do Fala-Só,Santo António
+2033,Rua José Osório de Oliveira,Ajuda
+2034,Rua santa Susana,Santa Clara
+2035,Rua Maia Ataíde,Benfica
+2036,Rua Manjacaze,Olivais
+2037,Rua Leão de Oliveira,Alcântara
+2038,Largo da Oliveirinha,Santo António
+2039,Rua Dom João de Castro,Alcântara
+2040,Azinhaga da Cidade ,Santa Clara
+2041,Largo de Andaluz,Santo António
+2042,Travessa do Chão do Loureiro,Santa Maria Maior
+2043,Quinta da Paz,Lumiar
+2044,Travessa do Tarujo,Campolide
+2045,Largo do Chiado,Misericórdia
+2046,Travessa da Rabicha,Campolide
+2047,Travessa do Colégio,Santa Maria Maior
+2048,Rua João Frederico Ludivi,Benfica
+2049,Largo Jaime de Carvalho,Olivais
+2050,Rua Pinheiro Furtado,Santa Maria Maior
+2051,Rua Manuel Costa e Silva,Lumiar
+2052,Rua das Chagas,Misericórdia
+2053,Travessa da Laranjeira,Misericórdia
+2054,Rua das Beatas,São Vicente
+2055,Rua dos Poiais de São Bento,Misericórdia
+2056,Largo do Convento da Encarnação,Arroios
+2057,Largo de São Domingos,Santa Maria Maior
+2058,Escadinhas de São Miguel,Santa Maria Maior
+2059,Rua José Carlos Sá da Silveira,São Domingos de Benfica
+2060,,São Vicente
+2061,Rua de Sapadores,São Vicente
+2062,Rua Almirante Afonso Cerqueira,Campolide
+2063,Rua Manuel Mendes,Parque das Nações
+2064,Travessa do Sacramento a ,Estrela
+2065,Rua José Saramago,
+2066,Beco do Surra,Santa Maria Maior
+2067,Rocha Conde de Óbidos,Estrela
+2068,Rua 17 do Bairro da Encar,Olivais
+2069,Clube Nacional de Natação,Campo de Ourique
+2070,Beco dos Armazens do Linho,Santa Maria Maior
+2071,Rua Eugénio Salvador,Carnide
+2072,Passeio do Levante ,Parque das Nações
+2073,Rua Prof Eduardo Cortesão,Lumiar
+2074,Lateral Oeste Gare do Ori,Parque das Nações
+2075,Rua Tito de Morais,Santa Clara
+2076,Rua Nunes Claro,Areeiro
+2077,Avenida Frei Miguel Contreras,Alvalade
+2078,Rua Ferreira de Chaves,Campolide
+2079,Rua Laura Alves,Avenidas Novas
+2080,Praça do Oriente,Parque das Nações
+2081,Travessa do Possolo,Estrela
+2082,Rua do Caribe,Parque das Nações
+2083,Largo das Bicas,Parque das Nações
+2084,Avenida Machado dos Santo,São Domingos de Benfica
+2085,Rua da Bela-Flor,Campolide
+2086,Rua Padre Joaquim Alves C,Parque das Nações
+2087,Calçada de Santa Catarina,Beato
+2088,Rua António Champalimaud,Carnide
+2089,Cais do Olival,Parque das Nações
+2090,Avenida Avelino Teixeira da Mota ,Marvila
+2091,Avenida Avelino Teixeira da Mota,Marvila
+2092,Rua Jangada de Pedra,Parque das Nações
+2093,Rua Cidade de Nampula,Olivais
+2094,Rua Fernanda Alves,Santa Clara
+2095,Praça da Viscondessa dos Olivais,Olivais
+2096,Passeio das Fragatas,Parque das Nações
+2097,Rua Severo Portela,Marvila
+2098,Praça Cottinelii Telmo,Olivais
+2099,Largo do Limoeiro,Santa Maria Maior
+2100,Rua Luis Piçarra,Lumiar
+2101,Rua da Guarda Nacional Republicana,Ajuda
+2102,Rua das Açucenas,Ajuda
+2103,Rua João Lúcio,Alvalade
+2104,Rua da Vitória,Santa Maria Maior
+2105,Passeio do Adamastor,Parque das Nações
+2106,Rua Professor Almeida Lim,Carnide
+2107,Rua Vinte e Sete,Olivais
+2108,Rua Alfredo Franco,Olivais
+2109,Rua Padre Reis Lima,Belém
+2110,Alto de Caselas,Belém
+2111,Rua da Igreja (Bairro de Caselas),Belém
+2112,Rua das Escolas,Olivais
+2113,Praça Carlos Ramos,Olivais
+2114,Rua da Ilha do Pico,Arroios
+2115,Rua Fialho de Almeida,Campolide
+2116,Rua Conselheiro Silvestre Ribeiro,Carnide
+2117,Largo dos Trigueiros,Santa Maria Maior
+2118,Rua Jorge Segurado,Lumiar
+2119,Estrada de São Bartolomeu,Santa Clara
+2120,Rua 2 do Bairro da Quinta das Pedralvas,Benfica
+2121,Rua Luís Cristino da Silva ,
+2122,Rua LuísCristino da Silva ,
+2123,Rua L uís Cristino da Silva,
+2124,Rua Nélson de Barros,Penha de França
+2125,Rua de São Bento,Misericórdia
+2126,Travessa da Portuguesa,Misericórdia
+2127,Rua do Vale de Pereiro,Santo António
+2128,Rua do Saco,Arroios
+2129,Travessa do Corto Maltese,Parque das Nações
+2130,Rua Berta Cardoso,Santa Clara
+2131,Avenida 24 de Julho,Estrela
+2132,Rua Maria Violante Vieira,Benfica
+2133,Estrada do Forte,Benfica
+2134,Largo Rodrigues de Freitas,São Vicente
+2135,Largo Rodrigues de Freitas,Santa Maria Maior
+2136,Travessa do Almada,Santa Maria Maior
+2137,Jardim Dr. Mário Soares,Alvalade
+2138,Rua Amorim,Marvila
+2139,Rua Zófimo Pedroso,Marvila
+2140,Travessa de Santos,Estrela
+2141,Rua Quinta do Marquês de Abrantes ,Marvila
+2142,Rua Quinta do Marquês de Abrantes,Marvila
+2143,Praça Cidade de São Salvador,Olivais
+2144,Largo das Roseiras,Marvila
+2145,Rua Mário Viegas,Parque das Nações
+2146,Travessa de São Plácido,Campo de Ourique
+2147,Praça de Chinde,Olivais
+2148,Largo da Boa-Hora à Ajuda,Ajuda
+2149,Largo Coronel Mata Pereira,Beato
+2150,Rua António Luís Inácio,Penha de França
+2151,Rua José Sarmento,Areeiro
+2152,Av. Marechal Gomes da Cos,Olivais
+2153,Rua 12,Olivais
+2154,Ponte 25 de Abril,Alcântara
+2155,Rua Dez,Alcântara
+2156,Azinhaga do Pombeiro,Marvila
+2157,Rua Quinze,Olivais
+2158,Rua de São Miguel,Santa Maria Maior
+2159,Rua do Cruzado Osberno,
+2160,Escadinhas do Arco de Dona Rosa,São Vicente
+2161,Largo do Sequeira,São Vicente
+2162,Jardim Quinta de Santo António,Santa Clara
+2163,Rua Damasceno Monteiro,São Vicente
+2164,Pátio das Pirogas,Parque das Nações
+2165,Rua do Rio Vizela,Carnide
+2166,Rua do Rio Arade,Carnide
+2167,Rua do Rio Minho,Carnide
+2168,Rua do Rio Torgal,Carnide
+2169,Rua Pedro Cruz,Marvila
+2170,Praceta Maestro Ivo Cruz,Benfica
+2171,Travessa do Pergoeiro,
+2172,Rua Henrique Moutinho,Belém
+2173,Avenida Praia da Vitória,Avenidas Novas
+2174,Rua da Escola Politécnica,Misericórdia
+2175,Pátio do Ministro,Santa Clara
+2176,Praceta da Quinta do Guar,Lumiar
+2177,Rua Dra Sara Benoliel,Parque das Nações
+2178,Avenida do Colégio Milita,Carnide
+2179,Rua do Arco da Graça,Santa Maria Maior
+2180,Rua Shegundo Galarza,Lumiar
+2181,Rua General José Paulo Fernandes,Ajuda
+2182,Rua Conselheiro Lopo Vaz,Parque das Nações
+2183,Rua Adriana de Vecchi,Lumiar
+2184,Impasse à Rua  Sousa Loureiro,São Domingos de Benfica
+2185,Eua Armando Ferreira,Santa Clara
+2186,Rua dos Quartéis,Ajuda
+2187,Largo Ramada Curto,Parque das Nações
+2188,Rua da Bela Vista à Lapa,Estrela
+2189,Rua Lucina Stegagno Picch,São Domingos de Benfica
+2190,Avenida João Paulo VI,Marvila
+2191,Praça Afrâneo Peixoto,Areeiro
+2192,Rua Machado de Castro,São Vicente
+2193,Travessa do Adro,Olivais
+2194,Rua das Damas,Santa Maria Maior
+2195,Pátio de Dom Fradique,Santa Maria Maior
+2196,Calçada Nova de São Francisco,Santa Maria Maior
+2197,Rua Basílio Teles ,São Domingos de Benfica
+2198,Rua do Benformoso,Santa Maria Maior
+2199,Rua Henrique Medidna,Parque das Nações
+2200,Rua Aquiles Machado,Beato
+2201,Rua João Frederico Ludovi,Benfica
+2202,Travessa dos Fornos,Ajuda
+2203,Rua Prof. Simões Raposo,Lumiar
+2204,Rua do Triângulo Vermelho,Penha de França
+2205,Rua João de Castilho,Ajuda
+2206,Rua da Macia,Olivais
+2207,Rua António Lopes Ribeiro,Lumiar
+2208,Avenida Gomes Pereira,Avenidas Novas
+2209,Rua Vila Sena ,Olivais
+2210,Rua do Salitre,Santo António
+2211,Praça de Alvalade,Alvalade
+2212,Rua dos Margiochis,Belém
+2213,Avenida Infante Dom Henrique,Parque das Nações
+2214,Rua Luís Cristino da Silav,
+2215,Rua Pedro José Pezerat,Marvila
+2216,Rua Luís Cristino da Silv,Marvila
+2217,Rua Luís Cristino da Silava,
+2218,Rua César de Oliveira ,Lumiar
+2219,Av. Rainha Dona Amélia,Lumiar
+2220,Rua Nóbrega  e Sousa,Lumiar
+2221,Rua Mário Botas ao Parque das Nações,Parque das Nações
+2222,Vila Martel,Santo António
+2223,Calçada do Forte da Ameixoeira,Santa Clara
+2224,Calçada do Forte da Amaix,Santa Clara
+2225,Calçada do Forte da Ameix,Santa Clara
+2226,Calçada do Forte  da Ameixoeira,Santa Clara
+2227,Avdenida Glicínia Quartin,Santa Clara
+2228,Rua Ana Castro Osório,Carnide
+2229,Avenida Doutor Augusto de,Marvila
+2230,Rua Rodrigo Reinel,Belém
+2231,Rua Mem de Sá,Alvalade
+2232,Rua Silva e Albuquerque,Alvalade
+2233,Rua Vice-Almirante August,Olivais
+2234,Alameda das Linhas de Torres oposto ao nº 219 A,Lumiar
+2235,Rua Doutor João Couto,Benfica
+2236,Rua Virgílio Martinho,Carnide
+2237,Rua dos Cordoeiros,Misericórdia
+2238,Rua Damião de Góis,Belém
+2239,Avenida Alfredo Duarte (Marceneiro),Marvila
+2240,Rua Aristide de Sousa Men,Carnide
+2241,Rua de Santa Bárbara,Arroios
+2242,E.B. Rainha Santa Isabel,Campo de Ourique
+2243,Rua da Pedreira do Fernandinho,Campolide
+2244,Rua do Rio Vez,Carnide
+2245,Azinhaga dos Alfinetes,Marvila
+2246,Rua de Xabregas,Beato
+2247,Rua 2 do Cemitério do Lumiar,Lumiar
+2248,Rua 10 do Cemitério do Lumiar,Lumiar
+2249,Rua 4 do Cemitério do Lumiar,Lumiar
+2250,Rua 3 do Cemitério do Lumiar,Lumiar
+2251,Rua 5 do Cemitério do Lumiar,Lumiar
+2252,Rua 1 do Cemitério do Lumiar,Lumiar
+2253,Rua 7 do Cemitério do Lumiar,Lumiar
+2254,Rua 9 do Cemitério do Lumiar,Lumiar
+2255,Rua 14 do Cemitério do Lumiar,Lumiar
+2256,Rua Fernando Namora 35 B,Lumiar
+2257,Rua Melo Antunes nº 2 (Pa,Santa Clara
+2258,Largo de Santa Luzia,Santa Maria Maior
+2259,Rua Manuel Marques,Lumiar
+2260,Rua Rio Guadiana,Carnide
+2261,Rua de São João da Mata,Estrela
+2262,Rua Fernando Namora lateral nº 34 D,Lumiar
+2263,Beco do Paiol,Campo de Ourique
+2264,Rua da Penha de França,São Vicente
+2265,Rua da Quinta das Conhas,Lumiar
+2266,Traseiras da Rua Alberto ,Marvila
+2267,Rua da Quinta das Conchas,Lumiar
+2268,Largo da Madre Deus,Beato
+2269,Rua E do bairro da Boavis,Benfica
+2270,Rua do Conselheiro Lopo V,Parque das Nações
+2271,Rua Dom José de Bragança,Beato
+2272,Rua 1º Cabo José Martins ,Olivais
+2273,Avenida Vergílio Ferreira,Marvila
+2274,Rua Bernarda Ferreira Lacerda,Alvalade
+2275,Praça Baden Powell,Olivais
+2276,RUA D - PUAL,Lumiar
+2277,Rua 13,Belém
+2278,Rua Eng. Caldeira Rodrigues,Alvalade
+2279,Rua Neves Costa,Carnide
+2280,Rua de São Sebastião da Pedreira,Avenidas Novas
+2281,Rua Roberto Duarte da Sil,São Domingos de Benfica
+2282,Rua Cidade Carmona,Olivais
+2283,Rua General Schiappa Mont,São Domingos de Benfica
+2284,Travessa do Patrocínio,Estrela
+2285,Rua Tristão Vaz,Belém
+2286,Rua Dom Pedro V,Santo António
+2287,Rua do Arco da Graça,Arroios
+2288,Largo do Rato,Santo António
+2289,Alto do Penalva,Santo António
+2290,Rua de Santo António da Glória,Santo António
+2291,Travessa da Piedade,Misericórdia
+2292,Largo Calderon Dinis,Parque das Nações
+2293,Rua Sem Nome ao Estacionamento à Estrada da Correia,Carnide
+2294,Rua Virgílio Ferreira,Marvila
+2295,Largo Professor Arnaldo S,Campolide
+2296,Via Paralela à Av. Lusíada,São Domingos de Benfica
+2297,Traseiras da Rua Ferreira,Marvila
+2298,Traseiras da Rua Ferreira de Castro,Marvila
+2299,Estrada de Chelas,Penha de França
+2300,Avenida Estados Unidos da,Alvalade
+2301,Rua Nova da Trindade,Misericórdia
+2302,Não identificadaPasseio do Levante,Parque das Nações
+2303,Av. General Roçadas,Penha de França
+2304,Estrada do Calhariz de Be,Benfica
+2305,Rua Quinta da Graça,Marvila
+2306,Largo Manuel Emídio da Silva,São Domingos de Benfica
+2307,Rua Sebastião Saraiva Lima,Penha de França
+2308,Rua Professor Mira Fernandes,Beato
+2309,Rua Dom Luís Coutinho,Beato
+2310,Rua 2,Belém
+2311,Rua Vitorino Magalhães Godinho,Parque das Nações
+2312,Alameda dos Oceanos ,Parque das Nações
+2313,Rua das Urcas,Parque das Nações
+2314,Rotunda do Principe Perfeito,Parque das Nações
+2315,Avenida Avelino Teixeira    ,Marvila
+2316,Travessa da Escola Araújo,Arroios
+2317,Praça João de Azevedo Cou,Penha de França
+2318,Rua Alferes Barrilaro Rua,Olivais
+2319,Rua Projetada à Rua do Co,Parque das Nações
+2320,Rua do Eufrates,Parque das Nações
+2321,Rua Mário Sampaio Ribeiro,Lumiar
+2322,Avenida Marechal Francisc,Areeiro
+2323,Largo de São Cristóvão,Santa Maria Maior
+2324,Rua dos Navegantes,Estrela
+2325,Escadinhas de São Cristóvão,Santa Maria Maior
+2326,Sítio do Barcal,São Domingos de Benfica
+2327,Avenida da Peregrinação,Parque das Nações
+2328,Rua Alves Gouveia,Olivais
+2329,Rua Maria Margarida ,Lumiar
+2330,Rua Doutor Henrique Marti,Lumiar
+2331,Rua José António Lopes,Beato
+2332,Rua Celestino Alves,Beato
+2333,Rua Dinah Silveira de Queiroz,Marvila
+2334,Rua Pereira Henriques,Marvila
+2335,Rua Garcia de Resende tra,Lumiar
+2336,Rua João Graça Barreto,Marvila
+2337,Av. Gen. Norton de Matos,São Domingos de Benfica
+2338,Rua Ruben Cunha,Lumiar
+2339,Rua Brito Aranha,Avenidas Novas
+2340,Passeio dos Mastros,Parque das Nações
+2341,Rua Augusto Macedo,Carnide
+2342,Rua Augusto de Macedo,Carnide
+2343,Rua Merlvin Jones,São Domingos de Benfica
+2344,Avenida Machado Santos,São Domingos de Benfica
+2345,Rua Duarte Lopes,Marvila
+2346,Rua de Vila Fontes,Olivais
+2347,Agostinho Neto,Lumiar
+2348,Rua Agostinho Nerto,Lumiar
+2349,Estrada de Queluz,Ajuda
+2350,Jardim Maria da Luz Ponce,Santa Clara
+2351,Parque Eduardo VII de Ing,Avenidas Novas
+2352,Rua das Acácias,Benfica
+2353,Jardim Nove de Abril,Estrela
+2354,Rua Nova do Calhariz,Ajuda
+2355,Travessa D. Pedro de Menezes,Santa Maria Maior
+2356,Rua b Alberto de Oliveira,Alvalade
+2357,Rua Bento Gonçalves,Marvila
+2358,Rua Prof. Lima Basto,São Domingos de Benfica
+2359,Rua Pofessor Lima Basto,São Domingos de Benfica
+2360,Estrada das Laranjeiras,São Domingos de Benfica
+2361,Avenida Óscar Monteiro Torres,Parque das Nações
+2362,Rua Projectada,Campolide
+2363,Travessa do Barbosa,Campo de Ourique
+2364,Rua Manuel da Silva Leal,São Domingos de Benfica
+2365,Rua F1 à Urb. Quinta dos Alcoutins,Lumiar
+2366,Pátio do Tijolo,Misericórdia
+2367,Rua Conde Ficalho,Alvalade
+2368,Rua Duarte Vidal,Lumiar
+2369,Rua António Alçada Baptista,São Domingos de Benfica
+2370,Rua António Alçada Baptis,São Domingos de Benfica
+2371,Avenida Eusébio da Silva Ferreira,São Domingos de Benfica
+2372,Rua Prof. Manuel Cavaleiro de Ferreira,Lumiar
+2373,Passeio da Nau Catrineta,Parque das Nações
+2374,Passeio dos Aventureiros,Parque das Nações
+2375,Rua Eng. Cunha Leal,Marvila
+2376,Travessa das Águas-Boas,São Domingos de Benfica
+2377,Rua das Calvanas,Santa Clara
+2378,Rua Lino de Carvalho,Santa Clara
+2379,Travessa das Zebras,Belém
+2380,Largo da Penha de França,Penha de França
+2381,Rua Ernesto da Silva,Benfica
+2382,Rua Alberto José Pessoa,Marvila
+2383,Rua Três à Rua João de Castilho,Ajuda
+2384,Rua Xavier Cordeiro,Areeiro
+2385,Rua Blasco Hugo Fernandes,Santa Clara
+2386,Rua Eng. Rodrigues de Carvalho,Marvila
+2387,Rua do Rio das Pérolas,Parque das Nações
+2388,Rua Carlos Amaro,Santa Clara
+2389,Azinhgad da Cidade,Santa Clara
+2390,Calçada de Santana,Arroios
+2391,Largo Agostinho da Silva,Santo António
+2392,Rua de São Pedro de Alcântara,Lumiar
+2393,Alto do Longo,Misericórdia
+2394,Avenida Duque d' Ávila,Avenidas Novas
+2395,Avenida Dr Arlindo Vicente,Marvila
+2396,Traseiras da  Rua Ferreir,Marvila
+2397,Praça do Príncipe Real,
+2398,Rua Tomás da Anunciação,Campo de Ourique
+2399,Interface  do Campo Grand,Lumiar
+2400,Rua Melo Antunes nº 2 (Parq. Inf.),Santa Clara
+2401,Rua Teófilo Carvalho dos Santos,Lumiar
+2402,Rua Vinte e Nove,Olivais
+2403,Rua Sete,Olivais
+2404,Rua Virgínia Quaresma,Belém
+2405,Largo Américo Rosa Guimarães,Olivais
+2406,Avenida Doutor Alfredo Bensaúde,Parque das Nações
