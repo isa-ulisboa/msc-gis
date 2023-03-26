@@ -39,7 +39,7 @@ The geopackage `DataIn.gpkg` contains 3 vector data sets and 3 tables:
 
 1. Make a preliminary analyses of the characteristics of raster data sets
     
-     – using Layer properties > Source tab, analyse the raster file characteristics: number of rows and columns, cell size, pixel type, raster extent and CRS.
+     – using Layer properties > Source tab, analyse the raster file characteristics: number of rows and columns, cell size, pixel type, raster extent and CRS. You will need these values later.
 
 2. Always start by creating a diagram of operations before implementing a solution for the next problems.
 
@@ -53,19 +53,60 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
 ## 3. Problem 2: conversion (vector to raster), boolean reclassification and overlay operations
 
-Identify the zones of civil parish Estela (code=4) with soil use Horticulture in 2003 (code=9) and soil type arenosol (code=1). 
+*Identify the zones of civil parish Estela (code=4) with soil use Horticulture in 2003 (code=9) and soil type arenosol (code=1).*
 
-Tools needed:
-- Reclassify (Spatial Analysis tools)
-- Feature to Raster (Conversion tools) - **Note**: you can use an existing raster to provide the *environment* (extent, cell size, snap raster) to the new raster created
-- Raster Calculator
+1. Convert the vector layer `Soil` to a raster layer `Soil_raster`
+    - in **QGIS**, use the menu *Raster -> Conversion -> Rasterize (Vector to Raster)*. Use the following parameters for the conversion:
+        - field to be burn: `SoilTypeCode`
+        - Output raster size units: `Georeferenced units`
+        - Width and Height resolution: the same of raster `Freguesias`
+        - Output extent: the same of raster `Freguesias`
+        - Output data type: `Int16`
+        - Save file as type: `Tif files`
+
+    - in **ArcGIS**, search for the tool in *Geoprocessing -> Spatial Analysis Tools -> Conversion tools -> Feature to Raster*. Use the following parameters for the conversion:
+        - field: `SoilTypeCode`
+        - Output cell size: select the raster `Freguesias.tif`
+        - In the tab *Environment*, select the raster `Freguesias.tif` as source for *Output Coordinates System*, *Processing Extent* and *Raster Analysis | Cell Size*
+
+        **Note**: you need to have active the license Spatial Analysis tool. If this is not the case, go to *Project -> Licensing -> Configure your licensing options*
+<br>
+
+2. Reclassify the necessary raster layers
+
+    The raster layers `Freguesia`, `Use2003` and `Soil_raster` have to be reclassified, in order to create new rasters where the code of the areas of interest should be classified as `1`, and everything else as `0`:
+
+    - in **QGIS**, search in the Processing Toolbox for the tool *Raster Analysis -> Reclassify by table*. Set the following parameters:
+        - select in *Raster layer* the raster to be reclassified
+        - In *Reclassification table*, add rows to the table with the intervals of values to be classified as `1`, and the ones to be classified as `0`
+        - set *Range boundaries* to be consistent with the intervals you defined in the table
+        - set Output data type as `int16`
+
+    - in **ArcGIS**, search for the tool in *Geoprocessing -> Spatial Analysis Tools -> Reclass -> Reclassify*. Use the following parameters for the conversion:
+        - select the Reclass field with the values to be reclassified
+        - create a reclassification table, either using *Classify* or *Unique*
+<br>
+
+3. Calculate the areas that fullfill all requirements
+
+    If all raster layers are classified as binary, where `1` represent the area of interest, the result of a map algebra operation between all layers will result in the areas of interest with the value `1`.
+
+    - in **QGIS**, search in the Processing Toolbox for the tool *Raster Calculator*. Set the following parameters:
+        - define the expression as the multiplication of all reclassified layers. Double click the layers to add them to the expression
+        - set cell size as the same of raster `Freguesias`
+        - set outpt extent as the same of raster `Freguesias`
+        - set Output CRS as the same of raster `Freguesias`
+
+    - in **ArcGIS**, search for the tool in *Geoprocessing -> Spatial Analysis Tools -> Raster Calculator*.
+        - perform a multiplication between all reclassified raster layers
 
 ## 4. Problem 3: conversion (raster to vector)
 
 Create a vector gds representing the regions the civil parish Estela (code=4) with soil use Horticulture in 2003 (code=9) and soil type arenosol (code=1).
 
 Tools needed:
-- Raster to Polygon
+- in **QGIS**, use the tool in the menu *Raster -> Conversion -> Polygonize (Raster to Polygon)*
+- In **ArcGIS**, use the tool *Raster to Polygon (Conversion)* 
 
 ## 5. Problem 4: create a continuous surface from a sample of points
 
