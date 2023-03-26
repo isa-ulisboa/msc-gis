@@ -87,7 +87,7 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
         - create a reclassification table, either using *Classify* or *Unique*
 <br>
 
-3. Calculate the areas that fullfill all requirements
+3. Calculate the areas that fullfil all requirements
 
     The previous step created raster layers are classified as binary, where pixels of value `1` represent the area of interest. By overlaying layers through a map algebra operation, it is possible to produce a result layer with the areas of interest containing being the value `1`. Which operation should be performed?
 
@@ -99,6 +99,8 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
     - in **ArcGIS**, search for the tool in *Geoprocessing -> Spatial Analysis Tools -> Raster Calculator*.
         - perform a multiplication between all reclassified raster layers
+<br>
+4. Compare your diagrammatic solution with other possible solutions for the exercise, available at [https://fenix.isa.ulisboa.pt/downloadFile/281547991170119/Ex5Diagram(Probl2and3twoSol).pdf](https://fenix.isa.ulisboa.pt/downloadFile/281547991170119/Ex5Diagram(Probl2and3twoSol).pdf) 
 
 ## 4. Problem 3: conversion (raster to vector)
 
