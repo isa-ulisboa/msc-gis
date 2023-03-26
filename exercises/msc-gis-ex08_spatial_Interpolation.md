@@ -72,7 +72,7 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
         **Note**: you need to have active the license Spatial Analysis tool. If this is not the case, go to *Project -> Licensing -> Configure your licensing options*
 <br>
 
-2. Reclassify the necessary raster layers
+2. Reclassify raster layers
 
     The raster layers `Freguesia`, `Use2003` and `Soil_raster` have to be reclassified, in order to create new rasters where the code of the areas of interest should be classified as `1`, and everything else as `0`:
 
@@ -89,10 +89,10 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
 3. Calculate the areas that fullfill all requirements
 
-    If all raster layers are classified as binary, where `1` represent the area of interest, the result of a map algebra operation between all layers will result in the areas of interest with the value `1`.
+    The previous step created raster layers are classified as binary, where pixels of value `1` represent the area of interest. By overlaying layers through a map algebra operation, it is possible to produce a result layer with the areas of interest containing being the value `1`. Which operation should be performed?
 
     - in **QGIS**, search in the Processing Toolbox for the tool *Raster Calculator*. Set the following parameters:
-        - define the expression as the multiplication of all reclassified layers. Double click the layers to add them to the expression
+        - define the expression as the multiplication between all of reclassified layers. Double click the layers to add them to the expression panel
         - set cell size as the same of raster `Freguesias`
         - set outpt extent as the same of raster `Freguesias`
         - set Output CRS as the same of raster `Freguesias`
@@ -104,9 +104,13 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
 Create a vector gds representing the regions the civil parish Estela (code=4) with soil use Horticulture in 2003 (code=9) and soil type arenosol (code=1).
 
+You can use thre resut from the previsou step, to convert it to vector layer.
+
 Tools needed:
 - in **QGIS**, use the tool in the menu *Raster -> Conversion -> Polygonize (Raster to Polygon)*
 - In **ArcGIS**, use the tool *Raster to Polygon (Conversion)* 
+
+Check for the need to apply a *Dissolve* operation to aggregate polygons with the same value. 
 
 ## 5. Problem 4: create a continuous surface from a sample of points
 
@@ -116,25 +120,30 @@ The IDW method generates a raster gds. The estimated value (the pixel value v) i
 
 1. Explore your data:
 - In the layer Wells, calculate the basic statistics for the attribute NO3conc: min, max, mean, median, std. dev., count
-- On the attribute table, use the context menu on the field name
-create a symbology with proportional symbols to represent the concentration of NO3
+    - On the attribute table, use the context menu on the field name
+    - Create a symbology with **proportional symbols** to represent the concentration of NO3
 
 2. Create a continuous surface estimated by the IDW method
 
     Tools needed:
-    - IDW or Geostatistical Wizard
+    - in **ArcGIS**, search for IDW as part of Geostatistical Wizard
+    - in **QGIS**, seacrh for IDW as part of the GDAL package
 
-    Parameters needed:
+    Note: Either in ArcGIS or QGIS, there are other implementations of the IDW algorithm, although with fewer parameters to be set. 
+<br>
+
+    Parameters needed (depending on the implementation):
     - Max neighbors - max number of samples to be used
     - Min neighbors - min number of samples to be used
-    - Sector type - defines how will the method search for the closest samples
+    - Search - defines how will the method search for the closest samples
     - Angle - if an anisotropy is present, this is the orientation of the major axis
 
     The values of these parameters need to be decided based on the preliminary statistical analysis. Additionally, the Geostatistical Wizard provided the cross-validation method to assess your model results.
 
 ## 6. Problem 5: create a continuous surface from a sample of points
 
-Based on the NO3 concentration values observed in the wells, estimate the NO3 concentration in the groundwater using the IDW method but changing some of the parameter values. Try to interpret the differences between the two gds.
+Do another interpolation, but changing the parameters of the model. Compare with the previous result to identify the influence of the parameters in the surface created.
+
 
 ## 7. Problem 6: reclassification
 
