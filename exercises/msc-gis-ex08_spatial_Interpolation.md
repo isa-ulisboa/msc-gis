@@ -154,3 +154,6 @@ Reclassify the raster created on problem 4 in order to create a new raster gds w
 ## 8. Additional problem:
 
 Build a raster gds representing the variation on forest use between 1990 and 2002.
+<br>
+
+Compare your diagrammatic solution with other possible solutions for the exercise, available at [https://fenix.isa.ulisboa.pt/downloadFile/281547991170120/Ex5AdditionalProblOneSol.pdf](https://fenix.isa.ulisboa.pt/downloadFile/281547991170120/Ex5AdditionalProblOneSol.pdf) 
