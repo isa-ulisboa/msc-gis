@@ -91,7 +91,7 @@ slope = rate of change of z / distance
 For each flow direction a different code is attributed. 
 If the maximum slope is the same for several cells, the neighborhood is extended until a higher value is found. If all neighbors have an altitude higher than the cell then it is a well (sink).
 
-Building a raster with flow directions
+Building a raster with flow directions:
 
 ![area](./images/ex11_img01.jpg) --> ![area](./images/ex11_img02.jpg) -->![area](./images/ex11_img03.jpg)-->![area](./images/ex11_img04.jpg)
 
