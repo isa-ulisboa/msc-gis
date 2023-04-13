@@ -21,7 +21,7 @@ The geopackage file `EspTopography_TM06` contains 5 gds containing:
 
 The gds representing point heights, streams and ridgelines are 3D (they include the z coordinate values)
 
-## 1.Create a DEM using the points, ridgelines, streams and contour gds
+## 1. Create a DEM using the points, ridgelines, streams and contour gds
 
 1. Create a TIN, using only the `PointHeights` and `ContourLines` layers
     - in ArcGIS, use the Create TIN (3D Analyst Tool) tool
