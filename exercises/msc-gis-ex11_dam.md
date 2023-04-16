@@ -36,10 +36,12 @@ The construction of the dam wall will modify the surface of the land, altering t
 
 Steps to implement:
 
-## 1. Create a gds of polygons (3D) corresponding to the projection of the dam wall 
+**1. Create a gds of polygons (3D) corresponding to the projection of the dam wall** 
     
     
-- create a polygon theme (`DamWallPolyg`) from the theme of lines representing the dam wall DamWall. 
+- create a polygon theme (`DamWallPolyg`) from the theme of lines representing the dam wall `DamWall`. 
+    - in ArcGIS, the tool is **Feature to Polygon**
+    - In QGIS, the tool is **Lines to Polygon**
     
 - With a suitable spatial operation on vector gds, erase the water lines and contours inside the wall projection polygon:
 
@@ -48,17 +50,27 @@ Steps to implement:
     - create a theme (`ApartBarr_alt`) with contours that are not under the dam wall, based on the gds `ApartaduraContours`
 
 - Create a TIN named `TINApartadura`, setting `ApartBarr_hid` and `ApartaduraRidges` as **hardline**, `ApartBarr_alt` and `DamWall` as **softline**. 
-    - In QGIS:
-        - use 20 m as pixel size    
-        - `ApartaduraContours` as Extent
+    - In ArcGIS, use the tool **Create TIN**
+    - In QGIS, use the tool **TIN Interpolation**
+        - Parameters:
+            - pixel size: 20 m    
+            - Extent: extent of `ApartaduraContours`
 
-## 2. Delimit the hydrographic basin of the dam
+**2. Delimit the hydrographic basin of the dam**
 
 This operation is performed on a digital elevation model (DEM) in matrix format (raster) using spatial analysis tools that perform raster operations. The dam's watershed is delimited by a ridge line, which, starting on one side of the dam, goes around a surface of the land that contains all the water streams that will contribute to the dam, and ends at the other end of the dam wall. Within this basin there are several hydrographic sub-basins, corresponding to different effluents.
 
-- Create the DEM of the study area in raster format by converting `TINApartadura` to raster with the name `DEMApartadura` (TIN to Raster; in “sampling distance” choose “CELLSIZE” and value 20 to obtain a grid with a spatial resolution of 20m). *This only applies to ArcGIS.*
+- Create the DEM of the study area in raster format by converting `TINApartadura` to raster with the name `DEMApartadura` (TIN to Raster; in “sampling distance” choose “CELLSIZE” and value 20 to obtain a grid with a spatial resolution of 20m).
+    - In ArcGIS, use the tool **Create TIN**
+    - In QGIS, this step was already done with the tool **TIN Interpolation**
+
+- Create a raster named `DEMApartFill` from the DEM `DEMApartadura`
+    - in ArcGIS, use the tool **Fill**
+    - in QGIS, use the tool **r.fill.dir** from Processing -> GRASS
 
 - Create a raster named `flowdir` with the flow directions using `DEMApartadura` (tool Spatial Analyst Tools / Hydrology / Flow Direction) as input. (see Notes)
+    - in ArcGIS, use the tool **Flow Direction**
+    - in QGIS, use the tool **r.watershed** from Processing -> GRASS
 
 - Create a raster named `SubBasins` of the sub-basins of the study area using `flowdir` as input (tool Spatial Analyst Tools / Hydrology / Basin) and define a legend for this theme with “Unique Values” (Value Field: VALUE). (see Notes)
 
@@ -68,7 +80,7 @@ This operation is performed on a digital elevation model (DEM) in matrix format 
 
 Observe the boundary of the `LimBasinHid` polygon over the terrain representation given by tinApartadura. Please note that the inclusion of additional breaklines could lead to an improvement in the delineation of the dam's watershed boundary.
 
-## 3. Calculate the flooded area and the volume of water in the reservoir
+**3. Calculate the flooded area and the volume of water in the reservoir**
 
 In full storage, the reservoir reaches the project quota of 595 m, called **full storage level (NPA)**. This surface is bounded by a closed contour. The volume of water between this surface and the land surface is the storage volume.
 
@@ -80,6 +92,8 @@ In full storage, the reservoir reaches the project quota of 595 m, called **full
 
 
 ## Notes: 
+
+**Fill depressions:** Some local sinks, meaning cells that have undefined drainage direction (no cell in surroundings is lower) can create problems in determining the flow direction, in the delineation of basins and streams. A solution is to fill them. [See more here](https://pro.arcgis.com/en/pro-app/2.9/tool-reference/spatial-analyst/how-fill-works.htm).
 
 **Flow direction:** It provides the direction of the water flow in each pixel.
 
