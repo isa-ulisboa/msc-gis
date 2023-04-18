@@ -56,7 +56,7 @@ Steps to implement:
             - pixel size: 20 m    
             - Extent: extent of `ApartaduraContours`
 
-### 2. Delimit the hydrographic basin of the dam**
+### 2. Delimit the hydrographic basin of the dam
 
 This operation is performed on a digital elevation model (DEM) in matrix format (raster) using spatial analysis tools that perform raster operations. The dam's watershed is delimited by a ridge line, which, starting on one side of the dam, goes around a surface of the land that contains all the water streams that will contribute to the dam, and ends at the other end of the dam wall. Within this basin there are several hydrographic sub-basins, corresponding to different effluents.
 
@@ -98,15 +98,15 @@ This operation is performed on a digital elevation model (DEM) in matrix format 
 
 Observe the boundary of the `LimBasinHid` polygon over the terrain representation given by `tinApartadura`. Please note that the inclusion of additional breaklines could lead to an improvement in the delineation of the dam's watershed boundary.
 
-### 3. Calculate the flooded area and the volume of water in the reservoir
+### 3. Calculate the flooded area and the volume of water in the reservoir (only for ArcGIS)
 
 In full storage, the reservoir reaches the project quota of 595 m, called **full storage level (NPA)**. This surface is bounded by a closed contour. The volume of water between this surface and the land surface is the storage volume.
 
-- Create a new TIN named `tinApart_basin` (use `ApartBarr_hid` as “hardline”, `ApartBarr_alt` and `DamWall` as “softline” and `LimBasinHid` with value in “height_field” of <None> and “SF_type” of hardclip). The basin boundary will cut the TIN, preventing triangulation between the vertices of the boundary.
+1. Create a new TIN named `tinApart_basin` (use `ApartBarr_hid` as “hardline”, `ApartBarr_alt` and `DamWall` as “softline” and `LimBasinHid` with value in “height_field” of <None> and “SF_type” of hardclip). The basin boundary will cut the TIN, preventing triangulation between the vertices of the boundary.
 
-- Calculate the volume of water in the reservoir at an elevation of 595m (3D Analyst / Area and Volume / Surface Volume – Input surface: `tinApartadura`; Output text file: `volume.txt`; Plane height: 595; Reference plane: below the plane). Open the volume.txt file that was created and observe the values of the reservoir area at an elevation of 595m and the volume of water it stores.
+2. Calculate the volume of water in the reservoir at an elevation of 595m (3D Analyst / Area and Volume / Surface Volume – Input surface: `tinApartadura`; Output text file: `volume.txt`; Plane height: 595; Reference plane: below the plane). Open the volume.txt file that was created and observe the values of the reservoir area at an elevation of 595m and the volume of water it stores.
 
-- Create a TIN that includes the dam with the flooded surface (you will have to find out how!). Observe the result in ArcScene.
+3. Create a TIN that includes the dam with the flooded surface (you will have to find out how!). Observe the result in ArcScene.
 
 
 ## Notes: 
