@@ -67,14 +67,29 @@ This operation is performed on a digital elevation model (DEM) in matrix format 
 - Create a raster named `DEMApartFill` from the DEM `DEMApartadura`
     - in ArcGIS, use the tool **Fill**
     - in QGIS, use the tool **r.fill.dir** from Processing -> GRASS
+        - set as Depressionless DEM the new layer `DEMApartFill`
+        - set as flow direction output a new layer called `flowdir` 
 
-- Create a raster named `flowdir` with the flow directions using `DEMApartadura` (tool Spatial Analyst Tools / Hydrology / Flow Direction) as input. (see Notes)
-    - in ArcGIS, use the tool **Flow Direction**
+- Create a raster named `flowdir` with the flow directions using `DEMApartFill` as input. (see Notes)
+    - in ArcGIS, use the tool **Flow Direction** in tool Spatial Analyst Tools / Hydrology / Flow Direction
+        - select as Flow Direction type the option D8
     - in QGIS, use the tool **r.watershed** from Processing -> GRASS
+        - set the *Minimum size of exterior watershed basin* to 10000 (this value is related to the )
+        - check Enable sSingle Flow Direction (D8)
+        - set the name of the output raster file of the option **Drainage direction**. Unselect the remaining outputs (or leave as tempprary outputs, and analyse their results)
 
-- Create a raster named `SubBasins` of the sub-basins of the study area using `flowdir` as input (tool Spatial Analyst Tools / Hydrology / Basin) and define a legend for this theme with “Unique Values” (Value Field: VALUE). (see Notes)
+- Create a raster named `SubBasins` of the sub-basins of the study area using `flowdir` as input 
+    - in ArcGIS, use the tool **Basin** in tool Spatial Analyst Tools / Hydrology / Basin) 
+        - define a legend for this output with “Unique Values” (Value Field: VALUE). (see Notes)
+    - in QGIS, use the tool **r.water.outlet** from Processing -> GRASS
+        - the input raster is the `flowdir` raster 
+        - you need also to provide the coordinate of the outlet point: the point to which the water flow runs. This can be set to be in the center-bottom o the DAM wall, on the downstream side.
+            - you can install the plugin *Coordinate Capture* in order to capture the coordinate of the outlet point. It should be similar to (264570.911,264997.294)
 
-- Create a polygon theme for the study area names `subBasinsPolyg` by converting from raster format to polygon shape format (tool Conversion Tools / From Raster / Raster to Polygon, input raster: `SubBasins`; Field: VALUE; Output polygon features : `subBasinsPolyg`; you can keep the “simplify polygons” option).
+
+- Create a polygon theme for the study area names `subBasinsPolyg` by converting the raster `SubBasins` to polygon shape format 
+    - in ArcGIS use the Raster to Polygon tool (Conversion Tools / From Raster / Raster to Polygon), input raster: `SubBasins`; Field: VALUE; Output polygon features : `subBasinsPolyg`; you can keep the “simplify polygons” option).
+    - in QGIS, use the tool Polygonize (Raster / Conversion / Polygonize (Raster to vector) )
 
 - Create a theme named `LimBasinHid` from `subBasinsPolyg` with the polygon that delimits the sub-basins with water lines that lead to the dam. The water streams layer `ApartBarr_hid` contains an attribute “dam”, in which features with the value “Str2Dam” identifies if the stream is included in the sub-basin. Use this layer with the proper selection in order to select the sub-basins in `subBasinsPolyg` that are part of the watershed of the dam; generalize the information by grouping the resulting polygons (dissolving operation).
 
