@@ -9,7 +9,7 @@ Date due: 17th of May 2023, 8pm.
 - The work may be undersigned by a group of two students (maximum) and will be discussed individually. 
 - The group members should be informed to the teacher on the class of 24th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 28th of April 2023, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
 - Each region/polygon in problem II will is specify to each group, and will be randomly assigned by e-mail on or before 2nd of May 2023.
-- The work should be sent by e-mail to ruifigueira@isa.ulisboa.pt or 
+- **The work should be submitted before the deadline through the form [https://forms.gle/GEp92v8tqdijJMGK8](https://forms.gle/GEp92v8tqdijJMGK8)**. 
 - **The deadline to submit the full work is 17th of May 2023, 8pm**.
 
 ## Evaluation criteria
@@ -21,31 +21,37 @@ Date due: 17th of May 2023, 8pm.
 
 ## Deliverables
 
-- A zip file of the main project directory containing
-    - One “project file”/”map document” containing all the output and relevant intermediary layers (legends and labels when required and/or appropriate) 
+- A zip file of the main project directory (Problems 01 to 04) containing
+    - The *project file* containing all the output and relevant intermediary layers (legends and labels when required and/or appropriate) 
     - The subdirectories *DataIn* and *DataOut* 
     - All the final data sets that answer the questions (using the most appropriate file formats)
     - All the relevant initial intermediary data sets used to reach the final answers (using the most appropriate file formats)
     - Do not include in the project the original DEM downloaded form http://earthexplorer.usgs.gov/ to solve problem I.
 
-- A report (pdf file format) with 2 pages (maximum! using font 12 and single line spacing paragraphs) explaining the adopted solution for every question (references to diagrams are allowed and strongly recommended) and the main theoretical, conceptual and technical issues underlying the choice of that solution. Concerning the implemented processes to solve the problems, include in the report only those details that are impossible to represent in diagrams. Do not include in the report details related to map legends and/or labels.
+- A zip file of the additional project directory (Problem 05) containing
+    - The *project file* containing all the output and relevant intermediary layers (legends and labels when required and/or appropriate) 
+    - The subdirectories *DataIn* and *DataOut* 
+    - All the final data sets that answer the questions (using the most appropriate file formats)
+    - All the relevant initial intermediary data sets used to reach the final answers (using the most appropriate file formats)
+
+- A report (pdf file format) with 3 pages (maximum! using font 12 and single line spacing paragraphs) explaining the adopted solution for every question (references to diagrams are allowed and strongly recommended) and the main theoretical, conceptual and technical issues underlying the choice of that solution. Concerning the implemented processes to solve the problems, include in the report only those details that are impossible to represent in diagrams. Do not include in the report details related to map legends and/or labels.
 
 - pdf files (as many as needed) containing the diagrams that represent the implemented solutions when required (use in diagrams the names of the layers included in the zip file).
 
 
 ## Input data
     
-- A zip file available at FENIX assignment page containing the following files:
+- The zip file `assignment2023.zip` [available at FENIX]((https://fenix.isa.ulisboa.pt/downloadFile/281547991171813/Assignment2023.zip)) assignment page containing the following files:
     - `Territory.gpkg` (geoPackage format) containing the following spatial data sets:
         - River
         - GwPollVulnRegion
         - SoilType
-    - `Parcels2022.gpkg` (geoPackage format) containing the following spatial data sets:
+    - `Parcels2023.gpkg` (geoPackage format) containing the following spatial data sets:
         - Cadastre
         - EditingZones
         - SoilUse
-        - Owners.xls
-        - TableSoilUse.xls
+    - `Owners.xls`
+    - `TableSoilUse.xls`
 
 **Remark**: all data concerning parcels are not real and were created for this academic work on purpose.
 
@@ -150,3 +156,28 @@ Store all the vector gds created to solve this problem in one file (GeoPackage f
 | 𝑰𝑰<sub>𝒑𝒑</sub> > 𝟒 | Very high |
 
 
+## Problem 05
+
+In this problem, you will be proactive. You will need to identify a problem that should be anwsered through a spatial analysis. The steps are:
+
+1. Define a question which anwser requires the analysis of spatial information. This could be linked to your main area of interest.
+2. Collect data from one or several online sources.
+3. Clean, organise, merge and process data, as required, so that it can be represented in your GIS project.
+4. Normalise you tables according to the 3rd normal form
+4. Map and create a meaningfull symbology for the variables you want to analyse.
+5. Using your GIS map layout, create a single figure to represent the solution of your problem. If your question has several maps, compose them in the single figure.
+    *Note: We will learn how to create map layouts in a class hands-on exercise* 
+6. Include the figure in your report, complemented by a long caption that will anwser the question you defined. Include also the source, as a citation and reference.   
+
+You should create a specific GIS project for this problem, independent on the project used for problems 01 to 04.
+
+Examples of questions are:
+- Which municipalities in Portugal have the highest areas of cultivated vineyars?
+    - data source: Instituto Nacional de Estatístca, [www.ine.pt](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados)
+    - You can search for equivalent data in the portal of statistics office of your country
+- Which country have the highest production of cereals globaly?
+    - data source: [FAOSTAT](https://fenix.fao.org/faostat/internal/en/#data/QCL)
+- Which cities in Europe have the higest concentration of particles PM10 in the atnosphere, causig health risk? 
+    - data source: [EEA](https://discomap.eea.europa.eu/App/AirQualityHRACities/index.html)
+
+It is possible that, in order to represent your data on a map, you need to associate it with a spatial layer from a different source. For example, to represent data for cities, you may need to find a map layer with cities, and make data joins between the spatial layer and the data table with tehe variables of interest.
