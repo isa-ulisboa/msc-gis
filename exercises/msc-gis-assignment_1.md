@@ -26,7 +26,7 @@ Date due: 17th of May 2023, 8pm.
     - The subdirectories *DataIn* and *DataOut* 
     - All the final data sets that answer the questions (using the most appropriate file formats)
     - All the relevant initial intermediary data sets used to reach the final answers (using the most appropriate file formats)
-    - Do not include in the project the original DEM downloaded form http://earthexplorer.usgs.gov/ to solve problem I.
+    - Do not include in the project the original DEM downloaded form [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) to solve problem I.
 
 - A zip file of the additional project directory (Problem 05) containing
     - The *project file* containing all the output and relevant intermediary layers (legends and labels when required and/or appropriate) 
@@ -104,9 +104,13 @@ Concerning soil use, add to the table `TableSoilUse.xls` a new class – `UseCod
 Store all the vector gds created to solve this problem in one file (GeoPackage file format) named` Probl3<student number>`, under a folder named `DataOut`.
 
 **1.** Create a new gds (CRS ETRS-TM06 – EPSG: 3763) named `ParcelsNew<student number>` representing the parcels as previously specified. Include a diagram representing the implemented solution.
+
 **2.** For this new gds build a legend based on soil use.
+
 **3.** Calculate for each owner his owned total area (units: ha).
+
 **4.** Calculate for each class of soil use its total area (units: ha).
+
 **5.** Based on `ParcelsNew<student number>`, create a new gds (CRS ETRS-TM06 – EPSG: 3763) named `Use<student number>` representing only agriculture (*code A*) and forest (*code F*) regions (consider soil use Other neither agriculture nor forest).
 
 <br>
@@ -169,12 +173,19 @@ Store all the vector gds created to solve this problem in one file (GeoPackage f
 In this problem, you will be proactive. You will need to identify a problem that should be answered through a spatial analysis. The steps are:
 
 1. Define a question which answer requires the analysis of spatial information. This could be linked to your main area of interest.
+
 2. Collect data from one or several online sources.
+
 3. Clean, organise, merge and process data, as required, so that it can be represented in your GIS project.
-4. Normalise you tables according to the 3rd normal form
+
+4. Normalise you tables according to the 3rd normal form.
+
 4. Map and create a meaningful symbology for the variables you want to analyse.
+
 5. Using your GIS map layout, create a single figure to represent the solution of your problem. If your question has several maps, compose them in the single figure.
+
     *Note: We will learn how to create map layouts in a class hands-on exercise* 
+    
 6. Include the figure in your report, complemented by a long caption that will answer the question you defined. Include also the source, as a citation and reference.   
 
 You should create a specific GIS project for this problem, independent on the project used for problems 01 to 04.
