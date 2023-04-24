@@ -8,7 +8,7 @@ Date due: 17th of May 2023, 8pm.
 - This assignment will contribute 8/20 (maximum) to the final grade on the SIG/GIS course.
 - The work may be undersigned by a group of two students (maximum) and will be discussed individually. 
 - The group members should be informed to the teacher on the class of 24th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 28th of April 2023, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
-- Each region/polygon in problem II will is specify to each group, and will be randomly assigned by e-mail on or before 2nd of May 2023.
+- Each region/polygon in Problem 02 will is specify to each group, and will be randomly assigned by e-mail on or before 2nd of May 2023.
 - **The work should be submitted before the deadline through the form [https://forms.gle/GEp92v8tqdijJMGK8](https://forms.gle/GEp92v8tqdijJMGK8)**. 
 - **The deadline to submit the full work is 17th of May 2023, 8pm**.
 
@@ -41,7 +41,7 @@ Date due: 17th of May 2023, 8pm.
 
 ## Input data
     
-- The zip file `assignment2023.zip` [available at FENIX]((https://fenix.isa.ulisboa.pt/downloadFile/281547991171813/Assignment2023.zip)) assignment page containing the following files:
+- The zip file `assignment2023.zip` [available at FENIX](https://fenix.isa.ulisboa.pt/downloadFile/281547991171813/Assignment2023.zip) assignment page containing the following files:
     - `Territory.gpkg` (geoPackage format) containing the following spatial data sets:
         - River
         - GwPollVulnRegion
@@ -55,6 +55,7 @@ Date due: 17th of May 2023, 8pm.
 
 **Remark**: all data concerning parcels are not real and were created for this academic work on purpose.
 
+<br>
 
 ## Problem 01
 
@@ -73,9 +74,11 @@ Store all the raster gds created to solve this problem in GeoTiff file format un
 
 **1.** Create one vector gds representing all vulnerable regions to river flooding in the study area using CRS ETRS-TM06 (EPSG: 3763) and calculate the total area (unit: km2) of all these vulnerable regions.
 
-**2.** Create one vector gds representing all vulnerable regions from 1. classified as high risk if height is less than 10m, moderate risk if height is greater than or equal to 10m and less than 15m, and low risk otherwise. Calculate the total area (unit: ha) of vulnerable regions in each class risk.**
+**2.** Create one vector gds representing all vulnerable regions from 1. classified as high risk if height is less than 10m, moderate risk if height is greater than or equal to 10m and less than 15m, and low risk otherwise. Calculate the total area (unit: ha) of vulnerable regions in each class risk.
 
-**3.** Include a diagram representing the integrated solution for problems 1. and 2..
+**3.** Include a diagram representing the integrated solution for Problems 01 and 02.
+
+<br>
 
 ## Problem 02
 
@@ -90,6 +93,8 @@ Each group of students will use one (only one) region/polygon of the data set na
 - Assign an owner from `Owners.xls` to each parcel (an owner may own more than one parcel but a parcel may only have one owner).
 - Store all the vector gds created to solve this problem in one file (GeoPackage file format) named `Probl2<student number>` under a folder named DataOut. \<student number\> is the ISA’s student number of one student undersigning the assignment.
 
+<br>
+
 ## Problem 03
 
 The general goal is to create a unique gds that includes all parcels in the region delimited by gds `Cadastre` and those created in Problem 02. 
@@ -103,6 +108,8 @@ Store all the vector gds created to solve this problem in one file (GeoPackage f
 **3.** Calculate for each owner his owned total area (units: ha).
 **4.** Calculate for each class of soil use its total area (units: ha).
 **5.** Based on `ParcelsNew<student number>`, create a new gds (CRS ETRS-TM06 – EPSG: 3763) named `Use<student number>` representing only agriculture (*code A*) and forest (*code F*) regions (consider soil use Other neither agriculture nor forest).
+
+<br>
 
 ## Problem 04
 
@@ -155,19 +162,20 @@ Store all the vector gds created to solve this problem in one file (GeoPackage f
 | 𝟑 < 𝑰𝑰<sub>𝒑𝒑</sub> ≤ 𝟒 | High |
 | 𝑰𝑰<sub>𝒑𝒑</sub> > 𝟒 | Very high |
 
+<br>
 
 ## Problem 05
 
-In this problem, you will be proactive. You will need to identify a problem that should be anwsered through a spatial analysis. The steps are:
+In this problem, you will be proactive. You will need to identify a problem that should be answered through a spatial analysis. The steps are:
 
-1. Define a question which anwser requires the analysis of spatial information. This could be linked to your main area of interest.
+1. Define a question which answer requires the analysis of spatial information. This could be linked to your main area of interest.
 2. Collect data from one or several online sources.
 3. Clean, organise, merge and process data, as required, so that it can be represented in your GIS project.
 4. Normalise you tables according to the 3rd normal form
-4. Map and create a meaningfull symbology for the variables you want to analyse.
+4. Map and create a meaningful symbology for the variables you want to analyse.
 5. Using your GIS map layout, create a single figure to represent the solution of your problem. If your question has several maps, compose them in the single figure.
     *Note: We will learn how to create map layouts in a class hands-on exercise* 
-6. Include the figure in your report, complemented by a long caption that will anwser the question you defined. Include also the source, as a citation and reference.   
+6. Include the figure in your report, complemented by a long caption that will answer the question you defined. Include also the source, as a citation and reference.   
 
 You should create a specific GIS project for this problem, independent on the project used for problems 01 to 04.
 
@@ -175,9 +183,9 @@ Examples of questions are:
 - Which municipalities in Portugal have the highest areas of cultivated vineyars?
     - data source: Instituto Nacional de Estatístca, [www.ine.pt](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados)
     - You can search for equivalent data in the portal of statistics office of your country
-- Which country have the highest production of cereals globaly?
+- Which country have the highest production of cereals globally?
     - data source: [FAOSTAT](https://fenix.fao.org/faostat/internal/en/#data/QCL)
-- Which cities in Europe have the higest concentration of particles PM10 in the atnosphere, causig health risk? 
+- Which cities in Europe have the highest concentration of particles PM10 in the atmosphere, causing health risk? 
     - data source: [EEA](https://discomap.eea.europa.eu/App/AirQualityHRACities/index.html)
 
-It is possible that, in order to represent your data on a map, you need to associate it with a spatial layer from a different source. For example, to represent data for cities, you may need to find a map layer with cities, and make data joins between the spatial layer and the data table with tehe variables of interest.
+It is possible that, in order to represent your data on a map, you need to associate it with a spatial layer from a different source. For example, to represent data for cities, you may need to find a map layer with cities, and make data joins between the spatial layer and the data table with the variables of interest.
