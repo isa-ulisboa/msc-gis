@@ -8,7 +8,7 @@ Date due: 17th of May 2023, 8pm.
 - This assignment will contribute 8/20 (maximum) to the final grade on the SIG/GIS course.
 - The work may be undersigned by a group of two students (maximum) and will be discussed individually. 
 - The group members should be informed to the teacher on the class of 24th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 28th of April 2023, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
-- Each region/polygon in Problem 02 will is specify to each group, and will be randomly assigned by e-mail on or before 2nd of May 2023.
+- Each region/polygon in Problem 02 will is specify to each group (**identified in the attribute `ZoneGroup` of the layer EditingZones**), and will be randomly assigned by e-mail on or before 2nd of May 2023.
 - **The work should be submitted before the deadline through the form [https://forms.gle/GEp92v8tqdijJMGK8](https://forms.gle/GEp92v8tqdijJMGK8)**. 
 - **The deadline to submit the full work is 17th of May 2023, 8pm**.
 
@@ -86,7 +86,7 @@ Store all the raster gds created to solve this problem in GeoTiff file format un
 
 The general goal is to create a new gds representing the parcels, classified by their soil use.
 
-Each group of students will use one (only one) region/polygon of the data set named EditingZones, which was assigned by e-mail (review section Context if necessary). The regions are numbered from 1 to 25.
+Each group of students will use one (only one) region/polygon of the data set named EditingZones, in the attribute `ZoneGroup`, which was assigned by e-mail (review section Context if necessary). The regions are numbered from 1 to 21.
 
 **1.** Create a new gds named `Parcels<n>` (CRS ETRS-TM06 – EPSG: 3763) containing about 10 parcels representing the soil use inside the assigned region based on the Google Satellite image. \<n\> is the number from 1 to 25 of the assigned region, sent to students by e-mail.
 
