@@ -80,7 +80,7 @@ You can, however, add other tiled service layers. On the Browse
 panel, right-click on *XYZ Tyles* to add a new connection (see image). Give it the 
 name `Google Satellite`, and add the URL value:
 ```
-https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}
+http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}
 ```
 
 ![XYZ Tyles](./images/ex01_qgis_img03.png)
@@ -89,7 +89,7 @@ Try additional XYZ tiles, as different backgrounds may fit better your GIS proje
 
 | Service | Connection URL |
 |---|---|
-| Google Satellite | http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z} |
+| Google Satellite | http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z} |
 | Google Map | https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z} |
 | Bing Satellite | http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1 |
 | Esri Satellite | https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x} |
