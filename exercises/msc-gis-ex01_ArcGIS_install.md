@@ -1,21 +1,26 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 1 - ArcGIS Pro  - Install and get familiar with the interface
 
 ## Introduction
 
-In this exercise, you will set up your system to have a fully functional ArcGIS Pro ver. 2.9 installation.
+In this exercise, you will set up your system to have a fully functional ArcGIS Pro ver. 3.2 installation.
 You will also learn to identify the different components of the interface of the software and the workflow 
 to manage data and perform analysis.
 
-## 1. Install ArcGIS Pro ver 2.9
+## 1. Install ArcGIS Pro ver 3.2
 
 ArcGIS Pro is a proprietary software. In order to use it, you need to use a licence provided by ISA. This 
 exercise will guide you through the several steps to install and set the licence.
 
-The **System Requirements** are available at [https://pro.arcgis.com/en/pro-app/2.9/get-started/arcgis-pro-system-requirements.htm](https://pro.arcgis.com/en/pro-app/2.9/get-started/arcgis-pro-system-requirements.htm). If your system operating system is a MacOS ou linux, you need to install a virtual machine with Windows 8.1 or above.
+The **System Requirements** are available at 
+[https://pro.arcgis.com/en/pro-app/latest/get-started/arcgis-pro-system-requirements.htm](https://pro.arcgis.com/en/pro-app/latest/get-started/arcgis-pro-system-requirements.htm). If your system operating system is a MacOS 
+ou linux, you need to install a virtual machine with Windows 10 or above.
 
-You can download the installation file from ISA CIISA service. In order to do this, your computer needs to be connected inside the ISA campus network (wifi eduroam). If you are outside the ISA network, you need establish a VPN connection (see instructions here: [https://www.isa.ulisboa.pt/di/servicos/acesso-vpn](https://www.isa.ulisboa.pt/di/servicos/acesso-vpn))
+You can download the installation file from ISA CIISA service. In order to do 
+this, your computer needs to be connected inside the ISA campus network (wifi 
+eduroam). If you are outside the ISA network, you need establish a VPN connection 
+(see instructions here: [https://www.isa.ulisboa.pt/di/servicos/acesso-vpn](https://www.isa.ulisboa.pt/di/servicos/acesso-vpn))
 
 ### **Step 1: Access the software repository @ISA**
 
@@ -33,33 +38,39 @@ password: `*******`
 
 ### **Step 2: Copy installation and patch files to your computer**
 
-Copy from the network folder `ArcGIS_Pro` the installation package file `ArcGISPro_29_179927.exe`, and the patch files `ArcGIS_Pro_291_179945.msp`, `ArcGIS_Pro_295_181689.msp` and `ArcGIS_Pro_296_184282.msp` to your computer
+Open the network folder `ArcGIS_Pro`, and copy the installation package file 
+`ArcGISPro_303_184244.exe` to your computer.
 
 ### **Step 3: Run installation and patch files to your computer**
-Run the three downloaded files, in the order of above, accepting the default options (first ArcGISPro_29_179927.exe, secondly ArcGIS_Pro_291_179945.msp, ...) 
+Run the downloaded file, accepting the default options. You will be prompted to 
+use the most recent version 3.2. Accept that and do updates as suggested.
 
-*Note:* we will not use in this course the latest version of ArcGIS Pro (ver 3.0.3). The reason is to ensure we are using a consolidated, bug-free version. You can, however, use it at your own risk.
 
 ### **Step 4: Configure the licence**
 
 Run ArcGIS Pro for the first time and activate the licence. 
 
 - Click 
-***Configure licensing***:
+***Configure licensing***
+- Select **Named User license**, and in options enter ArcGIS Online, with the URL `https://www.arcgis.com`. Click **OK**. (see image)
 
 ![License Panel](./images/ex01_img01.png)
 
-- Select **Concurrent license**, insert the name of license manager  `tobamovirus.isa.utl.loc` and click **Refresh**, then check all the available boxes (see image below), to conclude click **OK**.
+- In the login panel, enter in organisation URL `ulisboa` and click continue. (see image)
 
 ![Insert server](./images/ex01_img02.png)
 
-### **Step 5: Authorize off-campus use**
+- Do your centralized authentication, using your **@edu.ulisboa.pt**. If you don't 
+have that active, you need to activate it at [https://utilizador.ulisboa.pt/UlisboaUsers/home](https://utilizador.ulisboa.pt/UlisboaUsers/home).
 
-If you need to use ArcGIS Pro outside the ISA campus, you must (still inside the ISA campus, or being connected through the ISA vpn) launch ArcGIS Pro, click on Settings (down left corner on the first ArcGIS Pro window), select Licencing (on the left banner) and check the “Authorize ArcGIS Pro to work offline Number of days: 180” box (and wait a few minutes to borrow the licences into your pc). Leave this Settings window by clicking  the upper left corner arrow.
+### **Step 5: Offline use**
+
+This is not authorized by the system administrator, meaning that you need to be 
+connected to the internet in order to be able to use your ArcGIS installation.
 
 ### **Step 6 (Optional):  Create a free ArcGIS Online**
 
-You can rreate a free ArcGIS Online Public account. This gives access to a large catalog of online data.
+You can create a free ArcGIS Online Public account. This gives access to a large catalog of online data.
 Go to [https://tinyurl.com/rfmm6nnn](https://tinyurl.com/rfmm6nnn) and provide the required information to register. 
 
 Confirm the new account in your email to activate it.
@@ -67,7 +78,7 @@ When opening ArcGIS Pro, click on **Sign In** to login.
 
 Do not forget to sign out, when closing the application, particularly if you are using a classroom or shared computer.
 
-## 2. Get familiar with ArcGIS Pro 2.9 (tutorial)
+## 2. Get familiar with ArcGIS Pro 3.2 (tutorial)
 
 ### 2.1. Learn about the ArcGIS Pro interface
 
@@ -76,7 +87,7 @@ Do not forget to sign out, when closing the application, particularly if you are
 - Verify that tabs, ribbon and panes are changed dynamically, depending on the tools and views selected.
 Learn how to reset panes to the original configuration
 
-Support material: [https://pro.arcgis.com/en/pro-app/2.9/get-started/introducing-arcgis-pro.htm](https://pro.arcgis.com/en/pro-app/2.9/get-started/introducing-arcgis-pro.htm)
+Support material: [https://pro.arcgis.com/en/pro-app/latest/get-started/introducing-arcgis-pro.htm](https://pro.arcgis.com/en/pro-app/latest/get-started/introducing-arcgis-pro.htm)
 
 
 ### 2.2. Create a map and add data
@@ -87,15 +98,15 @@ Support material: [https://pro.arcgis.com/en/pro-app/2.9/get-started/introducing
 
 Support material:
 
-- [https://pro.arcgis.com/en/pro-app/2.9/get-started/create-a-project.htm](https://pro.arcgis.com/en/pro-app/2.9/get-started/create-a-project.htm)
+- [https://pro.arcgis.com/en/pro-app/latest/get-started/create-a-project.htm](https://pro.arcgis.com/en/pro-app/latest/get-started/create-a-project.htm)
 
-- [https://pro.arcgis.com/en/pro-app/2.9/get-started/add-data-to-your-project.htm](https://pro.arcgis.com/en/pro-app/2.9/get-started/add-data-to-your-project.htm)
+- [https://pro.arcgis.com/en/pro-app/latest/get-started/add-data-to-your-project.htm](https://pro.arcgis.com/en/pro-app/latest/get-started/add-data-to-your-project.htm)
 
 ### 2.3. Other resources
 
-ArcGIS Pro manual: [https://pro.arcgis.com/en/pro-app/2.9/get-started/get-started.htm](https://pro.arcgis.com/en/pro-app/2.9/get-started/get-started.htm)
+ArcGIS Pro manual: [https://pro.arcgis.com/en/pro-app/latest/get-started/get-started.htm](https://pro.arcgis.com/en/pro-app/latest/get-started/get-started.htm)
 
-Other tutorials: [https://pro.arcgis.com/en/pro-app/2.9/get-started/pro-quickstart-tutorials.htm](https://pro.arcgis.com/en/pro-app/2.9/get-started/pro-quickstart-tutorials.htm)
+Other tutorials: [https://pro.arcgis.com/en/pro-app/latest/get-started/pro-quickstart-tutorials.htm](https://pro.arcgis.com/en/pro-app/latest/get-started/pro-quickstart-tutorials.htm)
 
 
 ### 2.4. Understand geodatabases 
