@@ -1,6 +1,6 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
-# Exercise 3 - QGIS  - Perform you first analysis with QGIS 3.22
+# Exercise 3 - QGIS  - Perform you first analysis with QGIS 3.28
 
 ## Introduction
 
@@ -27,7 +27,7 @@ to take.
 For this exercise, you should use the same project as saved in the final of the exercise 02.
 It includes:
 
-- the input data for the exercise 01, also available from Fenix → SIGeo → 
+- the input data for the exercise 02, also available from Fenix → SIGeo → 
 Exercises → ArcGIS Pro → [ex1CLC.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944593813/ex1CLC.zip). It contains three spatial layers, and a csv table:
 >    - gds COS2007l2 (geometry: polygons) – land coverage according to the 2nd 
     level classification of the project CORINE Land Cover
@@ -47,12 +47,12 @@ will store new layers. Details on how to create the geopackage later in the exer
 
 **Requirements**
 
-> You will use QGIS 3.22 to perform this exercise. You should have performed before
+> You will use QGIS 3.28 to perform this exercise. You should have performed before
 Exercise 02, about the introduction to QGIS interface.
 
 > You should also be able to use QGIS documentation to, search, learn and solve questions 
 on how to use the tools. The documentation is available, either from the **Help** 
-of the software, or [online](https://docs.qgis.org/3.22/en/docs/user_manual/index.html). 
+of the software, or [online](https://docs.qgis.org/3.28/en/docs/user_manual/index.html). 
 
 
 **Quality control**
@@ -272,7 +272,7 @@ This is what you leaned during the first three exercise:
     - Active Layer Context Menu / Properties / Symbology
         - Single symbol
         - Unique values (categorical legend)
-        - Graduate colors (numerical legend
+        - Graduate colors (numerical legend)
     - Active Layer Context Menu / Properties / Labels
     - Active Layer Context Menu / Properties / Joins
     - Field Calculator
