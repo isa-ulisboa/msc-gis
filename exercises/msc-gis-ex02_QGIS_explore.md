@@ -19,7 +19,7 @@ To prepare your environment for this first exercise using QGIS, do the following
 [Ex1CLC.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944593813/ex1CLC.zip) 
 for the Exercise 02, to your folder Ex02 (you need to be logged-in in Fenix)
 - Unzip the file Ex1CLC.zip. This should create a new folder containing a QGIS project 
-file `CLC.qgz` and a folder `DataIn` containing 3 geographic data sets (files `Waterlines.gpkg`, `Portalegre.gpkg`, `COS2007l2.gpkg`. The file format is gpkg, 
+file `CLC.qgz` and a folder `DataIn` containing 3 geographic data sets (files `Waterlines.gpkg`, `Portalegre.gpkg`, `COS2007l2.gpkg`). The file format is gpkg, 
 meaning GeoPackage file format. It also contains a csv table named `CLC1`. 
 The meaning of these datasets is:
     - water streams for Portugal (line features)
