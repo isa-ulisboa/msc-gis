@@ -37,3 +37,22 @@ the interface to be in English. Make the change as follows:
 The full documentation of QGIS will be a resource you will need to use often. 
 The documentation is online, but can be
 accessed from the menu Help → Help Contents
+
+## 3. Get familiar with QGIS 3.28 (tutorial)
+
+### 3.1. Learn about the QGIS interface
+
+- Create a new project. Understand the interface, including menus, toolbars, map canvas, layer list, browse panel, status bar.
+
+Support material: [https://docs.qgis.org/3.28/en/docs/training_manual/basic_map/overview.html#basic-ty-the-basics](https://docs.qgis.org/3.28/en/docs/training_manual/basic_map/overview.html#basic-ty-the-basics)
+
+
+### 3.2. Create a map and add data
+
+- Learn how to create a new project, a new map, and add data to the map.
+
+- Understand the concepts and differences between projects, maps, (geo)databases, geopackages, data and features
+
+Support material:
+
+- [https://docs.qgis.org/3.28/en/docs/training_manual/basic_map/preparation.html](https://docs.qgis.org/3.28/en/docs/training_manual/basic_map/preparation.html)
