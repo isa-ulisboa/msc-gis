@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 2 - QGIS  - Explore your first QGIS project
 
@@ -17,10 +17,11 @@ To prepare your environment for this first exercise using QGIS, do the following
 - Inside, create a folder for the current exercise named `Ex02`
 - Download from Fenix (menu Exercises -> QGIS) the file 
 [Ex1CLC.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944593813/ex1CLC.zip) 
-for the Exercise 02, to your folder Ex02 (you need to be logged in in Fenix)
+for the Exercise 02, to your folder Ex02 (you need to be logged-in in Fenix)
 - Unzip the file Ex1CLC.zip. This should create a new folder containing a QGIS project 
 file `CLC.qgz` and a folder `DataIn` containing 3 geographic data sets (files `Waterlines.gpkg`, `Portalegre.gpkg`, `COS2007l2.gpkg`. The file format is gpkg, 
-meaning GeoPackage file format. It also contains a csv table. The meaning of these datasets is:
+meaning GeoPackage file format. It also contains a csv table named `CLC1`. 
+The meaning of these datasets is:
     - water streams for Portugal (line features)
     - freguesia (smaller administrative unit in Portugal) of the municipality 
     Portalegre (polygon features)
@@ -32,7 +33,7 @@ meaning GeoPackage file format. It also contains a csv table. The meaning of the
 open a new window of QGIS.
 
 
-## 2. Get familiar with QGIS 3.22 Interface
+## 2. Get familiar with QGIS 3.28 Interface
 
 ### 2.1. Interface - Terminology
 
@@ -48,7 +49,7 @@ The default interface of QGIS is composed by:
 
 ### 2.2. Interface - Customization
 
-All panels can be rearranged in the window, and resized. Other panels and toobars 
+All panels can be rearranged in the window, and resized. Other panels and toolbars 
 can be added. Right-click on a empty area of the toolbar to display a list of 
 available **Panels** and **Toolbars**, and activate or deactivate their display.
 
