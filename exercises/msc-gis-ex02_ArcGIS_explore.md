@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 2 - ArcGIS Pro  - Explore your first GIS project
 
@@ -25,7 +25,7 @@ contains three spatial layers, and a csv table:
 
 **Tasks:**
 
-1.  Download the [zip file](https://fenix.isa.ulisboa.pt/downloadFile/844497944593813/ex1CLC.zip) 
+1. Download the [zip file](https://fenix.isa.ulisboa.pt/downloadFile/844497944593813/ex1CLC.zip) 
 with data for the exercise and extract it to a working folder in your computer.
 
 2. Create a new ArcGIS project named `ex02_project`, from a blank Map template, 
@@ -63,20 +63,20 @@ two ways:
     - In the Content pane, right-click on the layer you want to convert and select 
     Data → Export features. Ensure that the Output location is the `ex02_project.gdb`
 
-8. Identify the Coordinate System of the project and layers, using Properties in 
+8. Identify the Coordinate System of the project and layers, using *Properties* in 
 the context menu of your **Map**, in the **Contents pane**.
 
 9. See the attribute values of a feature of the `COS200712` layer, by zooming in 
 and clicking on a specific feature.
 
-10. Open the attribute table of this layer, with the context menu in the Contents 
-pane, or using the Attribute Table tool in the tab Feature Layer → Data.
+10. Open the attribute table of this layer, with the context menu in the **Contents pane**, 
+or using the **Attribute Table** tool in the tab Feature Layer → Data.
 
 11. Select features (rows) from the Attribute table, and confirm that selected ones 
 are highlighted on the map (double click the row, or click the zooming glass in the 
 bar of the View).
 
-12. Change the symbology of this layer, by opening Symbology from the context menu).
+12. Change the symbology of this layer, by opening Symbology from the layer's context menu.
 This will open a **Symbology pane** on the right-had side. Select Unique Values 
 on the `CLCl2descr` field.
 
@@ -85,17 +85,18 @@ Feature Layer → Labeling.
 
 14. Change the base map of your view, to a tiled service layer: 
     
-    - In Map tab, select **Add data** tool --> Data from Path and then 
-    enter `https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}`
+    - In Map tab, select **Add data** tool --> Data from Path and then enter 
+    ```
+    http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}
+    ```
 
-Rename the name of the layer from `Tiled service layer` to `Google Satellite` 
-(click on the name layer to change).
+    Rename the name of the layer from `Tiled service layer` to `Google Satellite` (click on the name layer to change).
 
-Try additional XYZ tiles, as different backgrounds may fit better your GIS projects:
+15. Try additional XYZ tiles, as different backgrounds may fit better your GIS projects:
 
 | Service | Connection URL |
 |---|---|
-| Google Satellite | http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z} |
+| Google Satellite | http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z} |
 | Google Map | https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z} |
 | Bing Satellite | http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1 |
 | Esri Satellite | https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x} |
