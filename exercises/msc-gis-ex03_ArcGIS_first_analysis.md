@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 3 - ArcGIS Pro  - Perform you first analysis with ArcGIS
 
