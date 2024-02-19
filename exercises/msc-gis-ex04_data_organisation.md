@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 4 - Organizing geographic data
 
@@ -27,12 +27,12 @@ platform.
 
 In the platform, if you make a search for the keyword `arvoredo`, this will lead to 
 a first result with metadata about the resource. To download as `csv`, you can click 
-on the link [http://geodados.cm-lisboa.pt/datasets/arvoredo](http://geodados.cm-lisboa.pt/datasets/arvoredo). 
+on the link [https://geodados-cml.hub.arcgis.com/datasets/CML::arvoredo/explore](https://geodados-cml.hub.arcgis.com/datasets/CML::arvoredo/explore). 
 
 
 For this exercise, we are making available two versions of the dataset in csv format, 
 in portuguese and in english, to easier understanding of the data. These files were 
-also cleaned for data inconsistencies. These are provided in Fenix for this exercise.
+also cleaned for data inconsistencies. These are provided in Fenix for this exercise ([link](https://fenix.isa.ulisboa.pt/downloadFile/844497944594553/Ambiente_DMEVAE.zip)).
 
 The **metadata** of the dataset is the following:
 | Item | Description |
@@ -109,7 +109,7 @@ XY Point Data**<br>
 
 You can close your GIS application.
 
-## Task 02 - transform the dataset to a normalised format, according to the 3rd normal form
+## Task 02 - transform the dataset to a normalised format, according to the 3rd Normal Form
 
 We will start to create a 3rd NF dataset from the provided csv file. We will use 
 for this a spreadsheet application like Excel or Libreoffice. We suggest the 
