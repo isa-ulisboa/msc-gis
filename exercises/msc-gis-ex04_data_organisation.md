@@ -64,8 +64,8 @@ The downloaded table contains the following columns:
 
 ## Submission of the exercise
 
-You should submit your exercise report by email to `ruifigueira@isa.ulisboa.pt` 
-until next class on 6th March 2023. The report should contain responses to parts of
+You should submit your exercise report Google Forms (see Task 05) 
+until next class on 11th March 2024. The report should contain responses to parts of
 this exercise marked as **QUESTION**
 
 ## Task 01 - Map the dataset in GIS
@@ -112,7 +112,7 @@ You can close your GIS application.
 ## Task 02 - transform the dataset to a normalised format, according to the 3rd Normal Form
 
 We will start to create a 3rd NF dataset from the provided csv file. We will use 
-for this a spreadsheet application like Excel or Libreoffice. We suggest the 
+for this a spreadsheet application like Excel or Libreoffice Calc. We suggest the 
 following path to achieve that goal:
 
 ### Step 1 - analyse you problem and create a diagram
@@ -121,7 +121,7 @@ You should study and plan for the data transformations required:
 present
 - identify new tables that need to be created for each of the identified entities, 
 in order to solve partial or transitive dependencies
-- write down a text representation of the new table schemas, identifying the 
+- write down in your report a text representation of the new table schemas, identifying the 
 primary key. The text notation for the table schema representation is:
     ```
     <table name>(<attrib_01>, <attrib_02>, ...,  <attrib_n>)
@@ -140,8 +140,9 @@ Once you're confident with the solution achieved, make data transformations:
 - make a copy of the original file to make transformations. You should always 
 keep the original data for reference or recovery.
 - create a new table for each of these entities, removing duplicate rows
-    - you can use pivot tables or data filters of your spreadsheet software. 
-    The specific method depends if your're using Excel, Libreoffice or OpenOffice, 
+    - you can use pivot tables [see tutorial](https://www.w3schools.com/excel/excel_table_pivot_intro.php) 
+    or data filters of your spreadsheet software. 
+    The specific method depends if your're using Excel, Libreoffice Calc or OpenOffice Calc, 
     Google Sheets, MacOS Numbers or other.
     - you can also use [OpenRefine](https://openrefine.org/) for this purpose
 - add unique identifiers to each of the new tables. This can be simple a sequential 
@@ -292,5 +293,11 @@ freguesia (as above), but with SQL, you can do the following:
 > The options to use native SQL in ArcGIS are more limited. It does not allow to 
 define the columns of the SQL statement output, but only the **WHERE** clause.
 
+# Task 05 - Submission
 
+Submit you GIS project (compressed zip of main folder) and report through the 
+following Google forms: [Google forms](https://forms.gle/v8esNZp6XDbU2Yyx5)
+
+Please manage your project folder to retain only the essential files (e.g. avoid 
+duplications of data), to keep the project size to a minimum.
 
