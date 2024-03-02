@@ -1,12 +1,12 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 5 - Zoning
 
 ## Introduction
 
-**Zoning** is a method to divide a geographic area into zones, each of which has a set of regulations for new development, that differs from other zones. This is a powerfull instrument for land use planning and management.
+**Zoning** is a method to divide a geographic area into zones, each of which has a set of regulations for new development, that differs from other zones. This is a powerful instrument for land use planning and management.
 
-The **Zoning** process involves the application of a set of rules or criteria to divide the land into areas that best fit a specific use. These criteria can be based in a multitude of factors, like type of land cover, type of soil, orography, slope, solar exposition,proximity to natural or artificial features (water streams, roads, coast line, etc.). The use of GIS enables the identification and appplication of rules to identify the  areas of the territory that fullfil the required conditions.
+The **Zoning** process involves the application of a set of rules or criteria to divide the land into areas that best fit a specific use. These criteria can be based in a multitude of factors, like type of land cover, type of soil, orography, slope, solar exposition,proximity to natural or artificial features (water streams, roads, coast line, etc.). The use of GIS enables the identification and application of rules to identify the  areas of the territory that fullfil the required conditions.
 
 > **GOAL OF THE EXERCISE**
 >
@@ -48,7 +48,7 @@ Download from Fenix the file [Ex05_Zoning.zip](https://fenix.isa.ulisboa.pt/down
 ## Preparation of the exercise
 
 - Download input data [Ex05_Zoning.zip](https://fenix.isa.ulisboa.pt/downloadFile/844497944594811/Ex05_Zoning.zip) from Fenix and extract the zip file.
-- Create the file sctructure for your project and place input data files inside DataIn folder
+- Create the file structure for your project and place input data files inside DataIn folder
 
 The ideal structure of a project folder should be, for the present exercise:
 
@@ -75,6 +75,6 @@ Ex05                                    (project folder)
 
 ## Expected result
 
-The followign areas highlighted in blue were identified as fullfilling all requirements. The highlighted area has the highest area / perimeter ratio.  
+The following areas highlighted in blue were identified as fulfilling all requirements. The highlighted area has the highest area / perimeter ratio.  
 ![result](./images/ex05_img02.jpg)
 

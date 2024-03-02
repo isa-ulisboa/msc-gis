@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 6 - Coordinate Reference System - ArcGIS
 
@@ -36,7 +36,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
     3.1. On the Catalog pane, use the context menu of the gds to add it.
     
     3.2. What is the CRS of the added gds?
-    - use the context menu of the layer to see its metainforation   
+    - use the context menu of the layer to see its metainformation   
     
     3.3. Check again the map’s CRS. Did it change? Take note of its name. 
 
@@ -48,7 +48,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     5.2. Check the CRS of the map. Did it change?
 
-    5.3. **Remark**: ArcGIS Pro executed an “On the Fly” transformation (“on the fly” coordinate transformations – OFT) to the project CRS; therefore, presently, visualization is done using EPSG 4258. However, the layers’ CRS didn´t change
+    5.3. **Remark**: ArcGIS Pro executed an “On the Fly” transformation (“on the fly” coordinate transformations – OFT) to the project CRS; therefore, presently, visualization is done using EPSG 4258. However, the layers’ CRS didn't change
 
 6. Save your project.
 
@@ -138,7 +138,7 @@ Download from Fenix the file [Ex06_CRS.zip](https://fenix.isa.ulisboa.pt/downloa
 
     3.1. As origin layer choose `Europe4CaptETRS89LAEA`.
 
-    3.2. As destination layer select the same laye
+    3.2. As destination layer select the same layer
 
     3.3. Give the name CaptDistMatr to the output class
 
