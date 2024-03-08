@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 7 - Editing - ArcGIS
 
@@ -37,13 +37,13 @@ Start by setting up your exercise environment:
 
 3. Add Basemap → Imagery as the background. If there is no internet access, add the ISA.tif file provided
 
-4. Set the Boundary transparency to 60% in Feature Layer → Appearance → Transparency
+4. Set the Boundary transparency to 60% in **Feature Layer → Appearance → Transparency**
 
 5. Confirm that the ArcGIS map CRS is ETRS89 / Portugal TM06 (EPSG: 3763), and this is the same CRS of the Boundary layer;
 
 6. Create an empty folder named DataOut to store the new gds to be created.
 
-7. Create a new geopackage inside DataOut folder named Tapada.gpkg, to store all new layers of the project
+7. Create a new geopackage inside **DataOut** folder named `Tapada.gpkg`, to store all new layers of the project
 
 ## 2. Modify an existing feature
 
@@ -51,7 +51,7 @@ The shape of the polygon in the layer Boundary needs to be adjusted in its limit
 
 ![area](./images/ex07_arcgis_img01.jpg)
 
-1. Make a copy of the boundary layer called Boundary_correct to the Tapada.gpkg geopackage in the DataOut folder. Add it to the map, if necessary.
+1. Make a copy of the boundary layer called Boundary_correct to the `Tapada.gpkg` geopackage in the DataOut folder. Add it to the map, if necessary.
 
 2. Start an editing session by selecting the tab Edit
 
