@@ -21,13 +21,13 @@ which contains the following datasets:
 
 ## 1. Identify and define the CRS of a map. 
 
-1. Create a new QGIS project
+1. Create a new QGIS project:
     
     1.1. Create a new project folder
 
     1.2. Add the DataIn folder of the extracted files to this newly created project folder. 
 
-    1.3. Create a new QGIS project and save is inside the project folder
+    1.3. Save the new QGIS project named `ex06` inside the project folder
 
 2. Identify the current CRS of your map
     
@@ -44,7 +44,7 @@ which contains the following datasets:
     
     3.2. What is the CRS of the added gds?
     - use the context menu of the layer to see its properties. The information about 
-    the CRS is in the source tab. 
+    the CRS is in the Information tab. 
     
     3.3. Check again the map’s CRS. Did it change? Take note of its name. 
 
@@ -231,7 +231,7 @@ to the ETRS89 / LAEA Europe CRS (EPSG: 3035); name this new gds `Europe4CaptETR8
 
     6.1. It is suitable only to obtain ad-hoc measurements
 
-7. Zoom in to a small region close to the parallel 55º and use the Vector menu --> Research Tools --> Create Grid … to add a temporary layer to the project – choose the canvas extent and spacing 1º.
+7. Zoom in to a small region close to the parallel 55º and use the **Vector menu --> Research Tools --> Create Grid** … to add a temporary layer to the project – choose the canvas extent and spacing 1º.
 
 8. Change the project CRS to ETRS89 / LAEA Europe (EPSG: 3035) and analyze the result.
 
