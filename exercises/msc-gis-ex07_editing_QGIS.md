@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 7 - Editing - QGIS
 
@@ -31,7 +31,7 @@ Start by setting up your exercise environment:
 
 1. Create a new QGIS project file;
 
-2. Add the provided gds Boundary (GeoPackage format, CRS: ETRS89 / Portugal TM06, EPSG: 3763) to the map. In this case, it is not important to convert to file geodatabase format.
+2. Add the provided gds `Boundary` (GeoPackage format, CRS: ETRS89 / Portugal TM06, EPSG: 3763) to the map.
 
 3. Add XYZ Tyles - Google Satellite or Bing as the background (recall Ex02 on how to do it). If there is no internet access, add the ISA.tif file provided
 
@@ -41,7 +41,7 @@ Start by setting up your exercise environment:
 
 6. Create an empty folder named DataOut to store the new gds to be created.
 
-7. Create a new geopackage inside DataOut folder named Tapada.gpkg, to store all new layers of the project
+7. Create a new geopackage inside DataOut folder named `Tapada.gpkg`, to store all new layers of the project
 
 ## 2. Modify an existing feature
 
@@ -49,11 +49,11 @@ The shape of the polygon in the layer Boundary needs to be adjusted in its limit
 
 ![area](./images/ex07_arcgis_img01.jpg)
 
-1. Make a copy of the boundary layer called Boundary_correct to the Tapada.gpkg geopackage in the DataOut folder. Add it to the map, if necessary.
+1. Make a copy of the boundary layer called `Boundary_correct` to the `Tapada.gpkg` geopackage in the `DataOut` folder. Add it to the map, if necessary.
 
-2. Start an editing session by selecting the tool Edit
+2. Start an editing session by selecting the tool **Edit**
 
-3. In the Layers panel, make sure only Boundary_correct is selected for editing
+3. In the Layers panel, make sure only `Boundary_correct` is selected for editing
 
 4. In Digitizing toolbar, select **Vertex tool**
 
@@ -69,7 +69,7 @@ The shape of the polygon in the layer Boundary needs to be adjusted in its limit
 
 10. If needed, you can **undo** (Ctrl+Z) or **redo** (Ctrl+Y) your edits
 
-8. Some of the modifications are easier to do with the **Reshape Features** tool. This is accessible from the **Advanced Digitizing toolbar**. You can add this toolbar to the QGIS interface with the menu View --> Toolbars.
+8. Some of the modifications are easier to do with the **Reshape Features** tool. This is accessible from the **Advanced Digitizing toolbar**. You can add this toolbar to the QGIS interface with the menu **View --> Toolbars**.
 
 9. For example, use it to reshape, in the bottom left corner, around the building. Start tracing outside the polygon, go around the building, and finish the trace again outside the polygon.
 
@@ -97,17 +97,17 @@ Actually, a GIS only stores vertex coordinates and their order within the set of
 
 - 1.2. Name the new database `ISA` (under your DataOut folder for this exercise)
 
-- 1.3. Name the new database table Roads
+- 1.3. Name the new database table `Roads`
 
 - 1.4. Choose the appropriate geometric type (Line)
 
     - **Remark**: QGIS supports geometric types No geometry (data tables), Point, Line, Polygon, MultiPoint, MultiLine, MultiPolygon, among others – a MultiLine (also called multipart line) is a complex feature composed by more than one non-contiguous line; MultiPoint and MultiPolygon definitions are analogous; the multipart points geometry is suitable to represent sets of geographic objects (geometry point) sharing the same attribute values (non-spatial characteristics) – for instance, to represent archipelagos composed by several islands; multipart lines/polygons are suitable to represent non-contiguous/non-adjacent features sharing the same attribute values (non-spatial characteristics)
 
-- 1.5. Choose the EPSG: 3763 CRS
+- 1.5. Choose the `EPSG: 3763 CRS`
 
 - 1.6. Add one attribute to this new gds named status, choosing the appropriate data type according to the foreseen values (*Good*, *Bad*, *Fair*, for instance)
 
-**2. Set the QGIS environment suitable for editing roads purposes**
+**2. Setting the QGIS environment for editing roads**
 
 A road must always connect to other road(s), by sharing the same vertex. QGIS tool Snapping allows to ensure building a connected network, through Search Radius and Snapping settings. Without setting the QGIS environment it will be impossible to connect lines, even if they seem to be connected at a given scale, zooming in will show that they are not connected.
 
@@ -139,13 +139,13 @@ Unless appropriate search radius and snapping (mode and tolerance) are set, thes
 
 **3. Create in the new gds named Roads the roads located inside the Boundary polygon**
 
-- 3.1. On the Roads layer's context menu / Symbology window, choose a bright color for the lines (other than red) and set width to 1 mm
+- 3.1. On the `Roads` layer's context menu / Symbology window, choose a bright color for the lines (other than red) and set width to 1 mm
 
 
 - 3.2. Activate the layer Roads and use the **Toggle Editing** buton ![area](./images/ex07_qgis_img04.jpg) to turn on the editing mode 
   - **Remark**: After activating the appropriate layer, to turn on the editing mode use the Toggle Editing button (in the Digitizing toolbar)
 
-- 3.3. Use the **Add Line Feature button** ![area](./images/ex07_qgis_img05.jpg) (in the Digitizing Toolbar) to create a new line representing a road. Start by creating the first line vertex (click the mouse over the background image on a road intersection), keep on adding vertexes (clicking over the background image) to follow the road shape; after inserting the last vertex, write click the mouse to end the line
+- 3.3. Use the **Add Line Feature button** ![area](./images/ex07_qgis_img05.jpg) (in the **Digitizing Toolbar**) to create a new line representing a road. Start by creating the first line vertex (click the mouse over the background image on a road intersection), keep on adding vertexes (clicking over the background image) to follow the road shape; after inserting the last vertex, write click the mouse to end the line
 
   - **Remark 1**: It will be necessary to decide where to start and to end a line:
      – the starting or/and the ending vertexes of a line must be located on a road intersection 
@@ -153,7 +153,7 @@ Unless appropriate search radius and snapping (mode and tolerance) are set, thes
 
   - **Remark 2**: Insert a vertex on every (foreseen) road intersection
 
-  - **Remark 3**: If necessary, in the Setting menu / Options / Digitizing window (inside the Rubberband section) increase the line width and change the Line and Fill colors
+  - **Remark 3**: If necessary, in the **Setting menu --> Options --> Digitizing** window (inside the Rubberband section) increase the line width and change the Line and Fill colors
 
 - 3.4. In the attribute values dialog box, leave the fid attribute value as Autogenerate and enter the status attribute value (*Good*, *Fair* or *Bad*) of the road
 
@@ -161,7 +161,7 @@ Unless appropriate search radius and snapping (mode and tolerance) are set, thes
     - a) to record each feature geometry and attribute values or 
     - b) to record several/all the features geometry and, only after, to open the layer attribute table and to record every feature attribute value. 
 
-   By default, the a) option is on. Use the menu Settings / Options / Digitizing window to enable (inside the Feature creation section) Suppress attribute form pop-up after feature creation in order to set on the b) option. The b) option is usually more efficient but it requires some additional precautions ...
+   By default, the a) option is on. Use the menu **Settings --> Options --> Digitizing** window to enable (inside the Feature creation section) Suppress attribute form pop-up after feature creation in order to set on the b) option. The b) option is usually more efficient but it requires some additional precautions ...
 
 - 3.5. Open the layer attribute table and analyze the result (the fid attribute values will be automatically created whenever you Save Layer Edits)
 
@@ -179,7 +179,7 @@ Unless appropriate search radius and snapping (mode and tolerance) are set, thes
 
   - **Remark 5**: moving vertexes – select all the vertexes you want to move, click on a selected vertex or edge, and click again on the desired new location – all the selected vertexes will move together
 
-  - **Remark 6**: each change made with a vertex/feature is stored as a separate entry in the Undo memory; use the CrtlZ keys to undo the last change(s) (so many times as necessary)
+  - **Remark 6**: each change made with a vertex/feature is stored as a separate entry in the Undo memory; use the Crtl Z keys to undo the last change(s) (so many times as necessary)
 
 - 3.7. Repeat the procedure in order to record a few more roads and Save Layer Edits quite often
 

@@ -35,23 +35,23 @@ Start by setting up your exercise environment:
 
 2. Add the provided gds Boundary (GeoPackage format, CRS: ETRS89 / Portugal TM06, EPSG: 3763) to the map. In this case, it is not important to convert to file geodatabase format.
 
-3. Add Basemap → Imagery as the background. If there is no internet access, add the ISA.tif file provided
+3. Add **Basemap → Imagery** as the background. If there is no internet access, add the ISA.tif file provided
 
 4. Set the Boundary transparency to 60% in **Feature Layer → Appearance → Transparency**
 
 5. Confirm that the ArcGIS map CRS is ETRS89 / Portugal TM06 (EPSG: 3763), and this is the same CRS of the Boundary layer;
 
-6. Create an empty folder named DataOut to store the new gds to be created.
+6. Create an empty folder named `DataOut` to store the new gds to be created.
 
-7. Create a new geopackage inside **DataOut** folder named `Tapada.gpkg`, to store all new layers of the project
+7. Create a new geopackage inside `DataOut` folder named `Tapada.gpkg`, to store all new final layers of the project
 
 ## 2. Modify an existing feature
 
-The shape of the polygon in the layer Boundary needs to be adjusted in its limits, because its boundary overrides several areas. Edit the shape to adjust it to the limits in red shown in the figure.
+The shape of the polygn in the layer Boundary needs to be adjusted in its limits, because its boundary overrides several areas. Edit the shape to adjust it to the limits in red shown in the figure.
 
 ![area](./images/ex07_arcgis_img01.jpg)
 
-1. Make a copy of the boundary layer called Boundary_correct to the `Tapada.gpkg` geopackage in the DataOut folder. Add it to the map, if necessary.
+1. Make a copy of the boundary layer called `Boundary_correct` to the `Tapada.gpkg` geopackage in the `DataOut` folder. Add it to the map, if necessary.
 
 2. Start an editing session by selecting the tab Edit
 
@@ -59,7 +59,7 @@ The shape of the polygon in the layer Boundary needs to be adjusted in its limit
 
 ![area](./images/ex07_arcgis_img02.jpg)
 
-4. In the Edit toolbar, select **Modify**, and then **Edit Vertices** in the right pane the was open
+4. In the Edit toolbar, select **Modify**, and then **Edit Vertices** in the right pane that was open
 
 5. Click on **Select a feature** in this pane, and then select the feature you want to change on the map. You will notice that vertices became visible, and a new toolbar appeared on the bottom of the view pane 
 
@@ -71,7 +71,7 @@ The shape of the polygon in the layer Boundary needs to be adjusted in its limit
 
 7. If needed, you can **undo** (Ctrl+Z) or **redo** (Ctrl+Y) your edits
 
-8. Some of the modifications are easier to do with the **Reshape** tool, which you can select on the Modify Features pane on the right. The next toolbar appears:
+8. Some of the modifications are easier to do with the **Reshape** tool, which you can select on the **Modify Features** pane on the right. The next toolbar appears:
 
 ![area](./images/ex07_arcgis_img04.jpg)
 
@@ -92,7 +92,7 @@ Actually, a GIS only stores vertex coordinates and their order within the set of
 
 Because we know beforehand that the attribute `Status` will only have three values, we can create a template of the feature class with these values, which will speed up data insertion, and improve consistency and data quality.
 
-1. On the Catalog pane, select the geopackage Tapada.gpkg, and New Feature Class in its context menu
+1. On the **Catalog** pane, create a **New Feature Class** in the context menu of the file geodatabase of the project:
 
     - Provide the name `Roads` and a feature type. Click Next
 
@@ -100,45 +100,52 @@ Because we know beforehand that the attribute `Status` will only have three valu
 
     - Make sure the CRS is **ETRS 1989 Portugal TM06 (EPSG: 3763)**. Click Next
 
-    - Verify the Tolerance, and its meaning. This parameter is important to determine the precision of our layer. Click Next
+    - Verify the **Tolerance**, and its meaning. This parameter is important to determine the precision of our layer. Click Next
 
     - Accept all the rest of the values and click Finish.
+    
 
 2. Now, let’s create the template with the predefined values Good, Fair and Bad.
 
-    - Open the Symbology pane of the layer
+    - Open the **Symbology** pane of the layer
 
-    - Select Unique values for the Primary Symbology
+    - Select **Unique values** for the Primary Symbology
 
-    - Select the field Status for the classes. The classes table will be empty, with no categories listed.
+    - Select the field `Status` for the classes. The classes table will be empty, with no categories listed.
     
-    - Click on the green plus sign, to add unlisted values. A new pane will open
+    - Click on the **green plus sign**, to add unlisted values. A new pane will open
     
-    - Click Options → Add new value, and enter the three values *Good*, *Fair* and *Bad*
+    - Click **Options → Add new value**, and enter the three values *Good*, *Fair* and *Bad*
 
-    - To make all line symbols thicker, select all while holding the Ctrl key, and click on More → Format all symbols
+    - To make all line symbols thicker, select all while holding the Shift key, and click on **More → Format** all symbols
 
-3. Before starting to digitize, it is important to set up and activate **Snapping**. This ensures that close vertices are overlaid, ensuring lines and polygons to be connected with each other. This is important to ensure a correct topology between features.
+3. Before starting to digitize, it is important to set up and activate **Snapping**. This ensures that close vertices are overlaid, ensuring lines and polygons to be connected with each other. A road must always connect to other road(s), by sharing the same vertex. This is important to ensure a correct topology between features.
 
-    - In the Edit menu, click on Snapping group, and select the snapping options
+   Common digitizing errors – supposing the two lines should actually intersect, the so-called error of omission and error of commission occur in the following situations:
+
+   ![area](./images/ex07_qgis_img01.jpg)
+
+   Unless appropriate search radius and snapping (mode and tolerance) are set, these kind of errors will always occur; to detect them, sometimes, it is necessary to zoom in to a very large scale of visualization The search radius and snapping option usage can help on avoiding to have to correct digitizing errors later on.
+
+- In the Edit menu, click on **Snapping** group, and select the snapping options
 
 ![area](./images/ex07_arcgis_img05.jpg)
    
-   - Click on Snapping settings, and define a value for XY tolerance. This can be set as a pixel or a map units value. Set is as 3 meters (map units)
+   - Click on **Snapping settings**, and define a value for XY tolerance. This can be set as a pixel or a map units value. Set is as 3 meters (map units)
 
    - You can also define the snapping tolerance by drawing a circle in the map with Se snapping tolerance, in which the radius of a drawn circle will be set as snapping distance. 
     
    - You can also try to define snapping with other values, to get the feeling how this will influence your precision in digitizing.
 
-4. Let’s start to digitize your Roads layer
+4. Let’s start to digitize your `Roads` layer
 
    - Make sure the layer is selected for editing in the Content pane
 
-   - Click on Edit → Create. The right pane should open the Create Feature, with the Templates tab showing the three categories
+   - Click on **Edit → Create**. The right pane should open the Create Feature, with the Templates tab showing the three categories
 
    - Select the type of category of the road you will digitize.
 
-   - Click the first vertex in the starting position of your road, and digitize placing vertices as needed. You can always undo.
+   - Add the first vertex in the starting position of your road, and digitize placing vertices as needed. You can always undo.
 
    - Make wise decisions. If you digitize a long unique road, this will be classified as only one condition type. What happens if in the future one part of the road changes its status (is repaired or damaged)?
 
@@ -146,38 +153,42 @@ Because we know beforehand that the attribute `Status` will only have three valu
 
 ![area](./images/ex07_arcgis_img06.jpg)
 
-   - Open the attribute table of the newly digitized layer and verify that the attribute field Status contains the expected values
+   - Open the attribute table of the newly digitized layer and verify that the attribute field `Status` contains the expected values
 
-   - Add a new field with the name Length, which values should be the length of each feature
+   - Add a new field with the name `Length`, which values should be the length of each feature
 
    - Calculate the total length of each type of road
-        - in the attribute table, right click on the name of the field Status, and select Summarize
-        - Set the output location the geopackage Tapada.gpkg, and the name oname of the output table road_type_length
-        - Select as Statistics Field the field Length
-        - As Case field, it should be selected the field Status 
+        - in the attribute table, right click on the name of the field `Status`, and select **Summarize**
+        - Set the output location the geopackage `Tapada.gpkg`, and the name name of the output table `road_type_length`
+        - Select as **Statistics Field** the field `Shape_Length` and **Statistics type** the `Sum`
+        - As **Case field**, it should be selected the field `Status`
+
+5. Finally, export your `Roads` layer to `Tapada.gpkg`, for compatibility reasons with other platforms.
 
 **Remarks:**
 
-- It will be necessary to decide where to start and to end a line – 1) the starting or/and the ending vertexes of a line must be located on a road intersection – an arc-node topological rule 2) start a new line whenever the road status changes
+- It will be necessary to decide where to start and to end a line 
+   - 1. the starting or/and the ending vertexes of a line must be located on a road intersection – *an arc-node topological rule*
+   - 2. start a new line whenever the road status changes
 
-- Insert a vertex on every (foreseen) road intersection – an arc-node topological rule
+- Insert a vertex on every (foreseen) road intersection – *an arc-node topological rule*
 
 - Save your edits often
 
 
 ## 4. Create a polygon layer
 
-In this part of the exercise we will create a polygon layer with the parcels of Tapada da Ajuda, classified by its type of soil use. 
+In this part of the exercise we will create a polygon layer with the parcels of Tapada da Ajuda, classified by its type of land use. 
 
-Soil use must be classified into two levels. First level includes 3 classes: Social area (code S), Forest (code FO) and Agriculture (code A).
+Land use must be classified into two levels. First level includes 3 classes: Social area (code S), Forest (code FO) and Agriculture (code A).
 
 Agriculture areas are further classified into: Wheat (code W), Corn (code C), Orchards (code O), Vineyard (code V), Olive (code L), Pastures (code P) and Fallow land (code F).
 
-The following is an example of the soil use classification:
+The following is an example of the land use classification:
 
 ![area](./images/ex07_arcgis_img07.jpg)
 
-After creating your classification of the soil use, it will be possible to determine the total economic performance of the study area, considering the following data concerning the economic performance of crops:
+After creating your classification of the land use, it will be possible to determine the total economic performance of the study area, considering the following data concerning the economic performance of crops:
 
 | Code | Crop | Yield €/ha |
 |------|------|------------|
@@ -189,10 +200,10 @@ After creating your classification of the soil use, it will be possible to deter
 
 In this kind of problem, all polygons are required to be adjacent (without overlapping and without gaps – empty regions or holes – between neighboring polygons) – the set of polygons must constitute a so-called coverage of the study area.
 
-1. Create a new feature class in the geopackage Tapada.gpkg, of type polygon, with the name Parcels. 
-   - It should have two fields in the attribute table - SoilUseL1, SoilUseL2 - of type text, with length of 2 characters. 
+1. Create a new feature class in the file geodatabase of the project, of type polygon, with the name `Parcels`. 
+   - It should have two fields in the attribute table - `SoilUseL1`, `SoilUseL2` - of type text, with length of 2 characters. 
 
-   - Ensure that the CRS is ETRS 1989 Portugal TM06 (EPSG: 3763). 
+   - Ensure that the CRS is **ETRS 1989 Portugal TM06 (EPSG: 3763)**. 
 
    - Add the layer to the map.
 
@@ -208,19 +219,19 @@ In this kind of problem, all polygons are required to be adjacent (without overl
 
 ![area](./images/ex07_arcgis_img08.jpg)
 
-   - Start with a polygon near the Tapada boundary. When drawing the border of the polygon  that overlays the boundary, make sure to follow the vertices to make the two lines to completely overlay.
+   - Start with a polygon near the `Tapada` boundary. When drawing the border of the polygon  that overlays the boundary, make sure to follow the vertices to make the two lines to completely overlay.
   
-   - For the next polygon, which should be contiguous with the first one, it can share one the sides. You can use the tool 2 - Autocomplete Polygon - which can use one of the sides of the first polygon to autocomplete.
+   - For the next polygon, which should be contiguous with the first one, it can share one the sides. You can use the tool 2 - **Autocomplete Polygon** - which can use one of the sides of the first polygon to autocomplete.
   
-   - The tool 3 - Trace - is useful when you want to reuse a border of an existing feature. It will snap automatically to that line, to autocomplete a polygon.
+   - The tool 3 - **Trace** - is useful when you want to reuse a border of an existing feature. It will snap automatically to that line, to autocomplete a polygon.
 
-   - To avoid open spaces between polygons, you can start by digitizing a large polygon of the whole area (or make a copy of the boundary layer), and then use the split tool to divide it into several parcels. Take a look at the series of tools available for feature modification at the Editor tool gallery.
+   - To avoid open spaces between polygons, you can start by digitizing a large polygon of the whole area (or make a copy of the boundary layer), and then use the split tool to divide it into several parcels. Take a look at the series of tools available for feature modification at the **Editor tool** gallery.
 
   ![area](./images/ex07_arcgis_img09.jpg)
 
-   - Notice the Edit vertices tool, which you can use to move vertices as with line features
+   - Notice the **Edit vertices** tool, which you can use to move vertices as with line features
 
-   - Another useful tool is Align Edges, which allows you to close gaps between edges that should overlay. Do use it, you need to activate Map Topology
+   - Another useful tool is **Align Edges**, which allows you to close gaps between edges that should overlay. Do use it, you need to activate **Map Topology**
 
   ![area](./images/ex07_arcgis_img10.jpg)
 
@@ -238,3 +249,4 @@ In this kind of problem, all polygons are required to be adjacent (without overl
 
 8. Calculate the total economic performance of the study area, using the values for each crop in the table presented before.
 
+9. Export your `Parcels` layer to `Tapada.gpkg`, for compatibility reasons with other platforms.
