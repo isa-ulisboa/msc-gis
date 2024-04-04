@@ -1,12 +1,11 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Assignment 01 - report template
 
 ## General comments about your assignment
 
-- Ensure that your GIS project opens correctly in a different computer that the one were it was created.
-After wrapping and compressing the main folder with zip, send it to your colleague. He should be able to open it without issues.
-- Use meaningful names for files and attributes. You might remember names like *Layer1, Layer2. ...*, after doing your analysis, but others will not recognize them!
+- Ensure that your GIS project opens correctly in a different computer that the one were it was created. It should have a good folder structure with data inside the main project folder. After compressing the main folder with zip, send it to your colleague. He should be able to open it without issues.
+- Use meaningful names for files and attributes. Names like *Layer1, Layer2. ...*, are not meaningful. Do not use them at layer creation, even if you think you can rename it later, as this will be prune to errors and inconsistencies in the project.
 - Use appropriate symbology for the representation of the spatial information;
 - In creating diagrams of operations, be exact in the formal aspects of the representation:
     - be consistent in the symbology of representations of datasets or operations

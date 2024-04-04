@@ -1,16 +1,16 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Assignment 01
-Date due: 17th of May 2023, 8pm.
+Date due: 21st of May 2024, 8pm.
 
 ## Context
 
 - This assignment will contribute 8/20 (maximum) to the final grade on the SIG/GIS course.
 - The work may be undersigned by a group of two students (maximum) and will be discussed individually. 
-- The group members should be informed to the teacher on the class of 24th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 28th of April 2023, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
-- Each region/polygon in Problem 02 will is specify to each group (**identified in the attribute `ZoneGroup` of the layer EditingZones**), and will be randomly assigned by e-mail on or before 2nd of May 2023.
-- **The work should be submitted before the deadline through the form [https://forms.gle/GEp92v8tqdijJMGK8](https://forms.gle/GEp92v8tqdijJMGK8)**. 
-- **The deadline to submit the full work is 17th of May 2023, 8pm**.
+- The group members should be informed to the teacher on the class of 29th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 29th of April 2024, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
+- Each region/polygon in Problem 02 will is specify to each group (**identified in the attribute `ZoneGroup` of the layer EditingZones**), and will be randomly assigned by e-mail before class of 30th of April 2024.
+- **The work should be submitted before the deadline through the form [https://forms.gle/3AuWQVhjj2mtSeU5A](https://forms.gle/3AuWQVhjj2mtSeU5A)**. 
+- **The deadline to submit the full work is 21st of May 2024, 8pm**.
 
 ## Evaluation criteria
 
@@ -43,12 +43,12 @@ Date due: 17th of May 2023, 8pm.
 
 ## Input data
     
-- The zip file `assignment2023.zip` [available at FENIX](https://fenix.isa.ulisboa.pt/downloadFile/281547991171813/Assignment2023.zip) assignment page containing the following files:
+- The zip file `Assignment2024.zip` [available at FENIX](https://fenix.isa.ulisboa.pt/downloadFile/281547991179045/Assignment2024.zip) assignment page containing the following files:
     - `Territory.gpkg` (geoPackage format) containing the following spatial data sets:
         - River
         - GwPollVulnRegion
         - SoilType
-    - `Parcels2023.gpkg` (geoPackage format) containing the following spatial data sets:
+    - `Parcels2024.gpkg` (geoPackage format) containing the following spatial data sets:
         - Cadastre
         - EditingZones
         - SoilUse
@@ -188,7 +188,7 @@ In this problem, you will be proactive. You will need to identify a problem that
 
     *Note: We will learn how to create map layouts in a class hands-on exercise* 
     
-6. Include the figure in your report, complemented by a long caption that will answer the question you defined. Include also the source, as a citation and reference.   
+6. Include the figure in your report, complemented by a long caption that will answer the question you defined. It should be clear why this problem requires a spatial analysis. Include also the data sources, as citations and references.   
 
 You should create a specific GIS project for this problem, independent on the project used for problems 01 to 04.
 
