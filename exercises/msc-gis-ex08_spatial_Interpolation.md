@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 8 - Spatial interpolation
 
@@ -39,7 +39,7 @@ The geopackage `DataIn.gpkg` contains 3 vector data sets and 3 tables:
 
 1. Make a preliminary analyses of the characteristics of raster data sets
     
-     – using Layer properties > Source tab, analyse the raster file characteristics: number of rows and columns, cell size, pixel type, raster extent and CRS. You will need these values later.
+     – using **Layer properties > Source tab**, analyse the raster file characteristics: number of rows and columns, cell size, pixel type, raster extent and CRS. You will need these values later.
 
 2. Always start by creating a diagram of operations before implementing a solution for the next problems.
 
@@ -53,7 +53,7 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
 ## 3. Problem 2: conversion (vector to raster), boolean reclassification and overlay operations
 
-*Identify the zones of civil parish Estela (code=4) with soil use Horticulture in 2003 (code=9) and soil type arenosol (code=1).*
+*Identify the zones of civil parish Estela (code = 4) with soil use Horticulture in 2003 (code = 9) and soil type arenosol (code = 1).*
 
 1. Convert the vector layer `Soil` to a raster layer `Soil_raster`
     - in **QGIS**, use the menu *Raster -> Conversion -> Rasterize (Vector to Raster)*. Use the following parameters for the conversion:
@@ -83,7 +83,7 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
         - set Output data type as `int16`
 
     - in **ArcGIS**, search for the tool in *Geoprocessing -> Spatial Analysis Tools -> Reclass -> Reclassify*. Use the following parameters for the conversion:
-        - select the Reclass field with the values to be reclassified
+        - select the `Reclass` field with the values to be reclassified
         - create a reclassification table, either using *Classify* or *Unique*
 <br>
 
@@ -94,7 +94,7 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
     - in **QGIS**, search in the Processing Toolbox for the tool *Raster Calculator*. Set the following parameters:
         - define the expression as the multiplication between all of reclassified layers. Double click the layers to add them to the expression panel
         - set cell size as the same of raster `Freguesias`
-        - set outpt extent as the same of raster `Freguesias`
+        - set output extent as the same of raster `Freguesias`
         - set Output CRS as the same of raster `Freguesias`
 
     - in **ArcGIS**, search for the tool in *Geoprocessing -> Spatial Analysis Tools -> Raster Calculator*.
@@ -104,9 +104,9 @@ Create legends for Soil, Freguesias, Use1990, Use2002 and Use2003.
 
 ## 4. Problem 3: conversion (raster to vector)
 
-Create a vector gds representing the regions the civil parish Estela (code=4) with soil use Horticulture in 2003 (code=9) and soil type arenosol (code=1).
+Create a vector gds representing the regions the civil parish Estela (code = 4) with soil use Horticulture in 2003 (code = 9) and soil type arenosol (code = 1).
 
-You can use thre resut from the previsou step, to convert it to vector layer.
+You can use the result from the previous step, to convert it to vector layer.
 
 Tools needed:
 - in **QGIS**, use the tool in the menu *Raster -> Conversion -> Polygonize (Raster to Polygon)*
@@ -116,14 +116,18 @@ Check for the need to apply a *Dissolve* operation to aggregate polygons with th
 
 ## 5. Problem 4: create a continuous surface from a sample of points
 
-Based on the NO3 concentration values observed in the wells (layer Wells), estimate the NO3 concentration in the groundwater using the IDW method.
+Based on the NO<sub>3</sub> concentration values observed in the wells (layer Wells), estimate the NO<sub>3</sub> concentration in the groundwater using the IDW method.
 
-The IDW method generates a raster gds. The estimated value (the pixel value v) is a convex linear combination of the sample values: v=∑ci´vi with ci´= ci/∑ci (so ∑ ci´=1), ci=(1/di)p and di are the distances to the sample points. The power p allows to adjust the distance weight.
+The IDW method generates a raster gds. The estimated value (the pixel value v) is a convex linear combination of the sample values: 
+```math
+v=∑ci´vi 
+````
+with $ci´= ci/∑ci$ (so $∑ ci´= 1$), $ci = (1/di)^p$ and $d_i$ are the distances to the sample points. The power $p$ allows to adjust the distance weight.
 
 1. Explore your data:
-- In the layer Wells, calculate the basic statistics for the attribute NO3conc: min, max, mean, median, std. dev., count
+- In the layer `Wells`, calculate the basic statistics for the attribute NO<sub>3</sub> conc: min, max, mean, median, std. dev., count
     - On the attribute table, use the context menu on the field name
-    - Create a symbology with **proportional symbols** to represent the concentration of NO3
+    - Create a symbology with **proportional symbols** to represent the concentration of NO<sub>3</sub>
 
 2. Create a continuous surface estimated by the IDW method
 
@@ -149,7 +153,7 @@ Do another interpolation, but changing the parameters of the model. Compare with
 
 ## 7. Problem 6: reclassification
 
-Reclassify the raster created on problem 4 in order to create a new raster gds with pixel values 1, 2, …, 5 representing the 5 classes of NO3 concentration: ]0 – 25]; ]25 – 50]; ]50 – 100]; ]100 – 150]; > 150.
+Reclassify the raster created on problem 4 in order to create a new raster gds with pixel values 1, 2, …, 5 representing the 5 classes of NO<sub>3</sub> concentration: ]0 – 25]; ]25 – 50]; ]50 – 100]; ]100 – 150]; > 150.
 
 ## 8. Additional problem:
 
