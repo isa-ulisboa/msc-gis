@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 9 - Calculation of NDVI indices
 
@@ -11,13 +11,13 @@
 
 ## Spectral Remote Sensing
 
-Satelitte images are produced by the capture of the reflection of the Sun light by the Earth. Satellites contain multispectral sensors, which capture, for the same location on the surface, different parts - ranges of wavelenghts - of the spectrum of the visible and near visible light. These different ranges are called bands. Therefore, a multi-band-raster image is a raster image composed of a combination of different bands. For example, the Sentinel 2 satellite images contain 13 bands.
+Satellite images are produced by the capture of the reflection of the Sun light by the Earth. Satellites contain multispectral sensors, which capture, for the same location on the surface, different parts - ranges of wavelenghts - of the spectrum of the visible and near visible light. These different ranges are called bands. Therefore, a multi-band-raster image is a raster image composed of a combination of different bands. For example, the Sentinel 2 satellite images contain 13 bands.
 
 ## NDVI analysis
 
 The **normalized difference vegetation index (NDVI)** is a simple indicator that can be used to analyze **remote sensing** measurements assessing whether or not the target being observed contains **live green vegetation**. It provides an indicator of the health or structure of the vegetation.
 
-Actively photosysthetic vegetation is known to absorve visible light and reflect near-infrared light, while vegetation under drought stress, or lower chlorophyll content, will absorve less visible light.
+Actively photosynthetic vegetation is known to absorb visible light and reflect near-infrared light, while vegetation under drought stress, or lower chlorophyll content, will absorb less visible light.
 
 See the following example (source: [NASA](https://earthobservatory.nasa.gov/features/MeasuringVegetation/measuring_vegetation_2.php)):
 
@@ -53,19 +53,19 @@ Within **precision agriculture** applications, NDVI data provides a measurement 
 
 - Your raster layers will be satellite images from the Copernicus service (Sentinel 2 images).
 
-You will access to the free [Copernicus Open Access Hub](https://scihub.copernicus.eu/) service to download:
+You will access to the free [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu) service to download:
 
 - Source of input data: Sentinel 2 imagery
-- Available via Copernicus Open Access Hub (OAH)
+- Available via Copernicus Data Space Ecosystem (https://dataspace.copernicus.eu/), either through *Copernicus Browser* or *Data collections*
 - or via [SeNtinel Applications Platform (SNAP)](https://step.esa.int/main/download/snap-download/) (desktop application)
-- Registration required on the Copernicus Open Access Hub. Create your account to get a username and password at [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/)
+- Registration required on the Copernicus Data Space Ecosystem. Create your account to get a username and password at [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu/)
 
-To download Sentinel 2 satellite imagery from the Coperinus Open Access Hub, you need to select the geographic area or interest for download and set additional selection criteria:
+To download Sentinel 2 satellite imagery from the Copernicus Browser, you need to select the geographic area or interest for download and set additional selection criteria:
     - Sensing period: start and end dates
     - Select Sentinel-2
-    - Cloud cover: define a limit to up to 20% cover, writing “[0 TO 20]”. You may try other values.
+    - Cloud cover: define a limit to up to 20% cover. You may try other values.
 
-Check the [ESA tutorial on how to download](https://appliedsciences.nasa.gov/sites/default/files/2021-10/Part2_Data-Download_EN.pdf) from the Copernicus Open Access Hub.
+Check the [video tutorials on how to download](https://dataspace.copernicus.eu/videos) from the Copernicus Data Space Ecosystem.
 
 ## 2. Information about Sentinel 2 imagery (summary)
 
@@ -81,7 +81,7 @@ Check the [ESA tutorial on how to download](https://appliedsciences.nasa.gov/sit
         - Band 8 – infrared
 
 
-## 3. Download images from Copernicus Open Access Hub
+## 3. Download images from Copernicus Data Space Ecosystem
 
 1. Draw with your mouse the area of interest
     - you might prefer to use as basemap the satellite imagery, to better identify the pivots' area.
@@ -91,7 +91,7 @@ Check the [ESA tutorial on how to download](https://appliedsciences.nasa.gov/sit
     - Mission: `Sentinel-2`
     - Sattelite Platform: `S2A_*`
     - Product type: `S2MSI2A`
-    - Could Cover %: `[0 TO 20]`
+    - Could Cover %: `20%`
 
 3. Download one product (images) for the beginning of February, and another for latest March, for your area. Make sure the image fully covers the pivots in the area of interest
 
@@ -118,7 +118,7 @@ After unzipping it, images of 10 m resolution are in the folder:
 - Calculate the NDVI index in Raster Calculator for the begining of February, using the formula of above
 - Do a **Clip raster by mask layer** (in QGIS) of **Extract by Mask** (ArcGIS), in order to clip, the  areas of pivots 1 and 2.
 - Calculate the histogram for each of the pivots, and compare them. Which of the pivots do you think has better crop vitality in that period
-- repeat the index calculation for late March images, and compare the histogram with the begining of February.
+- repeat the index calculation for late March images, and compare the histogram with the beginning of February.
 
 ## 6. Additional exercise - Visualize SWIR
 
@@ -126,7 +126,7 @@ The Short Wave Infrared RGB Composite (SWIR) is a composite image that combines,
 
 We can check an example based on the forest fire that occurred in the Natural Park of Serra da Estrela, center Portugal, in August 2022.
 
-1. Download images from Copernicus Open Access Hub
+1. Download images from Copernicus Data Space Ecosystem
     - Find the locality Manteigas, which is between Castelo Branco and Guarda district capitals, in the center-east of Portugal
     - draw a small area around the locality of Manteigas, to identify the area of interest.
 
