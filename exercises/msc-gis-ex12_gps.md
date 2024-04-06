@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 12 - Collect and represent GPS data on a GPS project
 
@@ -13,7 +13,7 @@
 
 For this exercise, we will use the final GIS project you created in Exercise 07 - Editing. Create a copy of your project and rename the main folder and project file as `Ex12`.
 
-Additionaly, you will create a track record with a GPS app on your mobile and add it to your GIS project.
+Additionally, you will create a track record with a GPS app on your mobile and add it to your GIS project.
 
 # 1. Obtain GPS data
 
@@ -53,7 +53,7 @@ The elements to include are:
 - **graticule** - a representation of a grid based on the CRS of the project, or in measured distances. It facilitates reading and identification of locations, and distance measures.
 - **citation** - a recommended citation in text to be used by the map users. 
 
-The fists five elements are considered to be a requirement in any map layout.
+The first five elements are considered to be a requirement in any map layout.
 
 1. Create a map layout to represent roads, maps and the GPS track of the *Tapada da Ajuda* map:
     - in ArcGIS Pro, use the tool *Insert --> New layout*

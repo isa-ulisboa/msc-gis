@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 11 - Determine a dam implantation area
 
@@ -16,7 +16,14 @@
 
 - To delineate the dam watershed. 
 
-- To calculate the flooded area and the volume of water in the dam reservoir when it is filled up to 595m.
+- To calculate the flooded area and the volume of water in the dam reservoir when it is filled up to 595 m.
+
+**Requirements**
+- ArcGIS Pro:
+    - Requires the module *Spatial Analyst* or *3D Analyst* to be active 
+
+- QGIS:
+    - Requires the plugins *GRASS8* and *GRASS GIS Provider* to be installed and activated. 
 
 
 ## Source data
@@ -60,11 +67,11 @@ Steps to implement:
 
 This operation is performed on a digital elevation model (DEM) in matrix format (raster) using spatial analysis tools that perform raster operations. The dam's watershed is delimited by a ridge line, which, starting on one side of the dam, goes around a surface of the land that contains all the water streams that will contribute to the dam, and ends at the other end of the dam wall. Within this basin there are several hydrographic sub-basins, corresponding to different effluents.
 
-1. Create the DEM of the study area in raster format by converting `TINApartadura` to raster with the name `DEMApartadura` (TIN to Raster; in “sampling distance” choose “CELLSIZE” and value 20 to obtain a grid with a spatial resolution of 20m).
-    - In ArcGIS, use the tool **Create TIN**
+1. Create the DEM of the study area in raster format by converting `TINApartadura` to raster with the name `DEMApartadura` (TIN to Raster; in “sampling distance” choose “CELLSIZE” and value 20 to obtain a grid with a spatial resolution of 20 m).
+    - In ArcGIS, use the tool **TIN to Raster**
     - In QGIS, this step was already done with the tool **TIN Interpolation**
 
-2. Create a raster named `DEMApartFill` from the DEM `DEMApartadura`
+2. Create a raster named `DEMApartFill` from the DEM `DEMApartadura`. This is required to resolve imperfections on the data (e.g. sinks, i.e., cells with undefined drainage direction: 
     - in ArcGIS, use the tool **Fill**
     - in QGIS, use the tool **r.fill.dir** from Processing -> GRASS
         - set as Depressionless DEM the new layer `DEMApartFill`
@@ -73,10 +80,7 @@ This operation is performed on a digital elevation model (DEM) in matrix format 
 3. Create a raster named `flowdir` with the flow directions using `DEMApartFill` as input. (see Notes)
     - in ArcGIS, use the tool **Flow Direction** in tool Spatial Analyst Tools / Hydrology / Flow Direction
         - select as Flow Direction type the option D8
-    - in QGIS, use the tool **r.watershed** from Processing -> GRASS
-        - set the *Minimum size of exterior watershed basin* to 10000 (this value is related to the )
-        - check Enable sSingle Flow Direction (D8)
-        - set the name of the output raster file of the option **Drainage direction**. Unselect the remaining outputs (or leave as tempprary outputs, and analyse their results)
+    - in QGIS, the raster `flowdir` was already created in the last step, no need to perform anything else
 
 4. Create a raster named `SubBasins` of the sub-basins of the study area using `flowdir` as input 
     - in ArcGIS, use the tool **Basin** in tool Spatial Analyst Tools / Hydrology / Basin) 
@@ -88,7 +92,7 @@ This operation is performed on a digital elevation model (DEM) in matrix format 
 
 
 5. Create a polygon theme for the study area names `subBasinsPolyg` by converting the raster `SubBasins` to polygon shape format 
-    - in ArcGIS use the Raster to Polygon tool (Conversion Tools / From Raster / Raster to Polygon), input raster: `SubBasins`; Field: VALUE; Output polygon features : `subBasinsPolyg`; you can keep the “simplify polygons” option).
+    - in ArcGIS use the **Raster to Polygon** tool (Conversion Tools / From Raster / Raster to Polygon), input raster: `SubBasins`; Field: VALUE; Output polygon features : `subBasinsPolyg`; you can keep the “simplify polygons” option).
     - in QGIS, use the tool Polygonize (Raster / Conversion / Polygonize (Raster to vector) )
 
 6. Create a theme named `LimBasinHid` from `subBasinsPolyg` with the polygon that delimits the sub-basins with water lines that lead to the dam. 
@@ -104,7 +108,7 @@ In full storage, the reservoir reaches the project quota of 595 m, called **full
 
 1. Create a new TIN named `tinApart_basin` (use `ApartBarr_hid` as “hardline”, `ApartBarr_alt` and `DamWall` as “softline” and `LimBasinHid` with value in “height_field” of <None> and “SF_type” of hardclip). The basin boundary will cut the TIN, preventing triangulation between the vertices of the boundary.
 
-2. Calculate the volume of water in the reservoir at an elevation of 595m (3D Analyst / Area and Volume / Surface Volume – Input surface: `tinApartadura`; Output text file: `volume.txt`; Plane height: 595; Reference plane: below the plane). Open the volume.txt file that was created and observe the values of the reservoir area at an elevation of 595m and the volume of water it stores.
+2. Calculate the volume of water in the reservoir at an elevation of 595 m with the tool **Surface Volume** (3D Analyst / Area and Volume / Surface Volume – Input surface: `tinApartadura`; Output text file: `volume.txt`; Plane height: 595; Reference plane: below the plane). Open the volume.txt file that was created and observe the values of the reservoir area at an elevation of 595 m and the volume of water it stores.
 
 3. Create a TIN that includes the dam with the flooded surface (you will have to find out how!). Observe the result in ArcScene.
 

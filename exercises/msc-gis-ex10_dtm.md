@@ -1,4 +1,4 @@
-# Geographic Information Systems 2022-2023
+# Geographic Information Systems 2023-2024
 
 # Exercise 10 - Analysis with DTM
 
@@ -27,7 +27,7 @@ The gds representing point heights, streams and ridgelines are 3D (they include 
     - in ArcGIS, use the Create TIN (3D Analyst Tool) tool
     - in QGIS, use the TIN interpolation tool, in Processing tools
 
-2. Export the tin as a raster surface, with 10m pixel resolution
+2. Export the tin as a raster surface, with 10 m pixel resolution
     - in ArcGIS, use TIN to Raster (3D Analyst Tool)
     - in QGIS, a raster is already created in the previous step. 
 
