@@ -109,7 +109,7 @@ Create a vector gds representing the regions the civil parish Estela (code = 4) 
 You can use the result from the previous step, to convert it to vector layer.
 
 Tools needed:
-- in **QGIS**, use the tool in the menu *Raster -> Conversion -> Polygonize (Raster to Polygon)*
+- in **QGIS**, use the tool in the menu *Raster -> Conversion -> Polygonize (Raster to Vector)*
 - In **ArcGIS**, use the tool *Raster to Polygon (Conversion)* 
 
 Check for the need to apply a *Dissolve* operation to aggregate polygons with the same value. 
@@ -118,22 +118,27 @@ Check for the need to apply a *Dissolve* operation to aggregate polygons with th
 
 Based on the NO<sub>3</sub> concentration values observed in the wells (layer Wells), estimate the NO<sub>3</sub> concentration in the groundwater using the IDW method.
 
-The IDW method generates a raster gds. The estimated value (the pixel value v) is a convex linear combination of the sample values: 
-```math
+The IDW method generates a raster gds. The estimated value (the pixel value <!-- $v$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/IeYf8usXdP.svg">) is a convex linear combination of the sample values: 
+<!-- $$
 v=∑ci´vi 
-````
-with $ci´= ci/∑ci$ (so $∑ ci´= 1$), $ci = (1/di)^p$ and $d_i$ are the distances to the sample points. The power $p$ allows to adjust the distance weight.
+$$ --> 
+
+<div align="center"><img style="background: white;" src="svg/iPiQ8rcozI.svg"></div>
+with <!-- $ci´= ci/∑ci$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/btXuF7Ctir.svg"> (so <!-- $∑ ci´= 1$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/rk69Uq7ri7.svg">), <!-- $ci = (1/di)^p$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/FEiizAoRbo.svg"> and <!-- $d_i$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/ZbyVlMphsu.svg"> are the distances to the sample points. The power <!-- $p$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/joJQPUA8cT.svg"> allows to adjust the distance weight.
 
 1. Explore your data:
 - In the layer `Wells`, calculate the basic statistics for the attribute NO<sub>3</sub> conc: min, max, mean, median, std. dev., count
-    - On the attribute table, use the context menu on the field name
-    - Create a symbology with **proportional symbols** to represent the concentration of NO<sub>3</sub>
+    - In **QGIS**, use the tool Vector --> Analysis tools --> Basic statistics for Fields...
+    - In **ArcGIS**, on the attribute table, use the context menu on the field name
+- Create a symbology with **proportional symbols** to represent the concentration of NO<sub>3</sub>
+    - in **QGIS**, select *Graduated* symbol, and *Method: Size*
+    - in **ArcGIS**, select *Proportional symbols* in Symbology
 
 2. Create a continuous surface estimated by the IDW method
 
     Tools needed:
     - in **ArcGIS**, search for IDW as part of Geostatistical Wizard
-    - in **QGIS**, seacrh for IDW as part of the GDAL package
+    - in **QGIS**, search for IDW as part of the GDAL package
 
     Note: Either in ArcGIS or QGIS, there are other implementations of the IDW algorithm, although with fewer parameters to be set. 
 <br>
