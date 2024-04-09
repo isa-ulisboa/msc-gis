@@ -116,7 +116,7 @@ Check for the need to apply a *Dissolve* operation to aggregate polygons with th
 
 ## 5. Problem 4: create a continuous surface from a sample of points
 
-Based on the NO<sub>3</sub> concentration values observed in the wells (layer Wells), estimate the NO<sub>3</sub> concentration in the groundwater using the IDW method.
+Based on the NO<sub>3</sub> concentration values observed in the wells (layer `Wells`), estimate the NO<sub>3</sub> concentration in the groundwater using the IDW method.
 
 The IDW method generates a raster gds. The estimated value (the pixel value <!-- $v$ --> <img style="transform: translateY(0.1em); background: white;" src="svg/IeYf8usXdP.svg">) is a convex linear combination of the sample values: 
 <!-- $$
