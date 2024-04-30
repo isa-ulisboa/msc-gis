@@ -1,16 +1,16 @@
 # Geographic Information Systems 2023-2024
 
 # Assignment 01
-Date due: 21st of May 2024, 8pm.
+Date due: 28th of May 2024, 8pm.
 
 ## Context
 
 - This assignment will contribute 8/20 (maximum) to the final grade on the SIG/GIS course.
 - The work may be undersigned by a group of two students (maximum) and will be discussed individually. 
-- The group members should be informed to the teacher on the class of 29th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 29th of April 2024, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
-- Each region/polygon in Problem 02 will is specify to each group (**identified in the attribute `ZoneGroup` of the layer EditingZones**), and will be randomly assigned by e-mail before class of 30th of April 2024.
+- The group members should be informed to the teacher on the class of 30th of April, or by e-mail to ruifigueira@isa.ulisboa.pt before 30th of April 2024, 8pm. Include ISA’s numbers, names and e-mails. Regarding groups with 2 students, one e-mail is enough provided it includes in cc the other student.
+- Each region/polygon in Problem 02 will is specify to each group (**identified in the attribute `StudentGroup` of the layer EditingZones**), and will be randomly assigned by e-mail before class of 30th of April 2024.
 - **The work should be submitted before the deadline through the form [https://forms.gle/3AuWQVhjj2mtSeU5A](https://forms.gle/3AuWQVhjj2mtSeU5A)**. 
-- **The deadline to submit the full work is 21st of May 2024, 8pm**.
+- **The deadline to submit the full work is 28th of May 2024, 8pm**.
 
 ## Evaluation criteria
 
@@ -26,7 +26,7 @@ Date due: 21st of May 2024, 8pm.
     - The subdirectories *DataIn* and *DataOut* 
     - All the final data sets that answer the questions (using the most appropriate file formats)
     - All the relevant initial intermediary data sets used to reach the final answers (using the most appropriate file formats)
-    - Do not include in the project the original DEM downloaded form [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) to solve problem I.
+    - Because of file and storage size, **do not include** in the project the original DEM downloaded form [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) to solve problem 01.
 
 - A zip file of the additional project directory (Problem 05) containing
     - The *project file* containing all the output and relevant intermediary layers (legends and labels when required and/or appropriate) 
@@ -63,22 +63,22 @@ Date due: 21st of May 2024, 8pm.
 
 The general goal is to determine the regions vulnerable to the flood risk due to river overflow during the raining season. 
 
-Suppose that the vulnerable regions to river flooding are those with height less than or equal to 17.0m that the main existing river can reach when overflow occurs. The study area extent is defined by the following ETRS PT-TM06 coordinate values: 
+Suppose that the vulnerable regions to river flooding are those with height less than or equal to 17.0 m that the main existing river can reach when overflow occurs. The study area extent is defined by the following ETRS PT-TM06 coordinate values: 
 ```
-Xmin= -61800,0 m; Ymin = 37000,0 m; Xmax = -26300,0 m; Ymax = 70000,0 m.
+Xmin= -61800.0 m; Ymin = 37000.0 m; Xmax = -26300.0 m; Ymax = 70000.0 m.
 ```
 
-Download the SRTM DEM available at http://earthexplorer.usgs.gov/ as input data. Consider only the part of the river that gds River represents. 
+Download the SRTM DEM available at [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) as input data. Consider only the part of the river that gds `River` (in geopackage `Territory`) represents. 
 
 Store all the vector gds created to solve this problem in one file (GeoPackage file format) named `Probl1<student number>`, under a folder named DataOut. \<student number\> is the ISA’s student number of one student undersigning the assignment.
 
 Store all the raster gds created to solve this problem in GeoTiff file format under a folder named DataOut.
 
-**1.** Create one vector gds representing all vulnerable regions to river flooding in the study area using CRS ETRS-TM06 (EPSG: 3763) and calculate the total area (unit: km2) of all these vulnerable regions.
+**1.1.** Create one vector gds representing all vulnerable regions to river flooding in the study area using CRS ETRS-TM06 (EPSG: 3763) and calculate the total area (unit: km<sup>2</sup>) of all these vulnerable regions.
 
-**2.** Create one vector gds representing all vulnerable regions from 1. classified as high risk if height is less than 10m, moderate risk if height is greater than or equal to 10m and less than 15m, and low risk otherwise. Calculate the total area (unit: ha) of vulnerable regions in each class risk.
+**1.2.** Create one vector gds representing all vulnerable regions from 1. classified as high risk if height is less than 10 m, moderate risk if height is greater than or equal to 10m and less than 15 m, and low risk otherwise. Calculate the total area (unit: ha) of vulnerable regions in each class risk.
 
-**3.** Include a diagram representing the integrated solution for Problems 01 and 02.
+**1.3.** Include a diagram representing the integrated solution for Problems 1.1. and 1.2.
 
 <br>
 
@@ -86,9 +86,9 @@ Store all the raster gds created to solve this problem in GeoTiff file format un
 
 The general goal is to create a new gds representing the parcels, classified by their soil use.
 
-Each group of students will use one (only one) region/polygon of the data set named EditingZones, in the attribute `ZoneGroup`, which was assigned by e-mail (review section Context if necessary). The regions are numbered from 1 to 21.
+Each group of students will use one (only one) region/polygon of the data set named EditingZones, in the attribute `StudentGroup`, which was assigned by e-mail (review section Context if necessary). The regions are numbered from 1 to 21.
 
-**1.** Create a new gds named `Parcels<n>` (CRS ETRS-TM06 – EPSG: 3763) containing about 10 parcels representing the soil use inside the assigned region based on the Google Satellite image. \<n\> is the number from 1 to 25 of the assigned region, sent to students by e-mail.
+**1.** Create a new gds named `Parcels<n>` (CRS ETRS-TM06 – EPSG: 3763) containing about 10 parcels representing the soil use inside the assigned region based on the Google Satellite image. \<n\> is the number from 1 to 21 of the assigned region, sent to students by e-mail.
 
 - This gds must be a coverage of the total region (the assigned polygon), i.e. it should cover all the assigned area.
 - The allowed soil use codes and corresponding description are in file `TableSoilUse.xls`. Make your best guess to identify the soil use.
@@ -119,7 +119,7 @@ Store all the vector gds created to solve this problem in one file (GeoPackage f
 
 ## Problem 04
 
-The general goal is to create one gds representing the relative index of susceptibility to groundwater pollution of the region represented in the gds named GwPollVulnRegion.
+The general goal is to create one gds representing the relative index of susceptibility to groundwater pollution of the region represented in the gds named `GwPollVulnRegion`.
 
 Suppose that this index depends on the soil use and soil type, and its value (𝐼𝐼<sub>𝑝𝑝</sub>) is given by the expression
 
@@ -133,7 +133,7 @@ where
 
 Store all the vector gds created to solve this problem in one file (GeoPackage file format) named `Probl4<student number>` under a folder named DataOut.
 
-**1.** Create the new gds mentioned above (geometry: polygons and CRS ETRS-TM06 – EPSG: 3763) and name it GwPollIndex. Show it in the GIS project/map with a legend according to the classes defined in Table 3 (see below). Include a diagram representing the implemented solution.
+**1.** Create the new gds mentioned above (geometry: polygons and CRS ETRS-TM06 – EPSG: 3763) and name it `GwPollIndex`. Show it in the GIS project/map with a legend according to the classes defined in Table 3 (see below). Include a diagram representing the implemented solution.
 
 **2.** Create a new gds representing locations with 𝐼𝐼<sub>𝑝𝑝</sub> greater than 3 and their owners. Name it `HvHGwPollIndex`.
 
@@ -172,7 +172,7 @@ Store all the vector gds created to solve this problem in one file (GeoPackage f
 
 ## Problem 05
 
-In this problem, you will be proactive. You will need to identify a problem that should be answered through a spatial analysis. The steps are:
+In this problem, you will need to be proactive. You will need to identify a problem that should be answered through a spatial analysis. The steps are:
 
 1. Define a question which answer requires the analysis of spatial information. This could be linked to your main area of interest.
 
@@ -190,7 +190,7 @@ In this problem, you will be proactive. You will need to identify a problem that
     
 6. Include the figure in your report, complemented by a long caption that will answer the question you defined. It should be clear why this problem requires a spatial analysis. Include also the data sources, as citations and references.   
 
-You should create a specific GIS project for this problem, independent on the project used for problems 01 to 04.
+For this problem 05, you should create a new GIS project for this problem, independent on the project used for problems 01 to 04.
 
 Examples of questions are:
 - Which municipalities in Portugal have the highest areas of cultivated vineyars?
@@ -200,5 +200,7 @@ Examples of questions are:
     - data source: [FAOSTAT](https://fenix.fao.org/faostat/internal/en/#data/QCL)
 - Which cities in Europe have the highest concentration of particles PM10 in the atmosphere, causing health risk? 
     - data source: [EEA](https://discomap.eea.europa.eu/App/AirQualityHRACities/index.html)
+
+**Notice that the solution of your problem should require ***spatial analysis***, and not simply the spatial representation of a factor.**
 
 It is possible that, in order to represent your data on a map, you need to associate it with a spatial layer from a different source. For example, to represent data for cities, you may need to find a map layer with cities, and make data joins between the spatial layer and the data table with the variables of interest.
