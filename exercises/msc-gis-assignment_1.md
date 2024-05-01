@@ -43,7 +43,7 @@ Date due: 28th of May 2024, 8pm.
 
 ## Input data
     
-- The zip file `Assignment2024.zip` [available at FENIX](https://fenix.isa.ulisboa.pt/downloadFile/281547991179045/Assignment2024.zip) assignment page containing the following files:
+- The zip file `Assignment2024.zip` [available at FENIX](https://fenix.isa.ulisboa.pt/downloadFile/844497944597677/Assignment2024.zip) assignment page containing the following files:
     - `Territory.gpkg` (geoPackage format) containing the following spatial data sets:
         - River
         - GwPollVulnRegion
