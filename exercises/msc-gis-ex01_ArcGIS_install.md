@@ -1,14 +1,14 @@
-# Geographic Information Systems 2023-2024
+# Geographic Information Systems 2024-2025
 
 # Exercise 1 - ArcGIS Pro  - Install and get familiar with the interface
 
 ## Introduction
 
-In this exercise, you will set up your system to have a fully functional ArcGIS Pro ver. 3.2 installation.
+In this exercise, you will set up your system to have a fully functional ArcGIS Pro ver. 3.4.2 installation.
 You will also learn to identify the different components of the interface of the software and the workflow 
 to manage data and perform analysis.
 
-## 1. Install ArcGIS Pro ver 3.2
+## 1. Install ArcGIS Pro ver 3.4.2
 
 ArcGIS Pro is a proprietary software. In order to use it, you need to use a licence provided by ISA. This 
 exercise will guide you through the several steps to install and set the licence.
@@ -43,7 +43,7 @@ Open the network folder `ArcGIS_Pro`, and copy the installation package file
 
 ### **Step 3: Run installation and patch files to your computer**
 Run the downloaded file, accepting the default options. You will be prompted to 
-use the most recent version 3.2. Accept that and do updates as suggested.
+use the most recent version 3.4.2. Accept that and do updates as suggested.
 
 
 ### **Step 4: Configure the licence**
@@ -78,7 +78,7 @@ When opening ArcGIS Pro, click on **Sign In** to login.
 
 Do not forget to sign out, when closing the application, particularly if you are using a classroom or shared computer.
 
-## 2. Get familiar with ArcGIS Pro 3.2 (tutorial)
+## 2. Get familiar with ArcGIS Pro 3.4.2 (tutorial)
 
 ### 2.1. Learn about the ArcGIS Pro interface
 
